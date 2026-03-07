@@ -1,0 +1,210 @@
+[0;32mI (126176) ACS712: VCC_Sensor updated to 4.88V (Midpoint now 2440mV)[0m
+[0;32mI (126176) ACS712: RAW_DC=3062 | RAW_VOLT=3963 | DC: 0.15 A | Volt: 5.38 V | Power: 0.81 W | Percent: 100.00[0m
+[0;33mW (126186) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (126946) ACS712: VCC_Sensor updated to 4.88V (Midpoint now 2439mV)[0m
+[0;32mI (126946) ACS712: RAW_DC=3060 | RAW_VOLT=3961 | DC: 0.14 A | Volt: 5.38 V | Power: 0.78 W | Percent: 100.00[0m
+[0;33mW (126956) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (127716) ACS712: VCC_Sensor updated to 4.88V (Midpoint now 2439mV)[0m
+[0;32mI (127716) ACS712: RAW_DC=3060 | RAW_VOLT=3961 | DC: 0.17 A | Volt: 5.38 V | Power: 0.89 W | Percent: 100.00[0m
+[0;33mW (127726) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (128486) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (128486) ACS712: RAW_DC=3061 | RAW_VOLT=3959 | DC: 0.16 A | Volt: 5.37 V | Power: 0.84 W | Percent: 100.00[0m
+[0;33mW (128496) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (129256) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (129256) ACS712: RAW_DC=3059 | RAW_VOLT=3959 | DC: 0.16 A | Volt: 5.37 V | Power: 0.85 W | Percent: 100.00[0m
+[0;33mW (129266) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (130026) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (130026) ACS712: RAW_DC=3060 | RAW_VOLT=3957 | DC: 0.15 A | Volt: 5.37 V | Power: 0.80 W | Percent: 100.00[0m
+[0;33mW (130036) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (130796) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (130796) ACS712: RAW_DC=3057 | RAW_VOLT=3956 | DC: 0.16 A | Volt: 5.37 V | Power: 0.84 W | Percent: 100.00[0m
+[0;33mW (130806) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (131566) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (131566) ACS712: RAW_DC=3058 | RAW_VOLT=3954 | DC: 0.16 A | Volt: 5.37 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (131576) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (132336) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (132336) ACS712: RAW_DC=3059 | RAW_VOLT=3954 | DC: 0.15 A | Volt: 5.37 V | Power: 0.80 W | Percent: 100.00[0m
+[0;33mW (132346) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (133106) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (133106) ACS712: RAW_DC=3061 | RAW_VOLT=3953 | DC: 0.15 A | Volt: 5.37 V | Power: 0.80 W | Percent: 100.00[0m
+[0;33mW (133116) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (133876) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (133876) ACS712: RAW_DC=3059 | RAW_VOLT=3952 | DC: 0.15 A | Volt: 5.36 V | Power: 0.80 W | Percent: 100.00[0m
+[0;33mW (133886) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (134646) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (134646) ACS712: RAW_DC=3060 | RAW_VOLT=3952 | DC: 0.15 A | Volt: 5.36 V | Power: 0.81 W | Percent: 100.00[0m
+[0;33mW (134656) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (135416) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (135416) ACS712: RAW_DC=3061 | RAW_VOLT=3953 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (135426) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (136186) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (136186) ACS712: RAW_DC=3061 | RAW_VOLT=3955 | DC: 0.18 A | Volt: 5.37 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (136196) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (136956) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (136956) ACS712: RAW_DC=3058 | RAW_VOLT=3955 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (136966) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (137726) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (137726) ACS712: RAW_DC=3058 | RAW_VOLT=3956 | DC: 0.17 A | Volt: 5.37 V | Power: 0.93 W | Percent: 100.00[0m
+[0;33mW (137736) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (138496) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (138496) ACS712: RAW_DC=3059 | RAW_VOLT=3955 | DC: 0.17 A | Volt: 5.37 V | Power: 0.89 W | Percent: 100.00[0m
+[0;33mW (138506) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (139266) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (139266) ACS712: RAW_DC=3060 | RAW_VOLT=3955 | DC: 0.18 A | Volt: 5.37 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (139276) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (140036) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (140036) ACS712: RAW_DC=3060 | RAW_VOLT=3954 | DC: 0.15 A | Volt: 5.37 V | Power: 0.83 W | Percent: 100.00[0m
+[0;33mW (140046) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (140806) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (140806) ACS712: RAW_DC=3059 | RAW_VOLT=3953 | DC: 0.17 A | Volt: 5.37 V | Power: 0.91 W | Percent: 100.00[0m
+[0;33mW (140816) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (141576) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (141576) ACS712: RAW_DC=3059 | RAW_VOLT=3953 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (141586) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (142346) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (142346) ACS712: RAW_DC=3058 | RAW_VOLT=3953 | DC: 0.16 A | Volt: 5.37 V | Power: 0.88 W | Percent: 100.00[0m
+[0;33mW (142356) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (143116) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (143116) ACS712: RAW_DC=3058 | RAW_VOLT=3951 | DC: 0.17 A | Volt: 5.36 V | Power: 0.89 W | Percent: 100.00[0m
+[0;33mW (143126) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (143886) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (143886) ACS712: RAW_DC=3057 | RAW_VOLT=3953 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (143896) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (144656) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (144656) ACS712: RAW_DC=3060 | RAW_VOLT=3952 | DC: 0.16 A | Volt: 5.36 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (144666) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (145426) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (145426) ACS712: RAW_DC=3059 | RAW_VOLT=3952 | DC: 0.18 A | Volt: 5.36 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (145436) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (146196) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (146196) ACS712: RAW_DC=3058 | RAW_VOLT=3952 | DC: 0.18 A | Volt: 5.36 V | Power: 0.98 W | Percent: 100.00[0m
+[0;33mW (146206) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (146966) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (146966) ACS712: RAW_DC=3057 | RAW_VOLT=3951 | DC: 0.19 A | Volt: 5.36 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (146976) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (147736) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (147736) ACS712: RAW_DC=3057 | RAW_VOLT=3951 | DC: 0.17 A | Volt: 5.36 V | Power: 0.93 W | Percent: 100.00[0m
+[0;33mW (147746) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (148506) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (148506) ACS712: RAW_DC=3058 | RAW_VOLT=3951 | DC: 0.19 A | Volt: 5.36 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (148516) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (149276) ACS712: VCC_Sensor updated to 4.86V (Midpoint now 2432mV)[0m
+[0;32mI (149276) ACS712: RAW_DC=3057 | RAW_VOLT=3951 | DC: 0.18 A | Volt: 5.36 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (149286) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (150046) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (150046) ACS712: RAW_DC=3059 | RAW_VOLT=3956 | DC: 0.18 A | Volt: 5.37 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (150056) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (150816) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (150816) ACS712: RAW_DC=3056 | RAW_VOLT=3955 | DC: 0.16 A | Volt: 5.37 V | Power: 0.85 W | Percent: 100.00[0m
+[0;33mW (150826) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (151586) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (151586) ACS712: RAW_DC=3058 | RAW_VOLT=3954 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (151596) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (152356) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (152356) ACS712: RAW_DC=3057 | RAW_VOLT=3954 | DC: 0.16 A | Volt: 5.37 V | Power: 0.84 W | Percent: 100.00[0m
+[0;33mW (152366) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (153126) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (153126) ACS712: RAW_DC=3058 | RAW_VOLT=3953 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (153136) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (153896) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (153896) ACS712: RAW_DC=3058 | RAW_VOLT=3953 | DC: 0.16 A | Volt: 5.37 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (153906) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (154666) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (154666) ACS712: RAW_DC=3061 | RAW_VOLT=3953 | DC: 0.17 A | Volt: 5.37 V | Power: 0.93 W | Percent: 100.00[0m
+[0;33mW (154676) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (155436) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2433mV)[0m
+[0;32mI (155436) ACS712: RAW_DC=3060 | RAW_VOLT=3953 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (155446) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (156206) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (156206) ACS712: RAW_DC=3062 | RAW_VOLT=3954 | DC: 0.18 A | Volt: 5.37 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (156216) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (156976) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (156976) ACS712: RAW_DC=3062 | RAW_VOLT=3954 | DC: 0.17 A | Volt: 5.37 V | Power: 0.91 W | Percent: 100.00[0m
+[0;33mW (156986) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (157746) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2434mV)[0m
+[0;32mI (157746) ACS712: RAW_DC=3063 | RAW_VOLT=3954 | DC: 0.16 A | Volt: 5.37 V | Power: 0.85 W | Percent: 100.00[0m
+[0;33mW (157756) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (158516) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (158516) ACS712: RAW_DC=3063 | RAW_VOLT=3955 | DC: 0.16 A | Volt: 5.37 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (158526) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (159286) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (159286) ACS712: RAW_DC=3063 | RAW_VOLT=3956 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (159296) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (160056) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (160056) ACS712: RAW_DC=3063 | RAW_VOLT=3957 | DC: 0.15 A | Volt: 5.37 V | Power: 0.82 W | Percent: 100.00[0m
+[0;33mW (160066) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (160826) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (160826) ACS712: RAW_DC=3061 | RAW_VOLT=3956 | DC: 0.14 A | Volt: 5.37 V | Power: 0.76 W | Percent: 100.00[0m
+[0;33mW (160836) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (161596) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (161596) ACS712: RAW_DC=3063 | RAW_VOLT=3956 | DC: 0.16 A | Volt: 5.37 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (161606) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (162366) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (162366) ACS712: RAW_DC=3062 | RAW_VOLT=3958 | DC: 0.18 A | Volt: 5.37 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (162376) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (163136) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (163136) ACS712: RAW_DC=3063 | RAW_VOLT=3958 | DC: 0.18 A | Volt: 5.37 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (163146) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (163906) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (163906) ACS712: RAW_DC=3061 | RAW_VOLT=3959 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (163916) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (164676) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (164676) ACS712: RAW_DC=3063 | RAW_VOLT=3959 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (164686) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (165446) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (165446) ACS712: RAW_DC=3061 | RAW_VOLT=3959 | DC: 0.16 A | Volt: 5.37 V | Power: 0.87 W | Percent: 100.00[0m
+[0;33mW (165456) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (166216) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (166216) ACS712: RAW_DC=3063 | RAW_VOLT=3959 | DC: 0.15 A | Volt: 5.37 V | Power: 0.80 W | Percent: 100.00[0m
+[0;33mW (166226) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (166986) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (166986) ACS712: RAW_DC=3060 | RAW_VOLT=3959 | DC: 0.15 A | Volt: 5.37 V | Power: 0.83 W | Percent: 100.00[0m
+[0;33mW (166996) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (167756) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2437mV)[0m
+[0;32mI (167756) ACS712: RAW_DC=3061 | RAW_VOLT=3958 | DC: 0.14 A | Volt: 5.37 V | Power: 0.78 W | Percent: 100.00[0m
+[0;33mW (167766) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (168526) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (168526) ACS712: RAW_DC=3060 | RAW_VOLT=3957 | DC: 0.15 A | Volt: 5.37 V | Power: 0.78 W | Percent: 100.00[0m
+[0;33mW (168536) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (169296) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (169296) ACS712: RAW_DC=3061 | RAW_VOLT=3957 | DC: 0.17 A | Volt: 5.37 V | Power: 0.90 W | Percent: 100.00[0m
+[0;33mW (169306) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (170066) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (170066) ACS712: RAW_DC=3061 | RAW_VOLT=3956 | DC: 0.17 A | Volt: 5.37 V | Power: 0.89 W | Percent: 100.00[0m
+[0;33mW (170076) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (170836) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (170836) ACS712: RAW_DC=3062 | RAW_VOLT=3956 | DC: 0.17 A | Volt: 5.37 V | Power: 0.92 W | Percent: 100.00[0m
+[0;33mW (170846) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (171606) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (171606) ACS712: RAW_DC=3062 | RAW_VOLT=3956 | DC: 0.18 A | Volt: 5.37 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (171616) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (172376) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (172376) ACS712: RAW_DC=3058 | RAW_VOLT=3957 | DC: 0.18 A | Volt: 5.37 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (172386) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (173146) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (173146) ACS712: RAW_DC=3063 | RAW_VOLT=3957 | DC: 0.18 A | Volt: 5.37 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (173156) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (173916) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (173916) ACS712: RAW_DC=3061 | RAW_VOLT=3957 | DC: 0.18 A | Volt: 5.37 V | Power: 0.99 W | Percent: 100.00[0m
+[0;33mW (173926) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (174686) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (174686) ACS712: RAW_DC=3063 | RAW_VOLT=3957 | DC: 0.18 A | Volt: 5.37 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (174696) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (175456) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2436mV)[0m
+[0;32mI (175456) ACS712: RAW_DC=3063 | RAW_VOLT=3957 | DC: 0.19 A | Volt: 5.37 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (175466) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (176226) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (176226) ACS712: RAW_DC=3062 | RAW_VOLT=3956 | DC: 0.19 A | Volt: 5.37 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (176236) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (176996) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (176996) ACS712: RAW_DC=3061 | RAW_VOLT=3955 | DC: 0.17 A | Volt: 5.37 V | Power: 0.89 W | Percent: 100.00[0m
+[0;33mW (177006) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (177766) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (177766) ACS712: RAW_DC=3061 | RAW_VOLT=3955 | DC: 0.17 A | Volt: 5.37 V | Power: 0.91 W | Percent: 100.00[0m
+[0;33mW (177776) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (178536) ACS712: VCC_Sensor updated to 4.87V (Midpoint now 2435mV)[0m
+[0;32mI (178536) ACS712: RAW_DC=3061 | RAW_VOLT=3955 | DC: 0.17 A | Volt: 5.37 V | Power: 0.93 W | Percent: 100.00[0m
+[0;33mW (178546) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (179306) ACS712: VCC_Sensor updated to 4.88V (Midpoint now 2438mV)[0m
+[0;32mI (179306) ACS712: RAW_DC=3062 | RAW_VOLT=3960 | DC: 0.17 A | Volt: 5.38 V | Power: 0.92 W | Percent: 100.00[0m
+[0;33mW (179316) ACS712: BLE not connected or notify not enabled[0m

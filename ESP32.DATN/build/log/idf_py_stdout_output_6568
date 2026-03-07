@@ -1,0 +1,26 @@
+[0;32mI (88355) ACS712: RAW_DC=2800 | RAW_VOLT=3477 | DC: 0.67 A | Volt: 2.80 V | Power: 1.86 W[0m
+[0;33mW (88355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (89035) ACS712: RAW_DC=2815 | RAW_VOLT=3476 | DC: 0.68 A | Volt: 2.80 V | Power: 1.89 W[0m
+[0;33mW (89035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (89715) ACS712: RAW_DC=2825 | RAW_VOLT=3493 | DC: 0.68 A | Volt: 2.80 V | Power: 1.90 W[0m
+[0;33mW (89715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (90395) ACS712: RAW_DC=2798 | RAW_VOLT=3472 | DC: 0.68 A | Volt: 2.80 V | Power: 1.90 W[0m
+[0;33mW (90395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (91075) ACS712: RAW_DC=2830 | RAW_VOLT=3491 | DC: 0.68 A | Volt: 2.80 V | Power: 1.92 W[0m
+[0;33mW (91075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (91755) ACS712: RAW_DC=2834 | RAW_VOLT=3489 | DC: 0.68 A | Volt: 2.80 V | Power: 1.91 W[0m
+[0;33mW (91755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (92435) ACS712: RAW_DC=2810 | RAW_VOLT=3467 | DC: 0.67 A | Volt: 2.80 V | Power: 1.89 W[0m
+[0;33mW (92435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (93115) ACS712: RAW_DC=2827 | RAW_VOLT=3492 | DC: 0.68 A | Volt: 2.80 V | Power: 1.91 W[0m
+[0;33mW (93115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (93795) ACS712: RAW_DC=2800 | RAW_VOLT=3480 | DC: 0.69 A | Volt: 2.80 V | Power: 1.92 W[0m
+[0;33mW (93795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (94475) ACS712: RAW_DC=2802 | RAW_VOLT=3471 | DC: 0.69 A | Volt: 2.80 V | Power: 1.94 W[0m
+[0;33mW (94475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (95155) ACS712: RAW_DC=2841 | RAW_VOLT=3496 | DC: 0.70 A | Volt: 2.80 V | Power: 1.95 W[0m
+[0;33mW (95155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (95835) ACS712: RAW_DC=2800 | RAW_VOLT=3475 | DC: 0.70 A | Volt: 2.80 V | Power: 1.96 W[0m
+[0;33mW (95835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (96515) ACS712: RAW_DC=2810 | RAW_VOLT=3476 | DC: 0.70 A | Volt: 2.80 V | Power: 1.97 W[0m
+[0;33mW (96515) ACS712: BLE not connected or notify not enabled[0m

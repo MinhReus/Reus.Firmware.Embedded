@@ -1,0 +1,1455 @@
+[0;32mI (113035) ACS712: RAW_DC=2662 | RAW_VOLT=3241 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (113035) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (113035) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (113725) ACS712: RAW_DC=2667 | RAW_VOLT=3241 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (113725) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (113725) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (114415) ACS712: RAW_DC=2662 | RAW_VOLT=3242 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (114415) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (114415) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (115095) ACS712: RAW_DC=2667 | RAW_VOLT=3244 | DC: -0.01 A | Volt: 2.61 V | Power: -0.04 W[0m
+[0;32mI (115095) BLE_GATT: Sent string: -0.01,2.61,-0.04[0m
+[0;32mI (115095) ACS712: Sent data: -0.01,2.61,-0.04[0m
+[0;32mI (115785) ACS712: RAW_DC=2665 | RAW_VOLT=3246 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (115785) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (115785) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (116475) ACS712: RAW_DC=2662 | RAW_VOLT=3244 | DC: 0.00 A | Volt: 2.61 V | Power: 0.00 W[0m
+[0;32mI (116475) BLE_GATT: Sent string: 0.00,2.61,0.00[0m
+[0;32mI (116475) ACS712: Sent data: 0.00,2.61,0.00[0m
+[0;32mI (117165) ACS712: RAW_DC=2667 | RAW_VOLT=3243 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (117165) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (117165) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (117855) ACS712: RAW_DC=2666 | RAW_VOLT=3245 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (117855) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (117855) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (118535) ACS712: RAW_DC=2664 | RAW_VOLT=3248 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (118535) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (118535) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (119215) ACS712: RAW_DC=2667 | RAW_VOLT=3246 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (119215) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (119215) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (119895) ACS712: RAW_DC=2666 | RAW_VOLT=3250 | DC: -0.01 A | Volt: 2.61 V | Power: -0.04 W[0m
+[0;32mI (119895) BLE_GATT: Sent string: -0.01,2.61,-0.04[0m
+[0;32mI (119895) ACS712: Sent data: -0.01,2.61,-0.04[0m
+[0;32mI (120575) ACS712: RAW_DC=2668 | RAW_VOLT=3249 | DC: -0.02 A | Volt: 2.61 V | Power: -0.04 W[0m
+[0;32mI (120575) BLE_GATT: Sent string: -0.02,2.61,-0.04[0m
+[0;32mI (120575) ACS712: Sent data: -0.02,2.61,-0.04[0m
+[0;32mI (121255) ACS712: RAW_DC=2665 | RAW_VOLT=3246 | DC: -0.02 A | Volt: 2.61 V | Power: -0.05 W[0m
+[0;32mI (121255) BLE_GATT: Sent string: -0.02,2.61,-0.05[0m
+[0;32mI (121255) ACS712: Sent data: -0.02,2.61,-0.05[0m
+[0;32mI (121945) ACS712: RAW_DC=2662 | RAW_VOLT=3242 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (121945) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (121945) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (122635) ACS712: RAW_DC=2662 | RAW_VOLT=3242 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (122635) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (122635) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (123325) ACS712: RAW_DC=2667 | RAW_VOLT=3242 | DC: -0.01 A | Volt: 2.61 V | Power: -0.03 W[0m
+[0;32mI (123325) BLE_GATT: Sent string: -0.01,2.61,-0.03[0m
+[0;32mI (123325) ACS712: Sent data: -0.01,2.61,-0.03[0m
+[0;32mI (124015) ACS712: RAW_DC=2662 | RAW_VOLT=3242 | DC: -0.01 A | Volt: 2.61 V | Power: -0.04 W[0m
+[0;32mI (124015) BLE_GATT: Sent string: -0.01,2.61,-0.04[0m
+[0;32mI (124015) ACS712: Sent data: -0.01,2.61,-0.04[0m
+[0;32mI (124705) ACS712: RAW_DC=2664 | RAW_VOLT=3245 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (124705) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (124705) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (125395) ACS712: RAW_DC=2663 | RAW_VOLT=3245 | DC: 0.00 A | Volt: 2.61 V | Power: 0.00 W[0m
+[0;32mI (125395) BLE_GATT: Sent string: 0.00,2.61,0.00[0m
+[0;32mI (125395) ACS712: Sent data: 0.00,2.61,0.00[0m
+[0;32mI (126085) ACS712: RAW_DC=2667 | RAW_VOLT=3244 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (126085) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (126085) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (126775) ACS712: RAW_DC=2662 | RAW_VOLT=3243 | DC: -0.01 A | Volt: 2.61 V | Power: -0.02 W[0m
+[0;32mI (126775) BLE_GATT: Sent string: -0.01,2.61,-0.02[0m
+[0;32mI (126775) ACS712: Sent data: -0.01,2.61,-0.02[0m
+[0;32mI (127465) ACS712: RAW_DC=2663 | RAW_VOLT=3243 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (127465) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (127465) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (128155) ACS712: RAW_DC=2664 | RAW_VOLT=3247 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (128155) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (128155) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (128845) ACS712: RAW_DC=2670 | RAW_VOLT=3248 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (128845) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (128845) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (129535) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (129535) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (129535) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (130225) ACS712: RAW_DC=2667 | RAW_VOLT=3251 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (130225) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (130225) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (130915) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: 0.01 A | Volt: 2.61 V | Power: 0.03 W[0m
+[0;32mI (130915) BLE_GATT: Sent string: 0.01,2.61,0.03[0m
+[0;32mI (130915) ACS712: Sent data: 0.01,2.61,0.03[0m
+[0;32mI (131605) ACS712: RAW_DC=2667 | RAW_VOLT=3247 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (131605) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (131605) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (132295) ACS712: RAW_DC=2664 | RAW_VOLT=3245 | DC: -0.00 A | Volt: 2.61 V | Power: -0.00 W[0m
+[0;32mI (132295) BLE_GATT: Sent string: -0.00,2.61,-0.00[0m
+[0;32mI (132295) ACS712: Sent data: -0.00,2.61,-0.00[0m
+[0;32mI (132985) ACS712: RAW_DC=2665 | RAW_VOLT=3248 | DC: 0.01 A | Volt: 2.61 V | Power: 0.02 W[0m
+[0;32mI (132985) BLE_GATT: Sent string: 0.01,2.61,0.02[0m
+[0;32mI (132985) ACS712: Sent data: 0.01,2.61,0.02[0m
+[0;32mI (133675) ACS712: RAW_DC=2665 | RAW_VOLT=3246 | DC: 0.01 A | Volt: 2.61 V | Power: 0.03 W[0m
+[0;32mI (133675) BLE_GATT: Sent string: 0.01,2.61,0.03[0m
+[0;32mI (133675) ACS712: Sent data: 0.01,2.61,0.03[0m
+[0;32mI (134365) ACS712: RAW_DC=2667 | RAW_VOLT=3245 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (134365) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (134365) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (135055) ACS712: RAW_DC=2665 | RAW_VOLT=3248 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (135055) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (135055) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (135735) ACS712: RAW_DC=2665 | RAW_VOLT=3247 | DC: 0.00 A | Volt: 2.61 V | Power: 0.00 W[0m
+[0;32mI (135735) BLE_GATT: Sent string: 0.00,2.61,0.00[0m
+[0;32mI (135735) ACS712: Sent data: 0.00,2.61,0.00[0m
+[0;32mI (136415) ACS712: RAW_DC=2666 | RAW_VOLT=3248 | DC: -0.00 A | Volt: 2.61 V | Power: -0.00 W[0m
+[0;32mI (136415) BLE_GATT: Sent string: -0.00,2.61,-0.00[0m
+[0;32mI (136415) ACS712: Sent data: -0.00,2.61,-0.00[0m
+[0;32mI (137095) ACS712: RAW_DC=2665 | RAW_VOLT=3247 | DC: -0.00 A | Volt: 2.61 V | Power: -0.01 W[0m
+[0;32mI (137095) BLE_GATT: Sent string: -0.00,2.61,-0.01[0m
+[0;32mI (137095) ACS712: Sent data: -0.00,2.61,-0.01[0m
+[0;32mI (137785) ACS712: RAW_DC=2668 | RAW_VOLT=3251 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (137785) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (137785) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (138475) ACS712: RAW_DC=2670 | RAW_VOLT=3254 | DC: 0.01 A | Volt: 2.61 V | Power: 0.03 W[0m
+[0;32mI (138475) BLE_GATT: Sent string: 0.01,2.61,0.03[0m
+[0;32mI (138475) ACS712: Sent data: 0.01,2.61,0.03[0m
+[0;32mI (139165) ACS712: RAW_DC=2674 | RAW_VOLT=3254 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (139165) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (139165) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (139855) ACS712: RAW_DC=2668 | RAW_VOLT=3254 | DC: 0.00 A | Volt: 2.61 V | Power: 0.01 W[0m
+[0;32mI (139855) BLE_GATT: Sent string: 0.00,2.61,0.01[0m
+[0;32mI (139855) ACS712: Sent data: 0.00,2.61,0.01[0m
+[0;32mI (140545) ACS712: RAW_DC=2667 | RAW_VOLT=3254 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (140545) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (140545) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (141235) ACS712: RAW_DC=2669 | RAW_VOLT=3254 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (141235) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (141235) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (141925) ACS712: RAW_DC=2672 | RAW_VOLT=3249 | DC: 0.01 A | Volt: 2.61 V | Power: 0.02 W[0m
+[0;32mI (141925) BLE_GATT: Sent string: 0.01,2.61,0.02[0m
+[0;32mI (141925) ACS712: Sent data: 0.01,2.61,0.02[0m
+[0;32mI (142615) ACS712: RAW_DC=2667 | RAW_VOLT=3249 | DC: 0.01 A | Volt: 2.61 V | Power: 0.02 W[0m
+[0;32mI (142615) BLE_GATT: Sent string: 0.01,2.61,0.02[0m
+[0;32mI (142615) ACS712: Sent data: 0.01,2.61,0.02[0m
+[0;32mI (143295) ACS712: RAW_DC=2667 | RAW_VOLT=3249 | DC: 0.01 A | Volt: 2.61 V | Power: 0.02 W[0m
+[0;32mI (143295) BLE_GATT: Sent string: 0.01,2.61,0.02[0m
+[0;32mI (143295) ACS712: Sent data: 0.01,2.61,0.02[0m
+[0;32mI (143975) ACS712: RAW_DC=2670 | RAW_VOLT=3252 | DC: 0.01 A | Volt: 2.61 V | Power: 0.02 W[0m
+[0;32mI (143975) BLE_GATT: Sent string: 0.01,2.61,0.02[0m
+[0;32mI (143975) ACS712: Sent data: 0.01,2.61,0.02[0m
+[0;32mI (144655) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (144655) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (144655) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (145335) ACS712: RAW_DC=2670 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (145335) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (145335) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (146015) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (146015) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (146015) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (146695) ACS712: RAW_DC=2670 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.01 W[0m
+[0;32mI (146695) BLE_GATT: Sent string: 0.01,2.62,0.01[0m
+[0;32mI (146695) ACS712: Sent data: 0.01,2.62,0.01[0m
+[0;32mI (147375) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: 0.00 A | Volt: 2.62 V | Power: 0.01 W[0m
+[0;32mI (147375) BLE_GATT: Sent string: 0.00,2.62,0.01[0m
+[0;32mI (147375) ACS712: Sent data: 0.00,2.62,0.01[0m
+[0;32mI (148055) ACS712: RAW_DC=2670 | RAW_VOLT=3255 | DC: 0.00 A | Volt: 2.62 V | Power: 0.01 W[0m
+[0;32mI (148055) BLE_GATT: Sent string: 0.00,2.62,0.01[0m
+[0;32mI (148055) ACS712: Sent data: 0.00,2.62,0.01[0m
+[0;32mI (148735) ACS712: RAW_DC=2672 | RAW_VOLT=3256 | DC: 0.01 A | Volt: 2.62 V | Power: 0.01 W[0m
+[0;32mI (148735) BLE_GATT: Sent string: 0.01,2.62,0.01[0m
+[0;32mI (148735) ACS712: Sent data: 0.01,2.62,0.01[0m
+[0;32mI (149415) ACS712: RAW_DC=2669 | RAW_VOLT=3256 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (149415) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (149415) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (150095) ACS712: RAW_DC=2668 | RAW_VOLT=3253 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (150095) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (150095) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (150775) ACS712: RAW_DC=2669 | RAW_VOLT=3254 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (150775) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (150775) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (151455) ACS712: RAW_DC=2666 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (151455) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (151455) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (152135) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (152135) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (152135) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (152815) ACS712: RAW_DC=2666 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (152815) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (152815) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (153495) ACS712: RAW_DC=2668 | RAW_VOLT=3249 | DC: 0.01 A | Volt: 2.62 V | Power: 0.02 W[0m
+[0;32mI (153495) BLE_GATT: Sent string: 0.01,2.62,0.02[0m
+[0;32mI (153495) ACS712: Sent data: 0.01,2.62,0.02[0m
+[0;32mI (154175) ACS712: RAW_DC=2670 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (154175) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (154175) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (154855) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (154855) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (154855) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (155535) ACS712: RAW_DC=2668 | RAW_VOLT=3251 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (155535) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (155535) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (156215) ACS712: RAW_DC=2671 | RAW_VOLT=3253 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (156215) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (156215) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (156895) ACS712: RAW_DC=2670 | RAW_VOLT=3252 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (156895) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (156895) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (157575) ACS712: RAW_DC=2674 | RAW_VOLT=3256 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (157575) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (157575) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (158255) ACS712: RAW_DC=2671 | RAW_VOLT=3254 | DC: 0.01 A | Volt: 2.62 V | Power: 0.03 W[0m
+[0;32mI (158255) BLE_GATT: Sent string: 0.01,2.62,0.03[0m
+[0;32mI (158255) ACS712: Sent data: 0.01,2.62,0.03[0m
+[0;32mI (158935) ACS712: RAW_DC=2670 | RAW_VOLT=3254 | DC: 0.01 A | Volt: 2.62 V | Power: 0.04 W[0m
+[0;32mI (158935) BLE_GATT: Sent string: 0.01,2.62,0.04[0m
+[0;32mI (158935) ACS712: Sent data: 0.01,2.62,0.04[0m
+[0;32mI (159615) ACS712: RAW_DC=2672 | RAW_VOLT=3256 | DC: 0.02 A | Volt: 2.62 V | Power: 0.04 W[0m
+[0;32mI (159615) BLE_GATT: Sent string: 0.02,2.62,0.04[0m
+[0;32mI (159615) ACS712: Sent data: 0.02,2.62,0.04[0m
+[0;32mI (160295) ACS712: RAW_DC=2671 | RAW_VOLT=3256 | DC: 0.02 A | Volt: 2.62 V | Power: 0.04 W[0m
+[0;32mI (160295) BLE_GATT: Sent string: 0.02,2.62,0.04[0m
+[0;32mI (160295) ACS712: Sent data: 0.02,2.62,0.04[0m
+[0;32mI (160975) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.02 A | Volt: 2.62 V | Power: 0.04 W[0m
+[0;32mI (160975) BLE_GATT: Sent string: 0.02,2.62,0.04[0m
+[0;32mI (160975) ACS712: Sent data: 0.02,2.62,0.04[0m
+[0;32mI (161655) ACS712: RAW_DC=2669 | RAW_VOLT=3255 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (161655) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (161655) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (162335) ACS712: RAW_DC=2668 | RAW_VOLT=3252 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (162335) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (162335) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (163015) ACS712: RAW_DC=2670 | RAW_VOLT=3252 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (163015) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (163015) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (163695) ACS712: RAW_DC=2666 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (163695) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (163695) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (164375) ACS712: RAW_DC=2667 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.05 W[0m
+[0;32mI (164375) BLE_GATT: Sent string: 0.02,2.62,0.05[0m
+[0;32mI (164375) ACS712: Sent data: 0.02,2.62,0.05[0m
+[0;32mI (165055) ACS712: RAW_DC=2667 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.06 W[0m
+[0;32mI (165055) BLE_GATT: Sent string: 0.02,2.62,0.06[0m
+[0;32mI (165055) ACS712: Sent data: 0.02,2.62,0.06[0m
+[0;32mI (165735) ACS712: RAW_DC=2669 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.06 W[0m
+[0;32mI (165735) BLE_GATT: Sent string: 0.02,2.62,0.06[0m
+[0;32mI (165735) ACS712: Sent data: 0.02,2.62,0.06[0m
+[0;32mI (166415) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.02 A | Volt: 2.62 V | Power: 0.06 W[0m
+[0;32mI (166415) BLE_GATT: Sent string: 0.02,2.62,0.06[0m
+[0;32mI (166415) ACS712: Sent data: 0.02,2.62,0.06[0m
+[0;32mI (167095) ACS712: RAW_DC=2668 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.06 W[0m
+[0;32mI (167095) BLE_GATT: Sent string: 0.02,2.62,0.06[0m
+[0;32mI (167095) ACS712: Sent data: 0.02,2.62,0.06[0m
+[0;32mI (167775) ACS712: RAW_DC=2668 | RAW_VOLT=3251 | DC: 0.02 A | Volt: 2.62 V | Power: 0.06 W[0m
+[0;32mI (167775) BLE_GATT: Sent string: 0.02,2.62,0.06[0m
+[0;32mI (167775) ACS712: Sent data: 0.02,2.62,0.06[0m
+[0;32mI (168455) ACS712: RAW_DC=2668 | RAW_VOLT=3253 | DC: 0.02 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (168455) BLE_GATT: Sent string: 0.02,2.62,0.07[0m
+[0;32mI (168455) ACS712: Sent data: 0.02,2.62,0.07[0m
+[0;32mI (169135) ACS712: RAW_DC=2668 | RAW_VOLT=3255 | DC: 0.03 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (169135) BLE_GATT: Sent string: 0.03,2.62,0.07[0m
+[0;32mI (169135) ACS712: Sent data: 0.03,2.62,0.07[0m
+[0;32mI (169815) ACS712: RAW_DC=2670 | RAW_VOLT=3256 | DC: 0.03 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (169815) BLE_GATT: Sent string: 0.03,2.62,0.07[0m
+[0;32mI (169815) ACS712: Sent data: 0.03,2.62,0.07[0m
+[0;32mI (170495) ACS712: RAW_DC=2671 | RAW_VOLT=3257 | DC: 0.03 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (170495) BLE_GATT: Sent string: 0.03,2.62,0.07[0m
+[0;32mI (170495) ACS712: Sent data: 0.03,2.62,0.07[0m
+[0;32mI (171175) ACS712: RAW_DC=2670 | RAW_VOLT=3256 | DC: 0.03 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (171175) BLE_GATT: Sent string: 0.03,2.62,0.07[0m
+[0;32mI (171175) ACS712: Sent data: 0.03,2.62,0.07[0m
+[0;32mI (171855) ACS712: RAW_DC=2670 | RAW_VOLT=3254 | DC: 0.03 A | Volt: 2.62 V | Power: 0.07 W[0m
+[0;32mI (171855) BLE_GATT: Sent string: 0.03,2.62,0.07[0m
+[0;32mI (171855) ACS712: Sent data: 0.03,2.62,0.07[0m
+[0;32mI (172535) ACS712: RAW_DC=2669 | RAW_VOLT=3250 | DC: 0.03 A | Volt: 2.62 V | Power: 0.08 W[0m
+[0;32mI (172535) BLE_GATT: Sent string: 0.03,2.62,0.08[0m
+[0;32mI (172535) ACS712: Sent data: 0.03,2.62,0.08[0m
+[0;32mI (173215) ACS712: RAW_DC=2667 | RAW_VOLT=3249 | DC: 0.03 A | Volt: 2.62 V | Power: 0.08 W[0m
+[0;32mI (173215) BLE_GATT: Sent string: 0.03,2.62,0.08[0m
+[0;32mI (173215) ACS712: Sent data: 0.03,2.62,0.08[0m
+[0;32mI (173895) ACS712: RAW_DC=2666 | RAW_VOLT=3250 | DC: 0.03 A | Volt: 2.62 V | Power: 0.08 W[0m
+[0;32mI (173895) BLE_GATT: Sent string: 0.03,2.62,0.08[0m
+[0;32mI (173895) ACS712: Sent data: 0.03,2.62,0.08[0m
+[0;32mI (174575) ACS712: RAW_DC=2668 | RAW_VOLT=3250 | DC: 0.03 A | Volt: 2.62 V | Power: 0.08 W[0m
+[0;32mI (174575) BLE_GATT: Sent string: 0.03,2.62,0.08[0m
+[0;32mI (174575) ACS712: Sent data: 0.03,2.62,0.08[0m
+[0;32mI (175255) ACS712: RAW_DC=2669 | RAW_VOLT=3253 | DC: 0.03 A | Volt: 2.62 V | Power: 0.08 W[0m
+[0;32mI (175255) BLE_GATT: Sent string: 0.03,2.62,0.08[0m
+[0;32mI (175255) ACS712: Sent data: 0.03,2.62,0.08[0m
+[0;32mI (175935) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.03 A | Volt: 2.62 V | Power: 0.09 W[0m
+[0;32mI (175935) BLE_GATT: Sent string: 0.03,2.62,0.09[0m
+[0;32mI (175935) ACS712: Sent data: 0.03,2.62,0.09[0m
+[0;32mI (176615) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (176615) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (176615) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (177295) ACS712: RAW_DC=2671 | RAW_VOLT=3254 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (177295) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (177295) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (177975) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (177975) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (177975) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (178655) ACS712: RAW_DC=2672 | RAW_VOLT=3254 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (178655) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (178655) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (179335) ACS712: RAW_DC=2671 | RAW_VOLT=3257 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (179335) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (179335) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (180015) ACS712: RAW_DC=2673 | RAW_VOLT=3257 | DC: 0.04 A | Volt: 2.62 V | Power: 0.10 W[0m
+[0;32mI (180015) BLE_GATT: Sent string: 0.04,2.62,0.10[0m
+[0;32mI (180015) ACS712: Sent data: 0.04,2.62,0.10[0m
+[0;32mI (180695) ACS712: RAW_DC=2672 | RAW_VOLT=3258 | DC: 0.04 A | Volt: 2.62 V | Power: 0.11 W[0m
+[0;32mI (180695) BLE_GATT: Sent string: 0.04,2.62,0.11[0m
+[0;32mI (180695) ACS712: Sent data: 0.04,2.62,0.11[0m
+[0;32mI (181375) ACS712: RAW_DC=2673 | RAW_VOLT=3258 | DC: 0.04 A | Volt: 2.62 V | Power: 0.11 W[0m
+[0;32mI (181375) BLE_GATT: Sent string: 0.04,2.62,0.11[0m
+[0;32mI (181375) ACS712: Sent data: 0.04,2.62,0.11[0m
+[0;32mI (182055) ACS712: RAW_DC=2671 | RAW_VOLT=3256 | DC: 0.04 A | Volt: 2.62 V | Power: 0.11 W[0m
+[0;32mI (182055) BLE_GATT: Sent string: 0.04,2.62,0.11[0m
+[0;32mI (182055) ACS712: Sent data: 0.04,2.62,0.11[0m
+[0;32mI (182735) ACS712: RAW_DC=2670 | RAW_VOLT=3253 | DC: 0.04 A | Volt: 2.62 V | Power: 0.11 W[0m
+[0;32mI (182735) BLE_GATT: Sent string: 0.04,2.62,0.11[0m
+[0;32mI (182735) ACS712: Sent data: 0.04,2.62,0.11[0m
+[0;32mI (183415) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.04 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (183415) BLE_GATT: Sent string: 0.04,2.62,0.12[0m
+[0;32mI (183415) ACS712: Sent data: 0.04,2.62,0.12[0m
+[0;32mI (184095) ACS712: RAW_DC=2667 | RAW_VOLT=3251 | DC: 0.05 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (184095) BLE_GATT: Sent string: 0.05,2.62,0.12[0m
+[0;32mI (184095) ACS712: Sent data: 0.05,2.62,0.12[0m
+[0;32mI (184775) ACS712: RAW_DC=2671 | RAW_VOLT=3253 | DC: 0.05 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (184775) BLE_GATT: Sent string: 0.05,2.62,0.12[0m
+[0;32mI (184775) ACS712: Sent data: 0.05,2.62,0.12[0m
+[0;32mI (185455) ACS712: RAW_DC=2666 | RAW_VOLT=3251 | DC: 0.05 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (185455) BLE_GATT: Sent string: 0.05,2.62,0.12[0m
+[0;32mI (185455) ACS712: Sent data: 0.05,2.62,0.12[0m
+[0;32mI (186135) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.05 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (186135) BLE_GATT: Sent string: 0.05,2.62,0.12[0m
+[0;32mI (186135) ACS712: Sent data: 0.05,2.62,0.12[0m
+[0;32mI (186815) ACS712: RAW_DC=2671 | RAW_VOLT=3253 | DC: 0.05 A | Volt: 2.62 V | Power: 0.12 W[0m
+[0;32mI (186815) BLE_GATT: Sent string: 0.05,2.62,0.12[0m
+[0;32mI (186815) ACS712: Sent data: 0.05,2.62,0.12[0m
+[0;32mI (187495) ACS712: RAW_DC=2670 | RAW_VOLT=3253 | DC: 0.05 A | Volt: 2.62 V | Power: 0.13 W[0m
+[0;32mI (187495) BLE_GATT: Sent string: 0.05,2.62,0.13[0m
+[0;32mI (187495) ACS712: Sent data: 0.05,2.62,0.13[0m
+[0;32mI (188175) ACS712: RAW_DC=2670 | RAW_VOLT=3252 | DC: 0.05 A | Volt: 2.62 V | Power: 0.13 W[0m
+[0;32mI (188175) BLE_GATT: Sent string: 0.05,2.62,0.13[0m
+[0;32mI (188175) ACS712: Sent data: 0.05,2.62,0.13[0m
+[0;32mI (188855) ACS712: RAW_DC=2672 | RAW_VOLT=3252 | DC: 0.05 A | Volt: 2.62 V | Power: 0.13 W[0m
+[0;32mI (188855) BLE_GATT: Sent string: 0.05,2.62,0.13[0m
+[0;32mI (188855) ACS712: Sent data: 0.05,2.62,0.13[0m
+[0;32mI (189535) ACS712: RAW_DC=2671 | RAW_VOLT=3258 | DC: 0.05 A | Volt: 2.62 V | Power: 0.13 W[0m
+[0;32mI (189535) BLE_GATT: Sent string: 0.05,2.62,0.13[0m
+[0;32mI (189535) ACS712: Sent data: 0.05,2.62,0.13[0m
+[0;32mI (190215) ACS712: RAW_DC=2672 | RAW_VOLT=3259 | DC: 0.05 A | Volt: 2.62 V | Power: 0.14 W[0m
+[0;32mI (190215) BLE_GATT: Sent string: 0.05,2.62,0.14[0m
+[0;32mI (190215) ACS712: Sent data: 0.05,2.62,0.14[0m
+[0;32mI (190895) ACS712: RAW_DC=2674 | RAW_VOLT=3261 | DC: 0.05 A | Volt: 2.62 V | Power: 0.14 W[0m
+[0;32mI (190895) BLE_GATT: Sent string: 0.05,2.62,0.14[0m
+[0;32mI (190895) ACS712: Sent data: 0.05,2.62,0.14[0m
+[0;32mI (191575) ACS712: RAW_DC=2674 | RAW_VOLT=3261 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (191575) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (191575) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (192255) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (192255) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (192255) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (192935) ACS712: RAW_DC=2668 | RAW_VOLT=3252 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (192935) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (192935) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (193615) ACS712: RAW_DC=2669 | RAW_VOLT=3251 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (193615) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (193615) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (194295) ACS712: RAW_DC=2666 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (194295) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (194295) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (194975) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (194975) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (194975) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (195655) ACS712: RAW_DC=2668 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (195655) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (195655) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (196335) ACS712: RAW_DC=2667 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (196335) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (196335) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (197015) ACS712: RAW_DC=2669 | RAW_VOLT=3251 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (197015) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (197015) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (197695) ACS712: RAW_DC=2669 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (197695) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (197695) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (198375) ACS712: RAW_DC=2670 | RAW_VOLT=3250 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (198375) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (198375) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (199055) ACS712: RAW_DC=2672 | RAW_VOLT=3252 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (199055) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (199055) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (199735) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (199735) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (199735) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (200415) ACS712: RAW_DC=2671 | RAW_VOLT=3258 | DC: 0.06 A | Volt: 2.62 V | Power: 0.17 W[0m
+[0;32mI (200415) BLE_GATT: Sent string: 0.06,2.62,0.17[0m
+[0;32mI (200415) ACS712: Sent data: 0.06,2.62,0.17[0m
+[0;32mI (201095) ACS712: RAW_DC=2675 | RAW_VOLT=3262 | DC: 0.07 A | Volt: 2.62 V | Power: 0.17 W[0m
+[0;32mI (201095) BLE_GATT: Sent string: 0.07,2.62,0.17[0m
+[0;32mI (201095) ACS712: Sent data: 0.07,2.62,0.17[0m
+[0;32mI (201775) ACS712: RAW_DC=2674 | RAW_VOLT=3262 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (201775) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (201775) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (202455) ACS712: RAW_DC=2676 | RAW_VOLT=3262 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (202455) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (202455) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (203135) ACS712: RAW_DC=2668 | RAW_VOLT=3255 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (203135) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (203135) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (203815) ACS712: RAW_DC=2673 | RAW_VOLT=3256 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (203815) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (203815) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (204495) ACS712: RAW_DC=2669 | RAW_VOLT=3254 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (204495) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (204495) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (205175) ACS712: RAW_DC=2672 | RAW_VOLT=3255 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (205175) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (205175) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (205855) ACS712: RAW_DC=2671 | RAW_VOLT=3255 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (205855) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (205855) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (206535) ACS712: RAW_DC=2670 | RAW_VOLT=3255 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (206535) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (206535) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (207215) ACS712: RAW_DC=2670 | RAW_VOLT=3254 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (207215) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (207215) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (207895) ACS712: RAW_DC=2672 | RAW_VOLT=3253 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (207895) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (207895) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (208575) ACS712: RAW_DC=2672 | RAW_VOLT=3255 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (208575) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (208575) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (209255) ACS712: RAW_DC=2673 | RAW_VOLT=3256 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (209255) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (209255) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (209935) ACS712: RAW_DC=2674 | RAW_VOLT=3261 | DC: 0.07 A | Volt: 2.62 V | Power: 0.20 W[0m
+[0;32mI (209935) BLE_GATT: Sent string: 0.07,2.62,0.20[0m
+[0;32mI (209935) ACS712: Sent data: 0.07,2.62,0.20[0m
+[0;32mI (210615) ACS712: RAW_DC=2676 | RAW_VOLT=3264 | DC: 0.08 A | Volt: 2.62 V | Power: 0.20 W[0m
+[0;32mI (210615) BLE_GATT: Sent string: 0.08,2.62,0.20[0m
+[0;32mI (210615) ACS712: Sent data: 0.08,2.62,0.20[0m
+[0;32mI (211295) ACS712: RAW_DC=2676 | RAW_VOLT=3265 | DC: 0.08 A | Volt: 2.62 V | Power: 0.21 W[0m
+[0;32mI (211295) BLE_GATT: Sent string: 0.08,2.62,0.21[0m
+[0;32mI (211295) ACS712: Sent data: 0.08,2.62,0.21[0m
+[0;32mI (211975) ACS712: RAW_DC=2676 | RAW_VOLT=3264 | DC: 0.08 A | Volt: 2.62 V | Power: 0.21 W[0m
+[0;32mI (211975) BLE_GATT: Sent string: 0.08,2.62,0.21[0m
+[0;32mI (211975) ACS712: Sent data: 0.08,2.62,0.21[0m
+[0;32mI (212655) ACS712: RAW_DC=2673 | RAW_VOLT=3263 | DC: 0.08 A | Volt: 2.62 V | Power: 0.21 W[0m
+[0;32mI (212655) BLE_GATT: Sent string: 0.08,2.62,0.21[0m
+[0;32mI (212655) ACS712: Sent data: 0.08,2.62,0.21[0m
+[0;32mI (213335) ACS712: RAW_DC=2669 | RAW_VOLT=3257 | DC: 0.08 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (213335) BLE_GATT: Sent string: 0.08,2.62,0.22[0m
+[0;32mI (213335) ACS712: Sent data: 0.08,2.62,0.22[0m
+[0;32mI (214015) ACS712: RAW_DC=2671 | RAW_VOLT=3256 | DC: 0.08 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (214015) BLE_GATT: Sent string: 0.08,2.62,0.22[0m
+[0;32mI (214015) ACS712: Sent data: 0.08,2.62,0.22[0m
+[0;32mI (214695) ACS712: RAW_DC=2674 | RAW_VOLT=3259 | DC: 0.08 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (214695) BLE_GATT: Sent string: 0.08,2.62,0.22[0m
+[0;32mI (214695) ACS712: Sent data: 0.08,2.62,0.22[0m
+[0;32mI (215375) ACS712: RAW_DC=2673 | RAW_VOLT=3256 | DC: 0.08 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (215375) BLE_GATT: Sent string: 0.08,2.62,0.22[0m
+[0;32mI (215375) ACS712: Sent data: 0.08,2.62,0.22[0m
+[0;32mI (216055) ACS712: RAW_DC=2672 | RAW_VOLT=3257 | DC: 0.09 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (216055) BLE_GATT: Sent string: 0.09,2.62,0.22[0m
+[0;32mI (216055) ACS712: Sent data: 0.09,2.62,0.22[0m
+[0;32mI (216735) ACS712: RAW_DC=2672 | RAW_VOLT=3256 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (216735) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (216735) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (217415) ACS712: RAW_DC=2667 | RAW_VOLT=3251 | DC: 0.09 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (217415) BLE_GATT: Sent string: 0.09,2.62,0.22[0m
+[0;32mI (217415) ACS712: Sent data: 0.09,2.62,0.22[0m
+[0;32mI (218095) ACS712: RAW_DC=2667 | RAW_VOLT=3248 | DC: 0.09 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (218095) BLE_GATT: Sent string: 0.09,2.62,0.22[0m
+[0;32mI (218095) ACS712: Sent data: 0.09,2.62,0.22[0m
+[0;32mI (218775) ACS712: RAW_DC=2670 | RAW_VOLT=3251 | DC: 0.09 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (218775) BLE_GATT: Sent string: 0.09,2.62,0.22[0m
+[0;32mI (218775) ACS712: Sent data: 0.09,2.62,0.22[0m
+[0;32mI (219455) ACS712: RAW_DC=2670 | RAW_VOLT=3250 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (219455) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (219455) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (220135) ACS712: RAW_DC=2671 | RAW_VOLT=3255 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (220135) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (220135) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (220815) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (220815) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (220815) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (221495) ACS712: RAW_DC=2671 | RAW_VOLT=3256 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (221495) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (221495) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (222175) ACS712: RAW_DC=2673 | RAW_VOLT=3258 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (222175) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (222175) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (222855) ACS712: RAW_DC=2671 | RAW_VOLT=3258 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (222855) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (222855) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (223535) ACS712: RAW_DC=2668 | RAW_VOLT=3251 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (223535) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (223535) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (224215) ACS712: RAW_DC=2668 | RAW_VOLT=3252 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (224215) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (224215) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (224895) ACS712: RAW_DC=2671 | RAW_VOLT=3253 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (224895) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (224895) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (225575) ACS712: RAW_DC=2671 | RAW_VOLT=3254 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (225575) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (225575) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (226255) ACS712: RAW_DC=2671 | RAW_VOLT=3254 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (226255) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (226255) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (226935) ACS712: RAW_DC=2672 | RAW_VOLT=3253 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (226935) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (226935) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (227615) ACS712: RAW_DC=2671 | RAW_VOLT=3251 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (227615) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (227615) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (228295) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (228295) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (228295) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (228975) ACS712: RAW_DC=2671 | RAW_VOLT=3253 | DC: 0.09 A | Volt: 2.62 V | Power: 0.24 W[0m
+[0;32mI (228975) BLE_GATT: Sent string: 0.09,2.62,0.24[0m
+[0;32mI (228975) ACS712: Sent data: 0.09,2.62,0.24[0m
+[0;32mI (229655) ACS712: RAW_DC=2673 | RAW_VOLT=3256 | DC: 0.09 A | Volt: 2.62 V | Power: 0.25 W[0m
+[0;32mI (229655) BLE_GATT: Sent string: 0.09,2.62,0.25[0m
+[0;32mI (229655) ACS712: Sent data: 0.09,2.62,0.25[0m
+[0;32mI (230335) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.10 A | Volt: 2.62 V | Power: 0.25 W[0m
+[0;32mI (230335) BLE_GATT: Sent string: 0.10,2.62,0.25[0m
+[0;32mI (230335) ACS712: Sent data: 0.10,2.62,0.25[0m
+[0;32mI (231015) ACS712: RAW_DC=2675 | RAW_VOLT=3260 | DC: 0.10 A | Volt: 2.62 V | Power: 0.25 W[0m
+[0;32mI (231015) BLE_GATT: Sent string: 0.10,2.62,0.25[0m
+[0;32mI (231015) ACS712: Sent data: 0.10,2.62,0.25[0m
+[0;32mI (231695) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.10 A | Volt: 2.62 V | Power: 0.25 W[0m
+[0;32mI (231695) BLE_GATT: Sent string: 0.10,2.62,0.25[0m
+[0;32mI (231695) ACS712: Sent data: 0.10,2.62,0.25[0m
+[0;32mI (232375) ACS712: RAW_DC=2674 | RAW_VOLT=3258 | DC: 0.10 A | Volt: 2.62 V | Power: 0.26 W[0m
+[0;32mI (232375) BLE_GATT: Sent string: 0.10,2.62,0.26[0m
+[0;32mI (232375) ACS712: Sent data: 0.10,2.62,0.26[0m
+[0;32mI (233055) ACS712: RAW_DC=2668 | RAW_VOLT=3254 | DC: 0.10 A | Volt: 2.62 V | Power: 0.26 W[0m
+[0;32mI (233055) BLE_GATT: Sent string: 0.10,2.62,0.26[0m
+[0;32mI (233055) ACS712: Sent data: 0.10,2.62,0.26[0m
+[0;32mI (233745) ACS712: RAW_DC=2670 | RAW_VOLT=3253 | DC: 0.10 A | Volt: 2.62 V | Power: 0.27 W[0m
+[0;32mI (233745) BLE_GATT: Sent string: 0.10,2.62,0.27[0m
+[0;32mI (233745) ACS712: Sent data: 0.10,2.62,0.27[0m
+[0;32mI (234435) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.10 A | Volt: 2.62 V | Power: 0.25 W[0m
+[0;32mI (234435) BLE_GATT: Sent string: 0.10,2.62,0.25[0m
+[0;32mI (234435) ACS712: Sent data: 0.10,2.62,0.25[0m
+[0;32mI (235125) ACS712: RAW_DC=2672 | RAW_VOLT=3251 | DC: 0.09 A | Volt: 2.62 V | Power: 0.22 W[0m
+[0;32mI (235125) BLE_GATT: Sent string: 0.09,2.62,0.22[0m
+[0;32mI (235125) ACS712: Sent data: 0.09,2.62,0.22[0m
+[0;32mI (235815) ACS712: RAW_DC=2671 | RAW_VOLT=3250 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (235815) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (235815) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (236505) ACS712: RAW_DC=2669 | RAW_VOLT=3250 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (236505) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (236505) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (237195) ACS712: RAW_DC=2671 | RAW_VOLT=3250 | DC: 0.09 A | Volt: 2.62 V | Power: 0.23 W[0m
+[0;32mI (237195) BLE_GATT: Sent string: 0.09,2.62,0.23[0m
+[0;32mI (237195) ACS712: Sent data: 0.09,2.62,0.23[0m
+[0;32mI (237885) ACS712: RAW_DC=2672 | RAW_VOLT=3251 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (237885) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (237885) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (238575) ACS712: RAW_DC=2670 | RAW_VOLT=3250 | DC: 0.08 A | Volt: 2.62 V | Power: 0.20 W[0m
+[0;32mI (238575) BLE_GATT: Sent string: 0.08,2.62,0.20[0m
+[0;32mI (238575) ACS712: Sent data: 0.08,2.62,0.20[0m
+[0;32mI (239265) ACS712: RAW_DC=2672 | RAW_VOLT=3254 | DC: 0.08 A | Volt: 2.62 V | Power: 0.21 W[0m
+[0;32mI (239265) BLE_GATT: Sent string: 0.08,2.62,0.21[0m
+[0;32mI (239265) ACS712: Sent data: 0.08,2.62,0.21[0m
+[0;32mI (239955) ACS712: RAW_DC=2672 | RAW_VOLT=3258 | DC: 0.08 A | Volt: 2.62 V | Power: 0.20 W[0m
+[0;32mI (239955) BLE_GATT: Sent string: 0.08,2.62,0.20[0m
+[0;32mI (239955) ACS712: Sent data: 0.08,2.62,0.20[0m
+[0;32mI (240645) ACS712: RAW_DC=2673 | RAW_VOLT=3257 | DC: 0.07 A | Volt: 2.62 V | Power: 0.17 W[0m
+[0;32mI (240645) BLE_GATT: Sent string: 0.07,2.62,0.17[0m
+[0;32mI (240645) ACS712: Sent data: 0.07,2.62,0.17[0m
+[0;32mI (241335) ACS712: RAW_DC=2671 | RAW_VOLT=3256 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (241335) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (241335) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (242025) ACS712: RAW_DC=2672 | RAW_VOLT=3257 | DC: 0.07 A | Volt: 2.62 V | Power: 0.19 W[0m
+[0;32mI (242025) BLE_GATT: Sent string: 0.07,2.62,0.19[0m
+[0;32mI (242025) ACS712: Sent data: 0.07,2.62,0.19[0m
+[0;32mI (242715) ACS712: RAW_DC=2671 | RAW_VOLT=3252 | DC: 0.07 A | Volt: 2.62 V | Power: 0.18 W[0m
+[0;32mI (242715) BLE_GATT: Sent string: 0.07,2.62,0.18[0m
+[0;32mI (242715) ACS712: Sent data: 0.07,2.62,0.18[0m
+[0;32mI (243405) ACS712: RAW_DC=2671 | RAW_VOLT=3248 | DC: 0.06 A | Volt: 2.62 V | Power: 0.15 W[0m
+[0;32mI (243405) BLE_GATT: Sent string: 0.06,2.62,0.15[0m
+[0;32mI (243405) ACS712: Sent data: 0.06,2.62,0.15[0m
+[0;32mI (244095) ACS712: RAW_DC=2668 | RAW_VOLT=3249 | DC: 0.06 A | Volt: 2.62 V | Power: 0.16 W[0m
+[0;32mI (244095) BLE_GATT: Sent string: 0.06,2.62,0.16[0m
+[0;32mI (244095) ACS712: Sent data: 0.06,2.62,0.16[0m
+[0;32mI (244785) ACS712: RAW_DC=2665 | RAW_VOLT=3246 | DC: 0.06 A | Volt: 2.61 V | Power: 0.17 W[0m
+[0;32mI (244785) BLE_GATT: Sent string: 0.06,2.61,0.17[0m
+[0;32mI (244785) ACS712: Sent data: 0.06,2.61,0.17[0m
+[0;32mI (245475) ACS712: RAW_DC=2664 | RAW_VOLT=3244 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (245475) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (245475) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (246165) ACS712: RAW_DC=2666 | RAW_VOLT=3244 | DC: 0.05 A | Volt: 2.61 V | Power: 0.12 W[0m
+[0;32mI (246165) BLE_GATT: Sent string: 0.05,2.61,0.12[0m
+[0;32mI (246165) ACS712: Sent data: 0.05,2.61,0.12[0m
+[0;32mI (246855) ACS712: RAW_DC=2664 | RAW_VOLT=3245 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (246855) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (246855) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (247545) ACS712: RAW_DC=2666 | RAW_VOLT=3246 | DC: 0.05 A | Volt: 2.61 V | Power: 0.14 W[0m
+[0;32mI (247545) BLE_GATT: Sent string: 0.05,2.61,0.14[0m
+[0;32mI (247545) ACS712: Sent data: 0.05,2.61,0.14[0m
+[0;32mI (248235) ACS712: RAW_DC=2665 | RAW_VOLT=3245 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (248235) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (248235) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (248925) ACS712: RAW_DC=2670 | RAW_VOLT=3249 | DC: 0.04 A | Volt: 2.61 V | Power: 0.10 W[0m
+[0;32mI (248925) BLE_GATT: Sent string: 0.04,2.61,0.10[0m
+[0;32mI (248925) ACS712: Sent data: 0.04,2.61,0.10[0m
+[0;32mI (249615) ACS712: RAW_DC=2668 | RAW_VOLT=3249 | DC: 0.04 A | Volt: 2.61 V | Power: 0.11 W[0m
+[0;32mI (249615) BLE_GATT: Sent string: 0.04,2.61,0.11[0m
+[0;32mI (249615) ACS712: Sent data: 0.04,2.61,0.11[0m
+[0;32mI (250305) ACS712: RAW_DC=2669 | RAW_VOLT=3250 | DC: 0.05 A | Volt: 2.61 V | Power: 0.12 W[0m
+[0;32mI (250305) BLE_GATT: Sent string: 0.05,2.61,0.12[0m
+[0;32mI (250305) ACS712: Sent data: 0.05,2.61,0.12[0m
+[0;32mI (250995) ACS712: RAW_DC=2669 | RAW_VOLT=3252 | DC: 0.04 A | Volt: 2.61 V | Power: 0.11 W[0m
+[0;32mI (250995) BLE_GATT: Sent string: 0.04,2.61,0.11[0m
+[0;32mI (250995) ACS712: Sent data: 0.04,2.61,0.11[0m
+[0;32mI (251685) ACS712: RAW_DC=2670 | RAW_VOLT=3251 | DC: 0.03 A | Volt: 2.61 V | Power: 0.09 W[0m
+[0;32mI (251685) BLE_GATT: Sent string: 0.03,2.61,0.09[0m
+[0;32mI (251685) ACS712: Sent data: 0.03,2.61,0.09[0m
+[0;32mI (252375) ACS712: RAW_DC=2665 | RAW_VOLT=3246 | DC: 0.04 A | Volt: 2.61 V | Power: 0.10 W[0m
+[0;32mI (252375) BLE_GATT: Sent string: 0.04,2.61,0.10[0m
+[0;32mI (252375) ACS712: Sent data: 0.04,2.61,0.10[0m
+[0;32mI (253055) ACS712: RAW_DC=2662 | RAW_VOLT=3242 | DC: 0.04 A | Volt: 2.61 V | Power: 0.11 W[0m
+[0;32mI (253055) BLE_GATT: Sent string: 0.04,2.61,0.11[0m
+[0;32mI (253055) ACS712: Sent data: 0.04,2.61,0.11[0m
+[0;32mI (253735) ACS712: RAW_DC=2664 | RAW_VOLT=3242 | DC: 0.04 A | Volt: 2.61 V | Power: 0.11 W[0m
+[0;32mI (253735) BLE_GATT: Sent string: 0.04,2.61,0.11[0m
+[0;32mI (253735) ACS712: Sent data: 0.04,2.61,0.11[0m
+[0;32mI (254415) ACS712: RAW_DC=2661 | RAW_VOLT=3239 | DC: 0.05 A | Volt: 2.61 V | Power: 0.12 W[0m
+[0;32mI (254415) BLE_GATT: Sent string: 0.05,2.61,0.12[0m
+[0;32mI (254415) ACS712: Sent data: 0.05,2.61,0.12[0m
+[0;32mI (255095) ACS712: RAW_DC=2663 | RAW_VOLT=3241 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (255095) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (255095) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (255775) ACS712: RAW_DC=2661 | RAW_VOLT=3238 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (255775) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (255775) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (256455) ACS712: RAW_DC=2664 | RAW_VOLT=3240 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (256455) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (256455) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (257135) ACS712: RAW_DC=2662 | RAW_VOLT=3240 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (257135) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (257135) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (257815) ACS712: RAW_DC=2662 | RAW_VOLT=3240 | DC: 0.05 A | Volt: 2.61 V | Power: 0.14 W[0m
+[0;32mI (257815) BLE_GATT: Sent string: 0.05,2.61,0.14[0m
+[0;32mI (257815) ACS712: Sent data: 0.05,2.61,0.14[0m
+[0;32mI (258495) ACS712: RAW_DC=2664 | RAW_VOLT=3239 | DC: 0.06 A | Volt: 2.61 V | Power: 0.14 W[0m
+[0;32mI (258495) BLE_GATT: Sent string: 0.06,2.61,0.14[0m
+[0;32mI (258495) ACS712: Sent data: 0.06,2.61,0.14[0m
+[0;32mI (259175) ACS712: RAW_DC=2666 | RAW_VOLT=3244 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (259175) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (259175) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (259855) ACS712: RAW_DC=2665 | RAW_VOLT=3245 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (259855) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (259855) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (260535) ACS712: RAW_DC=2667 | RAW_VOLT=3247 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (260535) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (260535) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (261215) ACS712: RAW_DC=2667 | RAW_VOLT=3247 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (261215) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (261215) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (261905) ACS712: RAW_DC=2668 | RAW_VOLT=3247 | DC: 0.07 A | Volt: 2.61 V | Power: 0.17 W[0m
+[0;32mI (261905) BLE_GATT: Sent string: 0.07,2.61,0.17[0m
+[0;32mI (261905) ACS712: Sent data: 0.07,2.61,0.17[0m
+[0;32mI (262595) ACS712: RAW_DC=2662 | RAW_VOLT=3240 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (262595) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (262595) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (263285) ACS712: RAW_DC=2663 | RAW_VOLT=3241 | DC: 0.05 A | Volt: 2.61 V | Power: 0.12 W[0m
+[0;32mI (263285) BLE_GATT: Sent string: 0.05,2.61,0.12[0m
+[0;32mI (263285) ACS712: Sent data: 0.05,2.61,0.12[0m
+[0;32mI (263975) ACS712: RAW_DC=2664 | RAW_VOLT=3242 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (263975) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (263975) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (264655) ACS712: RAW_DC=2662 | RAW_VOLT=3241 | DC: 0.05 A | Volt: 2.61 V | Power: 0.13 W[0m
+[0;32mI (264655) BLE_GATT: Sent string: 0.05,2.61,0.13[0m
+[0;32mI (264655) ACS712: Sent data: 0.05,2.61,0.13[0m
+[0;32mI (265335) ACS712: RAW_DC=2664 | RAW_VOLT=3242 | DC: 0.05 A | Volt: 2.61 V | Power: 0.14 W[0m
+[0;32mI (265335) BLE_GATT: Sent string: 0.05,2.61,0.14[0m
+[0;32mI (265335) ACS712: Sent data: 0.05,2.61,0.14[0m
+[0;32mI (266015) ACS712: RAW_DC=2663 | RAW_VOLT=3242 | DC: 0.06 A | Volt: 2.61 V | Power: 0.14 W[0m
+[0;32mI (266015) BLE_GATT: Sent string: 0.06,2.61,0.14[0m
+[0;32mI (266015) ACS712: Sent data: 0.06,2.61,0.14[0m
+[0;32mI (266695) ACS712: RAW_DC=2664 | RAW_VOLT=3242 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (266695) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (266695) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (267375) ACS712: RAW_DC=2660 | RAW_VOLT=3236 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (267375) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (267375) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (268055) ACS712: RAW_DC=2661 | RAW_VOLT=3236 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (268055) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (268055) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (268735) ACS712: RAW_DC=2660 | RAW_VOLT=3240 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (268735) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (268735) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (269415) ACS712: RAW_DC=2662 | RAW_VOLT=3241 | DC: 0.06 A | Volt: 2.61 V | Power: 0.15 W[0m
+[0;32mI (269415) BLE_GATT: Sent string: 0.06,2.61,0.15[0m
+[0;32mI (269415) ACS712: Sent data: 0.06,2.61,0.15[0m
+[0;32mI (270095) ACS712: RAW_DC=2660 | RAW_VOLT=3241 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (270095) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (270095) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (270775) ACS712: RAW_DC=2659 | RAW_VOLT=3241 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (270775) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (270775) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (271455) ACS712: RAW_DC=2660 | RAW_VOLT=3240 | DC: 0.06 A | Volt: 2.61 V | Power: 0.16 W[0m
+[0;32mI (271455) BLE_GATT: Sent string: 0.06,2.61,0.16[0m
+[0;32mI (271455) ACS712: Sent data: 0.06,2.61,0.16[0m
+[0;32mI (272135) ACS712: RAW_DC=2657 | RAW_VOLT=3236 | DC: 0.06 A | Volt: 2.60 V | Power: 0.16 W[0m
+[0;32mI (272135) BLE_GATT: Sent string: 0.06,2.60,0.16[0m
+[0;32mI (272135) ACS712: Sent data: 0.06,2.60,0.16[0m
+[0;32mI (272815) ACS712: RAW_DC=2657 | RAW_VOLT=3234 | DC: 0.06 A | Volt: 2.60 V | Power: 0.16 W[0m
+[0;32mI (272815) BLE_GATT: Sent string: 0.06,2.60,0.16[0m
+[0;32mI (272815) ACS712: Sent data: 0.06,2.60,0.16[0m
+[0;32mI (273495) ACS712: RAW_DC=2656 | RAW_VOLT=3232 | DC: 0.06 A | Volt: 2.60 V | Power: 0.16 W[0m
+[0;32mI (273495) BLE_GATT: Sent string: 0.06,2.60,0.16[0m
+[0;32mI (273495) ACS712: Sent data: 0.06,2.60,0.16[0m
+[0;32mI (274175) ACS712: RAW_DC=2662 | RAW_VOLT=3236 | DC: 0.06 A | Volt: 2.60 V | Power: 0.16 W[0m
+[0;32mI (274175) BLE_GATT: Sent string: 0.06,2.60,0.16[0m
+[0;32mI (274175) ACS712: Sent data: 0.06,2.60,0.16[0m
+[0;32mI (274855) ACS712: RAW_DC=2559 | RAW_VOLT=3090 | DC: 0.03 A | Volt: 2.57 V | Power: 0.07 W[0m
+[0;32mI (274855) BLE_GATT: Sent string: 0.03,2.57,0.07[0m
+[0;32mI (274855) ACS712: Sent data: 0.03,2.57,0.07[0m
+[0;32mI (275535) ACS712: RAW_DC=2597 | RAW_VOLT=3179 | DC: 0.00 A | Volt: 2.57 V | Power: 0.00 W[0m
+[0;32mI (275535) BLE_GATT: Sent string: 0.00,2.57,0.00[0m
+[0;32mI (275535) ACS712: Sent data: 0.00,2.57,0.00[0m
+[0;32mI (276225) ACS712: RAW_DC=2562 | RAW_VOLT=3108 | DC: -0.03 A | Volt: 2.55 V | Power: -0.07 W[0m
+[0;32mI (276225) BLE_GATT: Sent string: -0.03,2.55,-0.07[0m
+[0;32mI (276225) ACS712: Sent data: -0.03,2.55,-0.07[0m
+�ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB�ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20[0m
+[0;32mI (616) ACS712: ACS712 sensors initialized[0m
+[0;32mI (616) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (626) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (636) ACS712: Creating tasks...[0m
+[0;32mI (636) ACS712: BLE Task started, initializing...[0m
+[0;32mI (646) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (646) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (656) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v1.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (107) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21a08h (137736) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031a30 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=000365fc vaddr=40080000 size=09a1ch ( 39452) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cb24h (510756) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bcb4c vaddr=40089a1c size=0da54h ( 55892) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (436) cpu_start: Pro cpu start user code[0m
+[0;32mI (436) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (436) app_init: Application information:[0m
+[0;32mI (439) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  1c122791e...[0m
+[0;32mI (459) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (465) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFC7368 len 00018C98 (99 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (552) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+[0;32mI (576) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (586) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (586) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (586) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (586) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.05[0m
+[0;32mI (596) ACS712: ACS712 ADC1_CH6 initialized[0m
+[0;32mI (606) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (606) ACS712:   VCC_Sensor: 4.30V | Sensitivity: 185mV/A | Alpha: 0.20

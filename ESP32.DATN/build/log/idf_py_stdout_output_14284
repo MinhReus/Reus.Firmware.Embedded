@@ -1,0 +1,1850 @@
+et
+[0;32mI (40) boot.esp32:�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21818h (137240) map[0m
+[0;32mI (152) esp_image: segment 1: paddr=00031840 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=0003640c vaddr=40080000 size=09c0ch ( 39948) load[0m
+[0;32mI (176) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c64ch (509516) map[0m
+[0;32mI (350) esp_image: segment 4: paddr=000bc674 vaddr=40089c0c size=0d864h ( 55396) load[0m
+[0;32mI (384) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (384) boot: Disabling RNG early entropy source...[0m
+[0;32mI (396) cpu_start: Multicore app[0m
+[0;32mI (405) cpu_start: Pro cpu start user code[0m
+[0;32mI (405) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (405) app_init: Application information:[0m
+[0;32mI (408) app_init: Project name:     main[0m
+[0;32mI (412) app_init: App version:      1[0m
+[0;32mI (417) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (423) app_init: ELF file SHA256:  e6eb3b3a6...[0m
+[0;32mI (428) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (434) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (444) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (449) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (456) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (462) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (468) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (474) heap_init: At 3FFC7350 len 00018CB0 (99 KiB): DRAM[0m
+[0;32mI (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (486) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (493) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (504) spi_flash: flash io: dio[0m
+[0;33mW (508) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (521) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (530) coexist: coex firmware version: 4482466[0m
+[0;32mI (535) main_task: Started on CPU0[0m
+[0;32mI (545) main_task: Calling app_main()[0m
+[0;32mI (545) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (555) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (555) ACS712: ACS712 CH7 initialized - VCC_Sensor=5.00V, Sensitivity=185mV/A, Alpha=0.10[0m
+[0;32mI (555) ACS712: ACS712 CH6 initialized - VCC_Sensor=5.00V, Sensitivity=185mV/A, Alpha=0.10[0m
+[0;32mI (565) ACS712: ACS712 sensors initialized[0m
+[0;32mI (575) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (585) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (585) ACS712: Creating tasks...[0m
+[0;32mI (585) ACS712: BLE Task started, initializing...[0m
+[0;32mI (595) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (605) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (605) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;33mW (695) phy_init: saving new calibration data because of checksum failure, mode(0)[0m
+[0;32mI (695) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (965) ACS712: Waiting for BLE connection...[0m
+[0;32mI (1035) BLE_GATT: REGISTER_APP_EVT, status 0, app_id 0[0m
+[0;32mI (1035) BLE_GATT: BLE GATT Server initialized with name: ESP32 GATTS[0m
+[0;32mI (1035) ACS712: BLE GATT Server initialized - Device name: ESP32 GATTS[0m
+[0;32mI (1045) BLE_GATT: CREATE_SERVICE_EVT, status 0, service_handle 40[0m
+[0;32mI (1045) BLE_GATT: Receive callback registered[0m
+[0;32mI (1055) ACS712: Receive callback registered[0m
+[0;32mI (1055) ACS712: BLE ready flag set[0m
+[0;32mI (1065) BLE_GATT: Advertising started successfully[0m
+[0;32mI (1065) BLE_GATT: ADD_CHAR_EVT, status 0, attr_handle 42[0m
+[0;32mI (1075) BLE_GATT: ADD_DESCR_EVT, status 0, attr_handle 43[0m
+[0;32mI (1095) ACS712: BLE ready, starting ADC measurements[0m
+[0;32mI (1165) ACS712: RAW_DC=3728 | RAW_VOLT=3882 | DC: 4.17 A | Volt: 3.29 V | Power: 13.73 W[0m
+[0;33mW (1165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (1735) ACS712: RAW_DC=4049 | RAW_VOLT=4084 | DC: 4.18 A | Volt: 3.29 V | Power: 13.73 W[0m
+[0;33mW (1735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2305) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.19 A | Volt: 3.28 V | Power: 13.73 W[0m
+[0;33mW (2305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2875) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.20 A | Volt: 3.28 V | Power: 13.78 W[0m
+[0;33mW (2875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3445) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.22 A | Volt: 3.28 V | Power: 13.83 W[0m
+[0;33mW (3445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4015) ACS712: RAW_DC=4095 | RAW_VOLT=3993 | DC: 4.23 A | Volt: 3.28 V | Power: 13.87 W[0m
+[0;33mW (4015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4585) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.24 A | Volt: 3.28 V | Power: 13.91 W[0m
+[0;33mW (4585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5155) ACS712: RAW_DC=4095 | RAW_VOLT=3977 | DC: 4.25 A | Volt: 3.28 V | Power: 13.94 W[0m
+[0;33mW (5155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5725) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.25 A | Volt: 3.28 V | Power: 13.95 W[0m
+[0;33mW (5725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6295) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 4.26 A | Volt: 3.28 V | Power: 13.96 W[0m
+[0;33mW (6295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6865) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.27 A | Volt: 3.28 V | Power: 13.99 W[0m
+[0;33mW (6865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7435) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.27 A | Volt: 3.28 V | Power: 14.02 W[0m
+[0;33mW (7435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8005) ACS712: RAW_DC=4095 | RAW_VOLT=4038 | DC: 4.28 A | Volt: 3.28 V | Power: 14.03 W[0m
+[0;33mW (8005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8575) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.28 A | Volt: 3.28 V | Power: 14.05 W[0m
+[0;33mW (8575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9145) ACS712: RAW_DC=4095 | RAW_VOLT=4042 | DC: 4.29 A | Volt: 3.28 V | Power: 14.07 W[0m
+[0;33mW (9145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9715) ACS712: RAW_DC=4095 | RAW_VOLT=4067 | DC: 4.29 A | Volt: 3.28 V | Power: 14.08 W[0m
+[0;33mW (9715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10285) ACS712: RAW_DC=4095 | RAW_VOLT=4017 | DC: 4.29 A | Volt: 3.28 V | Power: 14.08 W[0m
+[0;33mW (10285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10855) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.30 A | Volt: 3.28 V | Power: 14.09 W[0m
+[0;33mW (10855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11425) ACS712: RAW_DC=4095 | RAW_VOLT=4000 | DC: 4.30 A | Volt: 3.27 V | Power: 14.07 W[0m
+[0;33mW (11425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11995) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.30 A | Volt: 3.28 V | Power: 14.09 W[0m
+[0;33mW (11995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12565) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.30 A | Volt: 3.27 V | Power: 14.07 W[0m
+[0;33mW (12565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13135) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.31 A | Volt: 3.27 V | Power: 14.09 W[0m
+[0;33mW (13135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13705) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (13705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14275) ACS712: RAW_DC=4095 | RAW_VOLT=4028 | DC: 4.31 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (14275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14845) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.31 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (14845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15415) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.31 A | Volt: 3.27 V | Power: 14.08 W[0m
+[0;33mW (15415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15985) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.27 V | Power: 14.10 W[0m
+[0;33mW (15985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16555) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.27 V | Power: 14.09 W[0m
+[0;33mW (16555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17125) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (17125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17695) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (17695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18265) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.28 V | Power: 14.14 W[0m
+[0;33mW (18265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18835) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.28 V | Power: 14.15 W[0m
+[0;33mW (18835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19405) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (19405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19975) ACS712: RAW_DC=3751 | RAW_VOLT=4095 | DC: 4.19 A | Volt: 3.28 V | Power: 13.76 W[0m
+[0;33mW (19975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20545) ACS712: RAW_DC=3755 | RAW_VOLT=4095 | DC: 4.07 A | Volt: 3.28 V | Power: 13.37 W[0m
+[0;33mW (20545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21115) ACS712: RAW_DC=3719 | RAW_VOLT=4095 | DC: 3.93 A | Volt: 3.29 V | Power: 12.90 W[0m
+[0;33mW (21115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21685) ACS712: RAW_DC=3684 | RAW_VOLT=4095 | DC: 3.77 A | Volt: 3.29 V | Power: 12.38 W[0m
+[0;33mW (21685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22255) ACS712: RAW_DC=3674 | RAW_VOLT=4095 | DC: 3.64 A | Volt: 3.29 V | Power: 11.95 W[0m
+[0;33mW (22255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22825) ACS712: RAW_DC=3796 | RAW_VOLT=4095 | DC: 3.58 A | Volt: 3.29 V | Power: 11.78 W[0m
+[0;33mW (22825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23395) ACS712: RAW_DC=3749 | RAW_VOLT=4095 | DC: 3.51 A | Volt: 3.29 V | Power: 11.55 W[0m
+[0;33mW (23395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23965) ACS712: RAW_DC=3730 | RAW_VOLT=4095 | DC: 3.43 A | Volt: 3.29 V | Power: 11.29 W[0m
+[0;33mW (23965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24535) ACS712: RAW_DC=3629 | RAW_VOLT=4095 | DC: 3.32 A | Volt: 3.29 V | Power: 10.92 W[0m
+[0;33mW (24535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25105) ACS712: RAW_DC=3684 | RAW_VOLT=4095 | DC: 3.24 A | Volt: 3.29 V | Power: 10.68 W[0m
+[0;33mW (25105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25675) ACS712: RAW_DC=3662 | RAW_VOLT=4095 | DC: 3.20 A | Volt: 3.29 V | Power: 10.53 W[0m
+[0;33mW (25675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26245) ACS712: RAW_DC=3788 | RAW_VOLT=4095 | DC: 3.18 A | Volt: 3.29 V | Power: 10.48 W[0m
+[0;33mW (26245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26815) ACS712: RAW_DC=3704 | RAW_VOLT=4095 | DC: 3.12 A | Volt: 3.29 V | Power: 10.26 W[0m
+[0;33mW (26815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27385) ACS712: RAW_DC=3644 | RAW_VOLT=4095 | DC: 3.01 A | Volt: 3.30 V | Power: 9.92 W[0m
+[0;33mW (27385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27955) ACS712: RAW_DC=3648 | RAW_VOLT=4095 | DC: 2.97 A | Volt: 3.30 V | Power: 9.80 W[0m
+[0;33mW (27955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28525) ACS712: RAW_DC=3673 | RAW_VOLT=4095 | DC: 2.93 A | Volt: 3.30 V | Power: 9.66 W[0m
+[0;33mW (28525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29095) ACS712: RAW_DC=3670 | RAW_VOLT=4095 | DC: 2.88 A | Volt: 3.30 V | Power: 9.51 W[0m
+[0;33mW (29095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29665) ACS712: RAW_DC=3632 | RAW_VOLT=4095 | DC: 2.82 A | Volt: 3.30 V | Power: 9.29 W[0m
+[0;33mW (29665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30235) ACS712: RAW_DC=3664 | RAW_VOLT=4095 | DC: 2.76 A | Volt: 3.30 V | Power: 9.12 W[0m
+[0;33mW (30235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30805) ACS712: RAW_DC=3727 | RAW_VOLT=4095 | DC: 2.77 A | Volt: 3.30 V | Power: 9.13 W[0m
+[0;33mW (30805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31375) ACS712: RAW_DC=3715 | RAW_VOLT=4095 | DC: 2.75 A | Volt: 3.30 V | Power: 9.08 W[0m
+[0;33mW (31375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31945) ACS712: RAW_DC=3654 | RAW_VOLT=4095 | DC: 2.74 A | Volt: 3.30 V | Power: 9.03 W[0m
+[0;33mW (31945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32515) ACS712: RAW_DC=3662 | RAW_VOLT=4095 | DC: 2.71 A | Volt: 3.30 V | Power: 8.93 W[0m
+[0;33mW (32515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33085) ACS712: RAW_DC=3741 | RAW_VOLT=4095 | DC: 2.72 A | Volt: 3.30 V | Power: 8.97 W[0m
+[0;33mW (33085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33655) ACS712: RAW_DC=3717 | RAW_VOLT=4095 | DC: 2.72 A | Volt: 3.30 V | Power: 8.97 W[0m
+[0;33mW (33655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34225) ACS712: RAW_DC=3757 | RAW_VOLT=4095 | DC: 2.73 A | Volt: 3.30 V | Power: 9.00 W[0m
+[0;33mW (34225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34795) ACS712: RAW_DC=3646 | RAW_VOLT=4095 | DC: 2.68 A | Volt: 3.30 V | Power: 8.83 W[0m
+[0;33mW (34795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35365) ACS712: RAW_DC=3680 | RAW_VOLT=4095 | DC: 2.68 A | Volt: 3.30 V | Power: 8.84 W[0m
+[0;33mW (35365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35935) ACS712: RAW_DC=3656 | RAW_VOLT=4095 | DC: 2.64 A | Volt: 3.30 V | Power: 8.72 W[0m
+[0;33mW (35935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (36505) ACS712: RAW_DC=3661 | RAW_VOLT=4095 | DC: 2.63 A | Volt: 3.30 V | Power: 8.66 W[0m
+[0;33mW (36505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (37075) ACS712: RAW_DC=3643 | RAW_VOLT=4095 | DC: 2.59 A | Volt: 3.30 V | Power: 8.56 W[0m
+[0;33mW (37075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (37645) ACS712: RAW_DC=3658 | RAW_VOLT=4095 | DC: 2.57 A | Volt: 3.30 V | Power: 8.49 W[0m
+[0;33mW (37645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (38215) ACS712: RAW_DC=3677 | RAW_VOLT=4095 | DC: 2.58 A | Volt: 3.30 V | Power: 8.50 W[0m
+[0;33mW (38215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (38785) ACS712: RAW_DC=3729 | RAW_VOLT=4095 | DC: 2.60 A | Volt: 3.30 V | Power: 8.57 W[0m
+[0;33mW (38785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39355) ACS712: RAW_DC=3654 | RAW_VOLT=4095 | DC: 2.56 A | Volt: 3.30 V | Power: 8.46 W[0m
+[0;33mW (39355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39925) ACS712: RAW_DC=3585 | RAW_VOLT=4095 | DC: 2.52 A | Volt: 3.30 V | Power: 8.30 W[0m
+[0;33mW (39925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (40495) ACS712: RAW_DC=3654 | RAW_VOLT=4095 | DC: 2.50 A | Volt: 3.30 V | Power: 8.24 W[0m
+[0;33mW (40495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (41065) ACS712: RAW_DC=3679 | RAW_VOLT=4095 | DC: 2.49 A | Volt: 3.30 V | Power: 8.21 W[0m
+[0;33mW (41065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (41635) ACS712: RAW_DC=3698 | RAW_VOLT=4095 | DC: 2.49 A | Volt: 3.30 V | Power: 8.22 W[0m
+[0;33mW (41635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42205) ACS712: RAW_DC=3629 | RAW_VOLT=4095 | DC: 2.50 A | Volt: 3.30 V | Power: 8.25 W[0m
+[0;33mW (42205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42775) ACS712: RAW_DC=3666 | RAW_VOLT=4095 | DC: 2.48 A | Volt: 3.30 V | Power: 8.17 W[0m
+[0;33mW (42775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (43345) ACS712: RAW_DC=3616 | RAW_VOLT=4095 | DC: 2.46 A | Volt: 3.30 V | Power: 8.11 W[0m
+[0;33mW (43345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (43915) ACS712: RAW_DC=3661 | RAW_VOLT=4095 | DC: 2.48 A | Volt: 3.30 V | Power: 8.17 W[0m
+[0;33mW (43915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (44485) ACS712: RAW_DC=3654 | RAW_VOLT=4095 | DC: 2.44 A | Volt: 3.30 V | Power: 8.06 W[0m
+[0;33mW (44485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (45055) ACS712: RAW_DC=3635 | RAW_VOLT=4095 | DC: 2.42 A | Volt: 3.30 V | Power: 7.98 W[0m
+[0;33mW (45055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (45625) ACS712: RAW_DC=3173 | RAW_VOLT=3772 | DC: 2.16 A | Volt: 3.26 V | Power: 7.05 W[0m
+[0;33mW (45625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46195) ACS712: RAW_DC=2134 | RAW_VOLT=2521 | DC: 1.50 A | Volt: 3.13 V | Power: 4.69 W[0m
+[0;33mW (46195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46765) ACS712: RAW_DC=1229 | RAW_VOLT=1601 | DC: 0.50 A | Volt: 2.96 V | Power: 1.49 W[0m
+[0;33mW (46765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (47335) ACS712: RAW_DC=753 | RAW_VOLT=1163 | DC: -0.57 A | Volt: 2.76 V | Power: -1.58 W[0m
+[0;33mW (47335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (47905) ACS712: RAW_DC=1521 | RAW_VOLT=1962 | DC: -1.15 A | Volt: 2.65 V | Power: -3.05 W[0m
+[0;33mW (47905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (48475) ACS712: RAW_DC=2853 | RAW_VOLT=3433 | DC: -1.10 A | Volt: 2.66 V | Power: -2.93 W[0m
+[0;33mW (48475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49045) ACS712: RAW_DC=3283 | RAW_VOLT=3968 | DC: -0.92 A | Volt: 2.72 V | Power: -2.49 W[0m
+[0;33mW (49045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49615) ACS712: RAW_DC=3227 | RAW_VOLT=3876 | DC: -0.76 A | Volt: 2.75 V | Power: -2.11 W[0m
+[0;33mW (49615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (50185) ACS712: RAW_DC=3222 | RAW_VOLT=3904 | DC: -0.63 A | Volt: 2.80 V | Power: -1.77 W[0m
+[0;33mW (50185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (50755) ACS712: RAW_DC=3324 | RAW_VOLT=4012 | DC: -0.47 A | Volt: 2.84 V | Power: -1.34 W[0m
+[0;33mW (50755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (51325) ACS712: RAW_DC=3407 | RAW_VOLT=4044 | DC: -0.28 A | Volt: 2.88 V | Power: -0.82 W[0m
+[0;33mW (51325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (51895) ACS712: RAW_DC=3499 | RAW_VOLT=4089 | DC: -0.09 A | Volt: 2.92 V | Power: -0.25 W[0m
+[0;33mW (51895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (52465) ACS712: RAW_DC=3538 | RAW_VOLT=4095 | DC: 0.13 A | Volt: 2.96 V | Power: 0.39 W[0m
+[0;33mW (52465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (53035) ACS712: RAW_DC=3622 | RAW_VOLT=4095 | DC: 0.35 A | Volt: 2.99 V | Power: 1.04 W[0m
+[0;33mW (53035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (53605) ACS712: RAW_DC=3619 | RAW_VOLT=4095 | DC: 0.54 A | Volt: 3.02 V | Power: 1.63 W[0m
+[0;33mW (53605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (54175) ACS712: RAW_DC=3566 | RAW_VOLT=4095 | DC: 0.71 A | Volt: 3.05 V | Power: 2.17 W[0m
+[0;33mW (54175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (54745) ACS712: RAW_DC=3696 | RAW_VOLT=4095 | DC: 0.88 A | Volt: 3.08 V | Power: 2.70 W[0m
+[0;33mW (54745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (55315) ACS712: RAW_DC=3579 | RAW_VOLT=4095 | DC: 0.99 A | Volt: 3.10 V | Power: 3.06 W[0m
+[0;33mW (55315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (55885) ACS712: RAW_DC=3619 | RAW_VOLT=4095 | DC: 1.11 A | Volt: 3.12 V | Power: 3.46 W[0m
+[0;33mW (55885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (56455) ACS712: RAW_DC=3594 | RAW_VOLT=4095 | DC: 1.24 A | Volt: 3.14 V | Power: 3.89 W[0m
+[0;33mW (56455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (57025) ACS712: RAW_DC=3637 | RAW_VOLT=4095 | DC: 1.33 A | Volt: 3.15 V | Power: 4.19 W[0m
+[0;33mW (57025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (57595) ACS712: RAW_DC=3618 | RAW_VOLT=4095 | DC: 1.42 A | Volt: 3.17 V | Power: 4.50 W[0m
+[0;33mW (57595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (58165) ACS712: RAW_DC=3573 | RAW_VOLT=4095 | DC: 1.51 A | Volt: 3.18 V | Power: 4.79 W[0m
+[0;33mW (58165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (58735) ACS712: RAW_DC=3686 | RAW_VOLT=4095 | DC: 1.61 A | Volt: 3.19 V | Power: 5.13 W[0m
+[0;33mW (58735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (59305) ACS712: RAW_DC=3560 | RAW_VOLT=4095 | DC: 1.64 A | Volt: 3.20 V | Power: 5.25 W[0m
+[0;33mW (59305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (59875) ACS712: RAW_DC=3600 | RAW_VOLT=4095 | DC: 1.70 A | Volt: 3.21 V | Power: 5.46 W[0m
+[0;33mW (59875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (60445) ACS712: RAW_DC=3577 | RAW_VOLT=4095 | DC: 1.73 A | Volt: 3.22 V | Power: 5.57 W[0m
+[0;33mW (60445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (61015) ACS712: RAW_DC=3581 | RAW_VOLT=4095 | DC: 1.75 A | Volt: 3.23 V | Power: 5.65 W[0m
+[0;33mW (61015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (61585) ACS712: RAW_DC=3623 | RAW_VOLT=4095 | DC: 1.80 A | Volt: 3.24 V | Power: 5.83 W[0m
+[0;33mW (61585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (62155) ACS712: RAW_DC=3594 | RAW_VOLT=4095 | DC: 1.82 A | Volt: 3.24 V | Power: 5.91 W[0m
+[0;33mW (62155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (62725) ACS712: RAW_DC=3579 | RAW_VOLT=4095 | DC: 1.84 A | Volt: 3.25 V | Power: 5.99 W[0m
+[0;33mW (62725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (63295) ACS712: RAW_DC=3551 | RAW_VOLT=4095 | DC: 1.85 A | Volt: 3.25 V | Power: 6.02 W[0m
+[0;33mW (63295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (63865) ACS712: RAW_DC=3603 | RAW_VOLT=4095 | DC: 1.90 A | Volt: 3.26 V | Power: 6.19 W[0m
+[0;33mW (63865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (64435) ACS712: RAW_DC=3580 | RAW_VOLT=4095 | DC: 1.91 A | Volt: 3.26 V | Power: 6.23 W[0m
+[0;33mW (64435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (65005) ACS712: RAW_DC=3650 | RAW_VOLT=4095 | DC: 1.95 A | Volt: 3.27 V | Power: 6.35 W[0m
+[0;33mW (65005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (65575) ACS712: RAW_DC=3564 | RAW_VOLT=4095 | DC: 1.95 A | Volt: 3.27 V | Power: 6.37 W[0m
+[0;33mW (65575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (66145) ACS712: RAW_DC=3538 | RAW_VOLT=4095 | DC: 1.94 A | Volt: 3.27 V | Power: 6.34 W[0m
+[0;33mW (66145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (66715) ACS712: RAW_DC=3606 | RAW_VOLT=4095 | DC: 1.97 A | Volt: 3.28 V | Power: 6.44 W[0m
+[0;33mW (66715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (67285) ACS712: RAW_DC=3541 | RAW_VOLT=4095 | DC: 1.95 A | Volt: 3.28 V | Power: 6.39 W[0m
+[0;33mW (67285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (67855) ACS712: RAW_DC=3576 | RAW_VOLT=4095 | DC: 1.95 A | Volt: 3.28 V | Power: 6.39 W[0m
+[0;33mW (67855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (68425) ACS712: RAW_DC=3506 | RAW_VOLT=4095 | DC: 1.92 A | Volt: 3.28 V | Power: 6.31 W[0m
+[0;33mW (68425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (68995) ACS712: RAW_DC=3552 | RAW_VOLT=4095 | DC: 1.93 A | Volt: 3.28 V | Power: 6.33 W[0m
+[0;33mW (68995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (69565) ACS712: RAW_DC=3587 | RAW_VOLT=4095 | DC: 1.94 A | Volt: 3.29 V | Power: 6.36 W[0m
+[0;33mW (69565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (70135) ACS712: RAW_DC=3555 | RAW_VOLT=4095 | DC: 1.93 A | Volt: 3.29 V | Power: 6.35 W[0m
+[0;33mW (70135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (70705) ACS712: RAW_DC=3518 | RAW_VOLT=4095 | DC: 1.92 A | Volt: 3.29 V | Power: 6.31 W[0m
+[0;33mW (70705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (71275) ACS712: RAW_DC=3541 | RAW_VOLT=4095 | DC: 1.91 A | Volt: 3.29 V | Power: 6.29 W[0m
+[0;33mW (71275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (71845) ACS712: RAW_DC=3507 | RAW_VOLT=4095 | DC: 1.90 A | Volt: 3.29 V | Power: 6.24 W[0m
+[0;33mW (71845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (72415) ACS712: RAW_DC=3504 | RAW_VOLT=4095 | DC: 1.90 A | Volt: 3.29 V | Power: 6.24 W[0m
+[0;33mW (72415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (72985) ACS712: RAW_DC=3485 | RAW_VOLT=4094 | DC: 1.88 A | Volt: 3.29 V | Power: 6.18 W[0m
+[0;33mW (72985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (73555) ACS712: RAW_DC=3512 | RAW_VOLT=4095 | DC: 1.86 A | Volt: 3.29 V | Power: 6.13 W[0m
+[0;33mW (73555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (74125) ACS712: RAW_DC=3554 | RAW_VOLT=4094 | DC: 1.87 A | Volt: 3.29 V | Power: 6.16 W[0m
+[0;33mW (74125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (74695) ACS712: RAW_DC=3476 | RAW_VOLT=4094 | DC: 1.85 A | Volt: 3.29 V | Power: 6.08 W[0m
+[0;33mW (74695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (75265) ACS712: RAW_DC=3762 | RAW_VOLT=3809 | DC: 1.96 A | Volt: 3.28 V | Power: 6.43 W[0m
+[0;33mW (75265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (75835) ACS712: RAW_DC=4042 | RAW_VOLT=4008 | DC: 2.18 A | Volt: 3.27 V | Power: 7.14 W[0m
+[0;33mW (75835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (76405) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 2.39 A | Volt: 3.28 V | Power: 7.84 W[0m
+[0;33mW (76405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (76975) ACS712: RAW_DC=4095 | RAW_VOLT=3987 | DC: 2.59 A | Volt: 3.28 V | Power: 8.48 W[0m
+[0;33mW (76975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (77545) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 2.76 A | Volt: 3.28 V | Power: 9.05 W[0m
+[0;33mW (77545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (78115) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 2.92 A | Volt: 3.28 V | Power: 9.56 W[0m
+[0;33mW (78115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (78685) ACS712: RAW_DC=4095 | RAW_VOLT=3974 | DC: 3.06 A | Volt: 3.27 V | Power: 9.99 W[0m
+[0;33mW (78685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (79255) ACS712: RAW_DC=4095 | RAW_VOLT=4064 | DC: 3.18 A | Volt: 3.27 V | Power: 10.41 W[0m
+[0;33mW (79255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (79825) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 3.30 A | Volt: 3.27 V | Power: 10.79 W[0m
+[0;33mW (79825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (80395) ACS712: RAW_DC=4095 | RAW_VOLT=3969 | DC: 3.40 A | Volt: 3.26 V | Power: 11.08 W[0m
+[0;33mW (80395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (80965) ACS712: RAW_DC=4095 | RAW_VOLT=3984 | DC: 3.49 A | Volt: 3.25 V | Power: 11.36 W[0m
+[0;33mW (80965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (81535) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 3.58 A | Volt: 3.25 V | Power: 11.63 W[0m
+[0;33mW (81535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (82105) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 3.65 A | Volt: 3.25 V | Power: 11.88 W[0m
+[0;33mW (82105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (82675) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 3.72 A | Volt: 3.25 V | Power: 12.09 W[0m
+[0;33mW (82675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (83245) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.78 A | Volt: 3.26 V | Power: 12.30 W[0m
+[0;33mW (83245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (83815) ACS712: RAW_DC=4095 | RAW_VOLT=4033 | DC: 3.83 A | Volt: 3.25 V | Power: 12.47 W[0m
+[0;33mW (83815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (84385) ACS712: RAW_DC=4095 | RAW_VOLT=3963 | DC: 3.88 A | Volt: 3.25 V | Power: 12.62 W[0m
+[0;33mW (84385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (84955) ACS712: RAW_DC=4095 | RAW_VOLT=3958 | DC: 3.93 A | Volt: 3.25 V | Power: 12.75 W[0m
+[0;33mW (84955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (85525) ACS712: RAW_DC=4095 | RAW_VOLT=4085 | DC: 3.97 A | Volt: 3.25 V | Power: 12.89 W[0m
+[0;33mW (85525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (86095) ACS712: RAW_DC=4095 | RAW_VOLT=4026 | DC: 4.00 A | Volt: 3.25 V | Power: 12.99 W[0m
+[0;33mW (86095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (86665) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.03 A | Volt: 3.25 V | Power: 13.10 W[0m
+[0;33mW (86665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (87235) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.06 A | Volt: 3.25 V | Power: 13.19 W[0m
+[0;33mW (87235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (87805) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.09 A | Volt: 3.24 V | Power: 13.27 W[0m
+[0;33mW (87805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (88375) ACS712: RAW_DC=4095 | RAW_VOLT=4056 | DC: 4.11 A | Volt: 3.25 V | Power: 13.36 W[0m
+[0;33mW (88375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (88945) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.13 A | Volt: 3.25 V | Power: 13.44 W[0m
+[0;33mW (88945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (89515) ACS712: RAW_DC=4095 | RAW_VOLT=4064 | DC: 4.15 A | Volt: 3.24 V | Power: 13.47 W[0m
+[0;33mW (89515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (90085) ACS712: RAW_DC=4095 | RAW_VOLT=4073 | DC: 4.17 A | Volt: 3.25 V | Power: 13.54 W[0m
+[0;33mW (90085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (90655) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.19 A | Volt: 3.24 V | Power: 13.57 W[0m
+[0;33mW (90655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (91225) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.20 A | Volt: 3.25 V | Power: 13.63 W[0m
+[0;33mW (91225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (91795) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.21 A | Volt: 3.25 V | Power: 13.70 W[0m
+[0;33mW (91795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (92365) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.22 A | Volt: 3.25 V | Power: 13.73 W[0m
+[0;33mW (92365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (92935) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.23 A | Volt: 3.24 V | Power: 13.72 W[0m
+[0;33mW (92935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (93505) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.24 A | Volt: 3.23 V | Power: 13.72 W[0m
+[0;33mW (93505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (94075) ACS712: RAW_DC=4095 | RAW_VOLT=4017 | DC: 4.25 A | Volt: 3.24 V | Power: 13.76 W[0m
+[0;33mW (94075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (94645) ACS712: RAW_DC=4095 | RAW_VOLT=4059 | DC: 4.26 A | Volt: 3.24 V | Power: 13.80 W[0m
+[0;33mW (94645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (95215) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.26 A | Volt: 3.25 V | Power: 13.84 W[0m
+[0;33mW (95215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (95785) ACS712: RAW_DC=4095 | RAW_VOLT=4033 | DC: 4.27 A | Volt: 3.24 V | Power: 13.85 W[0m
+[0;33mW (95785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (96355) ACS712: RAW_DC=4095 | RAW_VOLT=4053 | DC: 4.28 A | Volt: 3.25 V | Power: 13.88 W[0m
+[0;33mW (96355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (96925) ACS712: RAW_DC=4095 | RAW_VOLT=4051 | DC: 4.28 A | Volt: 3.24 V | Power: 13.88 W[0m
+[0;33mW (96925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (97495) ACS712: RAW_DC=4095 | RAW_VOLT=3985 | DC: 4.29 A | Volt: 3.24 V | Power: 13.88 W[0m
+[0;33mW (97495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (98065) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.29 A | Volt: 3.25 V | Power: 13.92 W[0m
+[0;33mW (98065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (98635) ACS712: RAW_DC=4095 | RAW_VOLT=3968 | DC: 4.29 A | Volt: 3.24 V | Power: 13.92 W[0m
+[0;33mW (98635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (99205) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.30 A | Volt: 3.23 V | Power: 13.89 W[0m
+[0;33mW (99205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (99775) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.30 A | Volt: 3.24 V | Power: 13.92 W[0m
+[0;33mW (99775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (100345) ACS712: RAW_DC=4095 | RAW_VOLT=4038 | DC: 4.30 A | Volt: 3.24 V | Power: 13.94 W[0m
+[0;33mW (100345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (100915) ACS712: RAW_DC=4095 | RAW_VOLT=3968 | DC: 4.30 A | Volt: 3.24 V | Power: 13.96 W[0m
+[0;33mW (100915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (101485) ACS712: RAW_DC=4095 | RAW_VOLT=4058 | DC: 4.31 A | Volt: 3.25 V | Power: 13.99 W[0m
+[0;33mW (101485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (102055) ACS712: RAW_DC=4095 | RAW_VOLT=3891 | DC: 4.31 A | Volt: 3.25 V | Power: 13.98 W[0m
+[0;33mW (102055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (102625) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.25 V | Power: 14.01 W[0m
+[0;33mW (102625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (103195) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.31 A | Volt: 3.25 V | Power: 14.03 W[0m
+[0;33mW (103195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (103765) ACS712: RAW_DC=4095 | RAW_VOLT=4070 | DC: 4.31 A | Volt: 3.26 V | Power: 14.05 W[0m
+[0;33mW (103765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (104335) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 4.31 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (104335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (104905) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.31 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (104905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (105475) ACS712: RAW_DC=4095 | RAW_VOLT=4048 | DC: 4.32 A | Volt: 3.27 V | Power: 14.10 W[0m
+[0;33mW (105475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (106045) ACS712: RAW_DC=4095 | RAW_VOLT=4038 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (106045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (106615) ACS712: RAW_DC=4095 | RAW_VOLT=3904 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (106615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (107185) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (107185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (107755) ACS712: RAW_DC=4095 | RAW_VOLT=4048 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (107755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (108325) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (108325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (108895) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (108895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (109465) ACS712: RAW_DC=4095 | RAW_VOLT=3978 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (109465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (110035) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (110035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (110605) ACS712: RAW_DC=4095 | RAW_VOLT=4065 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (110605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (111175) ACS712: RAW_DC=4095 | RAW_VOLT=3971 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (111175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (111745) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (111745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (112315) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (112315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (112885) ACS712: RAW_DC=4095 | RAW_VOLT=4079 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (112885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (113455) ACS712: RAW_DC=4095 | RAW_VOLT=3971 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (113455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (114025) ACS712: RAW_DC=4095 | RAW_VOLT=4003 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (114025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (114595) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (114595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (115165) ACS712: RAW_DC=4095 | RAW_VOLT=3998 | DC: 4.32 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (115165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (115735) ACS712: RAW_DC=4095 | RAW_VOLT=3960 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (115735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (116305) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (116305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (116875) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (116875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (117445) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (117445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (118015) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (118015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (118585) ACS712: RAW_DC=4095 | RAW_VOLT=3982 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (118585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (119155) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (119155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (119725) ACS712: RAW_DC=4095 | RAW_VOLT=4006 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (119725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (120295) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (120295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (120865) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (120865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (121435) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (121435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (122005) ACS712: RAW_DC=4095 | RAW_VOLT=3995 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (122005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (122575) ACS712: RAW_DC=4095 | RAW_VOLT=3980 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (122575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (123145) ACS712: RAW_DC=4095 | RAW_VOLT=3996 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (123145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (123715) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (123715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (124285) ACS712: RAW_DC=4095 | RAW_VOLT=4085 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (124285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (124855) ACS712: RAW_DC=4095 | RAW_VOLT=4015 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (124855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (125425) ACS712: RAW_DC=4095 | RAW_VOLT=3954 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (125425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (125995) ACS712: RAW_DC=4095 | RAW_VOLT=3969 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (125995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (126565) ACS712: RAW_DC=4095 | RAW_VOLT=4054 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (126565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (127135) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (127135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (127705) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (127705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (128275) ACS712: RAW_DC=4095 | RAW_VOLT=4015 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (128275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (128845) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (128845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (129415) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (129415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (129985) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (129985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (130555) ACS712: RAW_DC=4095 | RAW_VOLT=4073 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (130555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (131125) ACS712: RAW_DC=4095 | RAW_VOLT=4085 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (131125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (131695) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (131695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (132265) ACS712: RAW_DC=4095 | RAW_VOLT=4079 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (132265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (132835) ACS712: RAW_DC=4095 | RAW_VOLT=3978 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (132835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (133405) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (133405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (133975) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (133975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (134545) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (134545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (135115) ACS712: RAW_DC=4095 | RAW_VOLT=4036 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (135115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (135685) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (135685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (136255) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (136255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (136825) ACS712: RAW_DC=4095 | RAW_VOLT=4077 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (136825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (137395) ACS712: RAW_DC=4095 | RAW_VOLT=3975 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (137395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (137965) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (137965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (138535) ACS712: RAW_DC=4095 | RAW_VOLT=4025 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (138535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (139105) ACS712: RAW_DC=4095 | RAW_VOLT=4048 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (139105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (139675) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (139675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (140245) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (140245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (140815) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (140815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (141385) ACS712: RAW_DC=4095 | RAW_VOLT=4063 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (141385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (141955) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (141955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (142525) ACS712: RAW_DC=4095 | RAW_VOLT=3970 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (142525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (143095) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (143095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (143665) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (143665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (144235) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (144235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (144805) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (144805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (145375) ACS712: RAW_DC=4095 | RAW_VOLT=3976 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (145375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (145945) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (145945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (146515) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (146515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (147085) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (147085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (147655) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (147655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (148225) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (148225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (148795) ACS712: RAW_DC=4095 | RAW_VOLT=4065 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (148795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (149365) ACS712: RAW_DC=4095 | RAW_VOLT=3951 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (149365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (149935) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (149935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (150505) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (150505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (151075) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (151075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (151645) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (151645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (152215) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (152215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (152785) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (152785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (153355) ACS712: RAW_DC=4095 | RAW_VOLT=4046 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (153355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (153925) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (153925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (154495) ACS712: RAW_DC=4095 | RAW_VOLT=3955 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (154495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (155065) ACS712: RAW_DC=4095 | RAW_VOLT=4009 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (155065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (155635) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (155635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (156205) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (156205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (156775) ACS712: RAW_DC=4095 | RAW_VOLT=3903 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (156775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (157345) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (157345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (157915) ACS712: RAW_DC=4095 | RAW_VOLT=3992 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (157915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (158485) ACS712: RAW_DC=4095 | RAW_VOLT=4039 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (158485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (159055) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (159055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (159625) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (159625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (160195) ACS712: RAW_DC=4095 | RAW_VOLT=3981 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (160195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (160765) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (160765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (161335) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (161335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (161905) ACS712: RAW_DC=4095 | RAW_VOLT=4033 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (161905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (162475) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (162475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (163045) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (163045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (163615) ACS712: RAW_DC=4095 | RAW_VOLT=4031 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (163615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (164185) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (164185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (164755) ACS712: RAW_DC=4095 | RAW_VOLT=4020 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (164755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (165325) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (165325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (165895) ACS712: RAW_DC=4095 | RAW_VOLT=4023 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (165895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (166465) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (166465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (167035) ACS712: RAW_DC=4095 | RAW_VOLT=4020 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (167035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (167605) ACS712: RAW_DC=4095 | RAW_VOLT=4028 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (167605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (168175) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (168175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (168745) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (168745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (169315) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (169315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (169885) ACS712: RAW_DC=4095 | RAW_VOLT=4009 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (169885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (170455) ACS712: RAW_DC=4095 | RAW_VOLT=4077 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (170455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (171025) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (171025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (171595) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (171595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (172165) ACS712: RAW_DC=4095 | RAW_VOLT=4018 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (172165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (172735) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (172735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (173305) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (173305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (173875) ACS712: RAW_DC=4095 | RAW_VOLT=4046 | DC: 4.32 A | Volt: 3.24 V | Power: 14.02 W[0m
+[0;33mW (173875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (174445) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.24 V | Power: 14.03 W[0m
+[0;33mW (174445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (175015) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (175015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (175585) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (175585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (176155) ACS712: RAW_DC=4095 | RAW_VOLT=4045 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (176155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (176725) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (176725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (177295) ACS712: RAW_DC=4095 | RAW_VOLT=3981 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (177295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (177865) ACS712: RAW_DC=4095 | RAW_VOLT=3996 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (177865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (178435) ACS712: RAW_DC=4095 | RAW_VOLT=4043 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (178435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (179005) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (179005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (179575) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (179575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (180145) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (180145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (180715) ACS712: RAW_DC=4095 | RAW_VOLT=4061 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (180715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (181285) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.25 V | Power: 14.03 W[0m
+[0;33mW (181285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (181855) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.24 V | Power: 14.03 W[0m
+[0;33mW (181855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (182425) ACS712: RAW_DC=4095 | RAW_VOLT=4036 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (182425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (182995) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.24 V | Power: 14.01 W[0m
+[0;33mW (182995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (183565) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.24 V | Power: 14.03 W[0m
+[0;33mW (183565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (184135) ACS712: RAW_DC=4095 | RAW_VOLT=4067 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (184135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (184705) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (184705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (185275) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (185275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (185845) ACS712: RAW_DC=4095 | RAW_VOLT=3907 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (185845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (186415) ACS712: RAW_DC=4095 | RAW_VOLT=4017 | DC: 4.32 A | Volt: 3.24 V | Power: 14.03 W[0m
+[0;33mW (186415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (186985) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (186985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (187555) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (187555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (188125) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (188125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (188695) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (188695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (189265) ACS712: RAW_DC=4095 | RAW_VOLT=4017 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (189265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (189835) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (189835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (190405) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (190405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (190975) ACS712: RAW_DC=4095 | RAW_VOLT=4037 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (190975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (191545) ACS712: RAW_DC=4095 | RAW_VOLT=4065 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (191545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (192115) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (192115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (192685) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (192685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (193255) ACS712: RAW_DC=4095 | RAW_VOLT=3975 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (193255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (193825) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (193825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (194395) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (194395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (194965) ACS712: RAW_DC=4095 | RAW_VOLT=4055 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (194965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (195535) ACS712: RAW_DC=4095 | RAW_VOLT=3988 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (195535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (196105) ACS712: RAW_DC=4095 | RAW_VOLT=4050 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (196105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (196675) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (196675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (197245) ACS712: RAW_DC=4095 | RAW_VOLT=3957 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (197245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (197815) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (197815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (198385) ACS712: RAW_DC=4095 | RAW_VOLT=4055 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (198385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (198955) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (198955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (199525) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (199525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (200095) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (200095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (200665) ACS712: RAW_DC=4095 | RAW_VOLT=4064 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (200665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (201235) ACS712: RAW_DC=4095 | RAW_VOLT=4017 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (201235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (201805) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (201805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (202375) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (202375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (202945) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (202945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (203515) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (203515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (204085) ACS712: RAW_DC=4095 | RAW_VOLT=4055 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (204085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (204655) ACS712: RAW_DC=4095 | RAW_VOLT=4015 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (204655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (205225) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (205225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (205795) ACS712: RAW_DC=4095 | RAW_VOLT=4059 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (205795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (206365) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (206365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (206935) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (206935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (207505) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (207505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (208075) ACS712: RAW_DC=4095 | RAW_VOLT=4050 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (208075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (208645) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (208645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (209215) ACS712: RAW_DC=4095 | RAW_VOLT=4072 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (209215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (209785) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (209785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (210355) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (210355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (210925) ACS712: RAW_DC=4095 | RAW_VOLT=3968 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (210925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (211495) ACS712: RAW_DC=4095 | RAW_VOLT=4079 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (211495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (212065) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (212065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (212635) ACS712: RAW_DC=4095 | RAW_VOLT=4072 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (212635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (213205) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (213205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (213775) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (213775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (214345) ACS712: RAW_DC=4095 | RAW_VOLT=3991 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (214345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (214915) ACS712: RAW_DC=4095 | RAW_VOLT=4058 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (214915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (215485) ACS712: RAW_DC=4095 | RAW_VOLT=4061 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (215485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (216055) ACS712: RAW_DC=4095 | RAW_VOLT=4045 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (216055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (216625) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (216625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (217195) ACS712: RAW_DC=4095 | RAW_VOLT=4070 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (217195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (217765) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (217765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (218335) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (218335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (218905) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.16 W[0m
+[0;33mW (218905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (219475) ACS712: RAW_DC=4095 | RAW_VOLT=3993 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (219475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (220045) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (220045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (220615) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (220615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (221185) ACS712: RAW_DC=4095 | RAW_VOLT=4013 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (221185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (221755) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (221755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (222325) ACS712: RAW_DC=4095 | RAW_VOLT=4054 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (222325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (222895) ACS712: RAW_DC=4095 | RAW_VOLT=4011 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (222895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (223465) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (223465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (224035) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (224035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (224605) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (224605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (225175) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (225175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (225745) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 4.32 A | Volt: 3.26 V | Power: 14.12 W[0m
+[0;33mW (225745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (226315) ACS712: RAW_DC=4095 | RAW_VOLT=4048 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (226315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (226885) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (226885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (227455) ACS712: RAW_DC=4095 | RAW_VOLT=4071 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (227455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (228025) ACS712: RAW_DC=4095 | RAW_VOLT=4072 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (228025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (228595) ACS712: RAW_DC=4095 | RAW_VOLT=3976 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (228595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (229165) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (229165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (229735) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (229735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (230305) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (230305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (230875) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (230875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (231445) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (231445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (232015) ACS712: RAW_DC=4095 | RAW_VOLT=3990 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (232015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (232585) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (232585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (233155) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (233155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (233725) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (233725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (234295) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (234295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (234865) ACS712: RAW_DC=4095 | RAW_VOLT=3927 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (234865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (235435) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (235435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (236005) ACS712: RAW_DC=4095 | RAW_VOLT=3989 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (236005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (236575) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (236575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (237145) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (237145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (237715) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (237715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (238285) ACS712: RAW_DC=4095 | RAW_VOLT=4012 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (238285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (238855) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (238855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (239425) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (239425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (239995) ACS712: RAW_DC=4095 | RAW_VOLT=4032 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (239995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (240565) ACS712: RAW_DC=4095 | RAW_VOLT=3983 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (240565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (241135) ACS712: RAW_DC=4095 | RAW_VOLT=4064 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (241135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (241705) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (241705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (242275) ACS712: RAW_DC=4095 | RAW_VOLT=4061 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (242275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (242845) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (242845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (243415) ACS712: RAW_DC=4095 | RAW_VOLT=3942 | DC: 4.32 A | Volt: 3.25 V | Power: 14.03 W[0m
+[0;33mW (243415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (243985) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (243985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (244555) ACS712: RAW_DC=4095 | RAW_VOLT=4002 | DC: 4.32 A | Volt: 3.23 V | Power: 13.95 W[0m
+[0;33mW (244555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (245125) ACS712: RAW_DC=4095 | RAW_VOLT=4063 | DC: 4.32 A | Volt: 3.23 V | Power: 13.99 W[0m
+[0;33mW (245125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (245695) ACS712: RAW_DC=4095 | RAW_VOLT=3946 | DC: 4.32 A | Volt: 3.23 V | Power: 13.98 W[0m
+[0;33mW (245695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (246265) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.24 V | Power: 13.99 W[0m
+[0;33mW (246265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (246835) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.24 V | Power: 14.01 W[0m
+[0;33mW (246835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (247405) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (247405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (247975) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (247975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (248545) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (248545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (249115) ACS712: RAW_DC=4095 | RAW_VOLT=4027 | DC: 4.32 A | Volt: 3.24 V | Power: 14.02 W[0m
+[0;33mW (249115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (249685) ACS712: RAW_DC=4095 | RAW_VOLT=3922 | DC: 4.32 A | Volt: 3.24 V | Power: 14.03 W[0m
+[0;33mW (249685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (250255) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (250255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (250825) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (250825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (251395) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (251395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (251965) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (251965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (252535) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (252535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (253105) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (253105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (253675) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (253675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (254245) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (254245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (254815) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (254815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (255385) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (255385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (255955) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (255955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (256525) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (256525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (257095) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (257095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (257665) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (257665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (258235) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (258235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (258805) ACS712: RAW_DC=4095 | RAW_VOLT=4035 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (258805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (259375) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (259375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (259945) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (259945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (260515) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (260515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (261085) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.28 V | Power: 14.19 W[0m
+[0;33mW (261085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (261655) ACS712: RAW_DC=4095 | RAW_VOLT=4016 | DC: 4.32 A | Volt: 3.28 V | Power: 14.19 W[0m
+[0;33mW (261655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (262225) ACS712: RAW_DC=4095 | RAW_VOLT=3987 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (262225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (262795) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.17 W[0m
+[0;33mW (262795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (263365) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (263365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (263935) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.18 W[0m
+[0;33mW (263935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (264505) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.28 V | Power: 14.19 W[0m
+[0;33mW (264505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (265075) ACS712: RAW_DC=4095 | RAW_VOLT=4023 | DC: 4.32 A | Volt: 3.28 V | Power: 14.19 W[0m
+[0;33mW (265075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (265645) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.28 V | Power: 14.20 W[0m
+[0;33mW (265645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (266215) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.29 V | Power: 14.21 W[0m
+[0;33mW (266215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (266785) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.29 V | Power: 14.21 W[0m
+[0;33mW (266785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (267355) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.29 V | Power: 14.22 W[0m
+[0;33mW (267355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (267925) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 4.32 A | Volt: 3.29 V | Power: 14.22 W[0m
+[0;33mW (267925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (268495) ACS712: RAW_DC=4095 | RAW_VOLT=4031 | DC: 4.32 A | Volt: 3.29 V | Power: 14.21 W[0m
+[0;33mW (268495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (269065) ACS712: RAW_DC=4095 | RAW_VOLT=4028 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (269065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (269635) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (269635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (270205) ACS712: RAW_DC=4095 | RAW_VOLT=4075 | DC: 4.32 A | Volt: 3.28 V | Power: 14.16 W[0m
+[0;33mW (270205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (270775) ACS712: RAW_DC=4095 | RAW_VOLT=4052 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (270775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (271345) ACS712: RAW_DC=4095 | RAW_VOLT=4051 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (271345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (271915) ACS712: RAW_DC=4095 | RAW_VOLT=4037 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (271915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (272485) ACS712: RAW_DC=4095 | RAW_VOLT=3964 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (272485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (273055) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (273055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (273625) ACS712: RAW_DC=4095 | RAW_VOLT=3992 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (273625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (274195) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (274195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (274765) ACS712: RAW_DC=4095 | RAW_VOLT=3993 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (274765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (275335) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (275335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (275905) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (275905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (276475) ACS712: RAW_DC=3506 | RAW_VOLT=3343 | DC: 4.07 A | Volt: 3.21 V | Power: 13.04 W[0m
+[0;33mW (276475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (277045) ACS712: RAW_DC=4095 | RAW_VOLT=3996 | DC: 4.09 A | Volt: 3.21 V | Power: 13.16 W[0m
+[0;33mW (277045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (277615) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.12 A | Volt: 3.22 V | Power: 13.26 W[0m
+[0;33mW (277615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (278185) ACS712: RAW_DC=4095 | RAW_VOLT=3986 | DC: 4.14 A | Volt: 3.23 V | Power: 13.35 W[0m
+[0;33mW (278185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (278755) ACS712: RAW_DC=4095 | RAW_VOLT=4043 | DC: 4.16 A | Volt: 3.23 V | Power: 13.41 W[0m
+[0;33mW (278755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (279325) ACS712: RAW_DC=4095 | RAW_VOLT=3995 | DC: 4.17 A | Volt: 3.23 V | Power: 13.48 W[0m
+[0;33mW (279325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (279895) ACS712: RAW_DC=4047 | RAW_VOLT=4042 | DC: 4.19 A | Volt: 3.24 V | Power: 13.56 W[0m
+[0;33mW (279895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (280465) ACS712: RAW_DC=4095 | RAW_VOLT=3993 | DC: 4.20 A | Volt: 3.24 V | Power: 13.63 W[0m
+[0;33mW (280465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (281035) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.21 A | Volt: 3.25 V | Power: 13.69 W[0m
+[0;33mW (281035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (281605) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 4.22 A | Volt: 3.25 V | Power: 13.75 W[0m
+[0;33mW (281605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (282175) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.23 A | Volt: 3.26 V | Power: 13.80 W[0m
+[0;33mW (282175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (282745) ACS712: RAW_DC=4095 | RAW_VOLT=3809 | DC: 4.24 A | Volt: 3.25 V | Power: 13.79 W[0m
+[0;33mW (282745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (283315) ACS712: RAW_DC=4095 | RAW_VOLT=3958 | DC: 4.23 A | Volt: 3.24 V | Power: 13.70 W[0m
+[0;33mW (283315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (283885) ACS712: RAW_DC=4095 | RAW_VOLT=4012 | DC: 4.24 A | Volt: 3.24 V | Power: 13.75 W[0m
+[0;33mW (283885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (284455) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.25 A | Volt: 3.24 V | Power: 13.75 W[0m
+[0;33mW (284455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (285025) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.26 A | Volt: 3.24 V | Power: 13.80 W[0m
+[0;33mW (285025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (285595) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.26 A | Volt: 3.24 V | Power: 13.84 W[0m
+[0;33mW (285595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (286165) ACS712: RAW_DC=4095 | RAW_VOLT=4030 | DC: 4.27 A | Volt: 3.25 V | Power: 13.87 W[0m
+[0;33mW (286165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (286735) ACS712: RAW_DC=4095 | RAW_VOLT=4062 | DC: 4.28 A | Volt: 3.25 V | Power: 13.89 W[0m
+[0;33mW (286735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (287305) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.28 A | Volt: 3.24 V | Power: 13.88 W[0m
+[0;33mW (287305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (287875) ACS712: RAW_DC=4095 | RAW_VOLT=4067 | DC: 4.29 A | Volt: 3.25 V | Power: 13.91 W[0m
+[0;33mW (287875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (288445) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.25 V | Power: 13.94 W[0m
+[0;33mW (288445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (289015) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.26 V | Power: 13.97 W[0m
+[0;33mW (289015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (289585) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.30 A | Volt: 3.26 V | Power: 13.99 W[0m
+[0;33mW (289585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (290155) ACS712: RAW_DC=4095 | RAW_VOLT=3937 | DC: 4.30 A | Volt: 3.26 V | Power: 14.00 W[0m
+[0;33mW (290155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (290725) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: 4.30 A | Volt: 3.25 V | Power: 13.97 W[0m
+[0;33mW (290725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (291295) ACS712: RAW_DC=4095 | RAW_VOLT=3927 | DC: 4.30 A | Volt: 3.25 V | Power: 13.99 W[0m
+[0;33mW (291295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (291865) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.31 A | Volt: 3.25 V | Power: 14.01 W[0m
+[0;33mW (291865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (292435) ACS712: RAW_DC=4095 | RAW_VOLT=4077 | DC: 4.31 A | Volt: 3.25 V | Power: 13.98 W[0m
+[0;33mW (292435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (293005) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.31 A | Volt: 3.25 V | Power: 14.00 W[0m
+[0;33mW (293005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (293575) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.31 A | Volt: 3.25 V | Power: 14.01 W[0m
+[0;33mW (293575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (294145) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.31 A | Volt: 3.25 V | Power: 14.03 W[0m
+[0;33mW (294145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (294715) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.31 A | Volt: 3.25 V | Power: 14.00 W[0m
+[0;33mW (294715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (295285) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.31 A | Volt: 3.25 V | Power: 14.02 W[0m
+[0;33mW (295285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (295855) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (295855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (296425) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.26 V | Power: 14.06 W[0m
+[0;33mW (296425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (296995) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (296995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (297565) ACS712: RAW_DC=4095 | RAW_VOLT=4045 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (297565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (298135) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (298135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (298705) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (298705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (299275) ACS712: RAW_DC=4095 | RAW_VOLT=4028 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (299275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (299845) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (299845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (300415) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (300415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (300985) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (300985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (301555) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (301555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (302125) ACS712: RAW_DC=4095 | RAW_VOLT=4010 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (302125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (302695) ACS712: RAW_DC=4095 | RAW_VOLT=4058 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (302695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (303265) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (303265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (303835) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (303835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (304405) ACS712: RAW_DC=4095 | RAW_VOLT=4032 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (304405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (304975) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (304975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (305545) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (305545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (306115) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (306115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (306685) ACS712: RAW_DC=4095 | RAW_VOLT=4005 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (306685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (307255) ACS712: RAW_DC=4095 | RAW_VOLT=4055 | DC: 4.32 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (307255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (307825) ACS712: RAW_DC=4095 | RAW_VOLT=3953 | DC: 4.32 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (307825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (308395) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (308395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (308965) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (308965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (309535) ACS712: RAW_DC=4095 | RAW_VOLT=4080 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (309535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (310105) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (310105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (310675) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (310675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (311245) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (311245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (311815) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (311815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (312385) ACS712: RAW_DC=3695 | RAW_VOLT=3752 | DC: 4.20 A | Volt: 3.24 V | Power: 13.61 W[0m
+[0;33mW (312385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (312955) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.22 A | Volt: 3.24 V | Power: 13.65 W[0m
+[0;33mW (312955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (313525) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.23 A | Volt: 3.24 V | Power: 13.70 W[0m
+[0;33mW (313525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (314095) ACS712: RAW_DC=4095 | RAW_VOLT=3963 | DC: 4.24 A | Volt: 3.24 V | Power: 13.72 W[0m
+[0;33mW (314095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (314665) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.25 A | Volt: 3.24 V | Power: 13.78 W[0m
+[0;33mW (314665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (315235) ACS712: RAW_DC=4095 | RAW_VOLT=4008 | DC: 4.25 A | Volt: 3.24 V | Power: 13.78 W[0m
+[0;33mW (315235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (315805) ACS712: RAW_DC=4095 | RAW_VOLT=4009 | DC: 4.26 A | Volt: 3.23 V | Power: 13.77 W[0m
+[0;33mW (315805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (316375) ACS712: RAW_DC=4095 | RAW_VOLT=3986 | DC: 4.27 A | Volt: 3.24 V | Power: 13.80 W[0m
+[0;33mW (316375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (316945) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.27 A | Volt: 3.24 V | Power: 13.85 W[0m
+[0;33mW (316945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (317515) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.28 A | Volt: 3.25 V | Power: 13.89 W[0m
+[0;33mW (317515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (318085) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.28 A | Volt: 3.24 V | Power: 13.89 W[0m
+[0;33mW (318085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (318655) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.29 A | Volt: 3.25 V | Power: 13.92 W[0m
+[0;33mW (318655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (319225) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.25 V | Power: 13.95 W[0m
+[0;33mW (319225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (319795) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.29 A | Volt: 3.24 V | Power: 13.93 W[0m
+[0;33mW (319795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (320365) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.30 A | Volt: 3.25 V | Power: 13.96 W[0m
+[0;33mW (320365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (320935) ACS712: RAW_DC=4095 | RAW_VOLT=4085 | DC: 4.30 A | Volt: 3.25 V | Power: 13.98 W[0m
+[0;33mW (320935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (321505) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.30 A | Volt: 3.26 V | Power: 14.01 W[0m
+[0;33mW (321505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (322075) ACS712: RAW_DC=4095 | RAW_VOLT=4046 | DC: 4.30 A | Volt: 3.25 V | Power: 13.99 W[0m
+[0;33mW (322075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (322645) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.26 V | Power: 14.02 W[0m
+[0;33mW (322645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (323215) ACS712: RAW_DC=4095 | RAW_VOLT=4072 | DC: 4.31 A | Volt: 3.26 V | Power: 14.04 W[0m
+[0;33mW (323215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (323785) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.26 V | Power: 14.06 W[0m
+[0;33mW (323785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (324355) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.26 V | Power: 14.06 W[0m
+[0;33mW (324355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (324925) ACS712: RAW_DC=4095 | RAW_VOLT=4053 | DC: 4.31 A | Volt: 3.27 V | Power: 14.08 W[0m
+[0;33mW (324925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (325495) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.31 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (325495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (326065) ACS712: RAW_DC=4095 | RAW_VOLT=3974 | DC: 4.31 A | Volt: 3.27 V | Power: 14.09 W[0m
+[0;33mW (326065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (326635) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (326635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (327205) ACS712: RAW_DC=4095 | RAW_VOLT=3938 | DC: 4.32 A | Volt: 3.27 V | Power: 14.10 W[0m
+[0;33mW (327205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (327775) ACS712: RAW_DC=4095 | RAW_VOLT=4010 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (327775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (328345) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (328345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (328915) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.10 W[0m
+[0;33mW (328915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (329485) ACS712: RAW_DC=4095 | RAW_VOLT=4041 | DC: 4.32 A | Volt: 3.27 V | Power: 14.11 W[0m
+[0;33mW (329485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (330055) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (330055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (330625) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (330625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (331195) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 4.32 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (331195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (331765) ACS712: RAW_DC=4095 | RAW_VOLT=3984 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (331765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (332335) ACS712: RAW_DC=4095 | RAW_VOLT=4051 | DC: 4.32 A | Volt: 3.25 V | Power: 14.03 W[0m
+[0;33mW (332335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (332905) ACS712: RAW_DC=4095 | RAW_VOLT=4076 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (332905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (333475) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (333475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (334045) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 4.32 A | Volt: 3.26 V | Power: 14.07 W[0m
+[0;33mW (334045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (334615) ACS712: RAW_DC=4095 | RAW_VOLT=4000 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (334615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (335185) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (335185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (335755) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (335755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (336325) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.32 A | Volt: 3.24 V | Power: 14.02 W[0m
+[0;33mW (336325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (336895) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (336895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (337465) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (337465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (338035) ACS712: RAW_DC=4095 | RAW_VOLT=3919 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (338035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (338605) ACS712: RAW_DC=4095 | RAW_VOLT=3990 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (338605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (339175) ACS712: RAW_DC=4095 | RAW_VOLT=4045 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (339175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (339745) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (339745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (340315) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (340315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (340885) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (340885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (341455) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (341455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (342025) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (342025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (342595) ACS712: RAW_DC=4095 | RAW_VOLT=4070 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (342595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (343165) ACS712: RAW_DC=4095 | RAW_VOLT=3912 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (343165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (343735) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 4.32 A | Volt: 3.27 V | Power: 14.14 W[0m
+[0;33mW (343735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (344305) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (344305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (344875) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (344875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (345445) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (345445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (346015) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (346015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (346585) ACS712: RAW_DC=4095 | RAW_VOLT=4060 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (346585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (347155) ACS712: RAW_DC=4095 | RAW_VOLT=3936 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (347155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (347725) ACS712: RAW_DC=4095 | RAW_VOLT=4088 | DC: 4.32 A | Volt: 3.27 V | Power: 14.15 W[0m
+[0;33mW (347725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (348295) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 4.32 A | Volt: 3.27 V | Power: 14.16 W[0m
+[0;33mW (348295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (348865) ACS712: RAW_DC=4095 | RAW_VOLT=4054 | DC: 4.32 A | Volt: 3.27 V | Power: 14.13 W[0m
+[0;33mW (348865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (349435) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (349435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (350005) ACS712: RAW_DC=4095 | RAW_VOLT=4052 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (350005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (350575) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.27 V | Power: 14.12 W[0m
+[0;33mW (350575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (351145) ACS712: RAW_DC=4095 | RAW_VOLT=4000 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (351145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (351715) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (351715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (352285) ACS712: RAW_DC=4095 | RAW_VOLT=4040 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (352285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (352855) ACS712: RAW_DC=4095 | RAW_VOLT=4064 | DC: 4.32 A | Volt: 3.25 V | Power: 14.05 W[0m
+[0;33mW (352855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (353425) ACS712: RAW_DC=4095 | RAW_VOLT=4089 | DC: 4.32 A | Volt: 3.25 V | Power: 14.06 W[0m
+[0;33mW (353425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (353995) ACS712: RAW_DC=4095 | RAW_VOLT=4019 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (353995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (354565) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (354565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (355135) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (355135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (355705) ACS712: RAW_DC=4095 | RAW_VOLT=4003 | DC: 4.32 A | Volt: 3.25 V | Power: 14.04 W[0m
+[0;33mW (355705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (356275) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (356275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (356845) ACS712: RAW_DC=4095 | RAW_VOLT=4063 | DC: 4.32 A | Volt: 3.25 V | Power: 14.07 W[0m
+[0;33mW (356845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (357415) ACS712: RAW_DC=4095 | RAW_VOLT=4090 | DC: 4.32 A | Volt: 3.26 V | Power: 14.09 W[0m
+[0;33mW (357415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (357985) ACS712: RAW_DC=4095 | RAW_VOLT=3995 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (357985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (358555) ACS712: RAW_DC=4095 | RAW_VOLT=4072 | DC: 4.32 A | Volt: 3.26 V | Power: 14.08 W[0m
+[0;33mW (358555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (359125) ACS712: RAW_DC=4095 | RAW_VOLT=4044 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (359125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (359695) ACS712: RAW_DC=4095 | RAW_VOLT=4082 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (359695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (360265) ACS712: RAW_DC=4095 | RAW_VOLT=4014 | DC: 4.32 A | Volt: 3.26 V | Power: 14.11 W[0m
+[0;33mW (360265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (360835) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (360835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (361405) ACS712: RAW_DC=4095 | RAW_VOLT=4030 | DC: 4.32 A | Volt: 3.26 V | Power: 14.10 W[0m
+[0;33mW (361405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (361975) ACS712: RAW_DC=3679 | RAW_VOLT=3496 | DC: 4.28 A | Volt: 3.24 V | Power: 13.88 W[0m
+[0;33mW (361975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (362545) ACS712: RAW_DC=3110 | RAW_VOLT=2976 | DC: 3.61 A | Volt: 3.12 V | Power: 11.26 W[0m
+[0;33mW (362545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (363115) ACS712: RAW_DC=2133 | RAW_VOLT=1923 | DC: 2.87 A | Volt: 3.00 V | Power: 8.60 W[0m
+[0;33mW (363115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (363685) ACS712: RAW_DC=2955 | RAW_VOLT=2834 | DC: 2.49 A | Volt: 2.87 V | Power: 7.13 W[0m
+[0;33mW (363685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (364255) ACS712: RAW_DC=3375 | RAW_VOLT=3259 | DC: 2.51 A | Volt: 2.88 V | Power: 7.22 W[0m
+[0;33mW (364255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (364825) ACS712: RAW_DC=3781 | RAW_VOLT=3483 | DC: 2.50 A | Volt: 2.86 V | Power: 7.15 W[0m
+[0;33mW (364825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (365395) ACS712: RAW_DC=3982 | RAW_VOLT=3769 | DC: 2.64 A | Volt: 2.89 V | Power: 7.63 W[0m
+[0;33mW (365395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (365965) ACS712: RAW_DC=4035 | RAW_VOLT=3844 | DC: 2.78 A | Volt: 2.91 V | Power: 8.09 W[0m
+[0;33mW (365965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (366535) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 2.93 A | Volt: 2.94 V | Power: 8.62 W[0m
+[0;33mW (366535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (367105) ACS712: RAW_DC=4095 | RAW_VOLT=4001 | DC: 3.07 A | Volt: 2.97 V | Power: 9.14 W[0m
+[0;33mW (367105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (367675) ACS712: RAW_DC=4095 | RAW_VOLT=4023 | DC: 3.20 A | Volt: 2.99 V | Power: 9.58 W[0m
+[0;33mW (367675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (368245) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.31 A | Volt: 3.03 V | Power: 10.02 W[0m
+[0;33mW (368245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (368815) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.41 A | Volt: 3.05 V | Power: 10.41 W[0m
+[0;33mW (368815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (369385) ACS712: RAW_DC=4095 | RAW_VOLT=4031 | DC: 3.50 A | Volt: 3.08 V | Power: 10.78 W[0m
+[0;33mW (369385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (369955) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.59 A | Volt: 3.09 V | Power: 11.09 W[0m
+[0;33mW (369955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (370525) ACS712: RAW_DC=4095 | RAW_VOLT=3962 | DC: 3.66 A | Volt: 3.11 V | Power: 11.38 W[0m
+[0;33mW (370525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (371095) ACS712: RAW_DC=3479 | RAW_VOLT=3675 | DC: 3.48 A | Volt: 3.10 V | Power: 10.78 W[0m
+[0;33mW (371095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (371665) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.57 A | Volt: 3.12 V | Power: 11.11 W[0m
+[0;33mW (371665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (372235) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 3.64 A | Volt: 3.13 V | Power: 11.39 W[0m
+[0;33mW (372235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (372805) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.71 A | Volt: 3.14 V | Power: 11.66 W[0m
+[0;33mW (372805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (373375) ACS712: RAW_DC=3724 | RAW_VOLT=3434 | DC: 3.71 A | Volt: 3.11 V | Power: 11.52 W[0m
+[0;33mW (373375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (373945) ACS712: RAW_DC=2629 | RAW_VOLT=2461 | DC: 3.12 A | Volt: 2.94 V | Power: 9.16 W[0m
+[0;33mW (373945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (374515) ACS712: RAW_DC=1459 | RAW_VOLT=1532 | DC: 2.04 A | Volt: 2.83 V | Power: 5.77 W[0m
+[0;33mW (374515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (375085) ACS712: RAW_DC=2400 | RAW_VOLT=2243 | DC: 1.52 A | Volt: 2.66 V | Power: 4.06 W[0m
+[0;33mW (375085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (375655) ACS712: RAW_DC=1625 | RAW_VOLT=1733 | DC: 0.73 A | Volt: 2.59 V | Power: 1.89 W[0m
+[0;33mW (375655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (376225) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 1.09 A | Volt: 2.51 V | Power: 2.74 W[0m
+[0;33mW (376225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (376795) ACS712: RAW_DC=1880 | RAW_VOLT=2217 | DC: 0.45 A | Volt: 2.46 V | Power: 1.11 W[0m
+[0;33mW (376795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (377365) ACS712: RAW_DC=1771 | RAW_VOLT=1472 | DC: -0.17 A | Volt: 2.29 V | Power: -0.38 W[0m
+[0;33mW (377365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (377935) ACS712: RAW_DC=4095 | RAW_VOLT=4036 | DC: 0.28 A | Volt: 2.39 V | Power: 0.68 W[0m
+[0;33mW (377935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (378505) ACS712: RAW_DC=1310 | RAW_VOLT=1223 | DC: -0.39 A | Volt: 2.25 V | Power: -0.89 W[0m
+[0;33mW (378505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (379075) ACS712: RAW_DC=2434 | RAW_VOLT=2494 | DC: -0.74 A | Volt: 2.21 V | Power: -1.63 W[0m
+[0;33mW (379075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (379645) ACS712: RAW_DC=1630 | RAW_VOLT=1420 | DC: -1.28 A | Volt: 2.11 V | Power: -2.70 W[0m
+[0;33mW (379645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (380215) ACS712: RAW_DC=3369 | RAW_VOLT=3134 | DC: -0.98 A | Volt: 2.16 V | Power: -2.11 W[0m
+[0;33mW (380215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (380785) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: -0.45 A | Volt: 2.27 V | Power: -1.02 W[0m
+[0;33mW (380785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (381355) ACS712: RAW_DC=4095 | RAW_VOLT=4030 | DC: 0.03 A | Volt: 2.38 V | Power: 0.07 W[0m
+[0;33mW (381355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (381925) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 0.46 A | Volt: 2.47 V | Power: 1.14 W[0m
+[0;33mW (381925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (382495) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 0.85 A | Volt: 2.55 V | Power: 2.16 W[0m
+[0;33mW (382495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (383065) ACS712: RAW_DC=1518 | RAW_VOLT=1686 | DC: 0.08 A | Volt: 2.50 V | Power: 0.19 W[0m
+[0;33mW (383065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (383635) ACS712: RAW_DC=2281 | RAW_VOLT=2005 | DC: -0.28 A | Volt: 2.34 V | Power: -0.65 W[0m
+[0;33mW (383635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (384205) ACS712: RAW_DC=1811 | RAW_VOLT=1962 | DC: -0.80 A | Volt: 2.28 V | Power: -1.83 W[0m
+[0;33mW (384205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (384775) ACS712: RAW_DC=2205 | RAW_VOLT=1757 | DC: -1.14 A | Volt: 2.15 V | Power: -2.45 W[0m
+[0;33mW (384775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (385345) ACS712: RAW_DC=1868 | RAW_VOLT=2207 | DC: -1.47 A | Volt: 2.13 V | Power: -3.13 W[0m
+[0;33mW (385345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (385915) ACS712: RAW_DC=4095 | RAW_VOLT=4021 | DC: -0.89 A | Volt: 2.24 V | Power: -1.99 W[0m
+[0;33mW (385915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (386485) ACS712: RAW_DC=4095 | RAW_VOLT=4070 | DC: -0.37 A | Volt: 2.32 V | Power: -0.85 W[0m
+[0;33mW (386485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (387055) ACS712: RAW_DC=2432 | RAW_VOLT=2198 | DC: -0.60 A | Volt: 2.27 V | Power: -1.36 W[0m
+[0;33mW (387055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (387625) ACS712: RAW_DC=2162 | RAW_VOLT=2450 | DC: -0.89 A | Volt: 2.24 V | Power: -2.00 W[0m
+[0;33mW (387625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (388195) ACS712: RAW_DC=885 | RAW_VOLT=810 | DC: -1.68 A | Volt: 2.08 V | Power: -3.51 W[0m
+[0;33mW (388195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (388765) ACS712: RAW_DC=2894 | RAW_VOLT=2722 | DC: -1.55 A | Volt: 2.10 V | Power: -3.25 W[0m
+[0;33mW (388765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (389335) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: -0.96 A | Volt: 2.22 V | Power: -2.13 W[0m
+[0;33mW (389335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (389905) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: -0.43 A | Volt: 2.33 V | Power: -1.00 W[0m
+[0;33mW (389905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (390475) ACS712: RAW_DC=4095 | RAW_VOLT=4034 | DC: 0.05 A | Volt: 2.42 V | Power: 0.11 W[0m
+[0;33mW (390475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (391045) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 0.47 A | Volt: 2.51 V | Power: 1.19 W[0m
+[0;33mW (391045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (391615) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 0.86 A | Volt: 2.59 V | Power: 2.22 W[0m
+[0;33mW (391615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (392185) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 1.20 A | Volt: 2.66 V | Power: 3.20 W[0m
+[0;33mW (392185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (392755) ACS712: RAW_DC=4095 | RAW_VOLT=4084 | DC: 1.52 A | Volt: 2.72 V | Power: 4.13 W[0m
+[0;33mW (392755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (393325) ACS712: RAW_DC=4095 | RAW_VOLT=4079 | DC: 1.80 A | Volt: 2.76 V | Power: 4.97 W[0m
+[0;33mW (393325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (393895) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 2.05 A | Volt: 2.82 V | Power: 5.78 W[0m
+[0;33mW (393895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (394465) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 2.28 A | Volt: 2.87 V | Power: 6.53 W[0m
+[0;33mW (394465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (395035) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 2.48 A | Volt: 2.91 V | Power: 7.22 W[0m
+[0;33mW (395035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (395605) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 2.67 A | Volt: 2.95 V | Power: 7.86 W[0m
+[0;33mW (395605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (396175) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 2.83 A | Volt: 2.98 V | Power: 8.44 W[0m
+[0;33mW (396175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (396745) ACS712: RAW_DC=4095 | RAW_VOLT=4070 | DC: 2.98 A | Volt: 3.01 V | Power: 8.97 W[0m
+[0;33mW (396745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (397315) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.12 A | Volt: 3.01 V | Power: 9.37 W[0m
+[0;33mW (397315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (397885) ACS712: RAW_DC=4095 | RAW_VOLT=4087 | DC: 3.24 A | Volt: 3.03 V | Power: 9.82 W[0m
+[0;33mW (397885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (398455) ACS712: RAW_DC=4095 | RAW_VOLT=4092 | DC: 3.35 A | Volt: 3.06 V | Power: 10.24 W[0m
+[0;33mW (398455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (399025) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 3.44 A | Volt: 3.08 V | Power: 10.62 W[0m
+[0;33mW (399025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (399595) ACS712: RAW_DC=4095 | RAW_VOLT=4078 | DC: 3.53 A | Volt: 3.11 V | Power: 10.97 W[0m
+[0;33mW (399595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (400165) ACS712: RAW_DC=4095 | RAW_VOLT=4056 | DC: 3.61 A | Volt: 3.12 V | Power: 11.27 W[0m
+[0;33mW (400165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (400735) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.68 A | Volt: 3.12 V | Power: 11.50 W[0m
+[0;33mW (400735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (401305) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 3.75 A | Volt: 3.14 V | Power: 11.77 W[0m
+[0;33mW (401305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (401875) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.80 A | Volt: 3.16 V | Power: 12.01 W[0m
+[0;33mW (401875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (402445) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.86 A | Volt: 3.17 V | Power: 12.23 W[0m
+[0;33mW (402445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (403015) ACS712: RAW_DC=4095 | RAW_VOLT=4074 | DC: 3.90 A | Volt: 3.18 V | Power: 12.43 W[0m
+[0;33mW (403015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (403585) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.95 A | Volt: 3.20 V | Power: 12.61 W[0m
+[0;33mW (403585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (404155) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 3.98 A | Volt: 3.20 V | Power: 12.76 W[0m
+[0;33mW (404155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (404725) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.02 A | Volt: 3.21 V | Power: 12.91 W[0m
+[0;33mW (404725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (405295) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.05 A | Volt: 3.22 V | Power: 13.02 W[0m
+[0;33mW (405295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (405865) ACS712: RAW_DC=4095 | RAW_VOLT=3956 | DC: 4.08 A | Volt: 3.22 V | Power: 13.13 W[0m
+[0;33mW (405865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (406435) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.10 A | Volt: 3.23 V | Power: 13.23 W[0m
+[0;33mW (406435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (407005) ACS712: RAW_DC=4095 | RAW_VOLT=3895 | DC: 4.12 A | Volt: 3.23 V | Power: 13.31 W[0m
+[0;33mW (407005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (407575) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.14 A | Volt: 3.24 V | Power: 13.40 W[0m
+[0;33mW (407575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (408145) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.16 A | Volt: 3.24 V | Power: 13.49 W[0m
+[0;33mW (408145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (408715) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.18 A | Volt: 3.25 V | Power: 13.57 W[0m
+[0;33mW (408715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (409285) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.19 A | Volt: 3.25 V | Power: 13.64 W[0m
+[0;33mW (409285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (409855) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.21 A | Volt: 3.26 V | Power: 13.70 W[0m
+[0;33mW (409855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (410425) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.22 A | Volt: 3.26 V | Power: 13.74 W[0m
+[0;33mW (410425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (410995) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: 4.23 A | Volt: 3.26 V | Power: 13.80 W[0m
+[0;33mW (410995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (411565) ACS712: RAW_DC=4095 | RAW_VOLT=4068 | DC: 4.24 A | Volt: 3.26 V | Power: 13.83 W[0m
+[0;33mW (411565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (412135) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.25 A | Volt: 3.27 V | Power: 13.88 W[0m
+[0;33mW (412135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (412705) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.25 A | Volt: 3.27 V | Power: 13.92 W[0m
+[0;33mW (412705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (413275) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.26 A | Volt: 3.27 V | Power: 13.95 W[0m
+[0;33mW (413275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (413845) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.27 A | Volt: 3.27 V | Power: 13.97 W[0m
+[0;33mW (413845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (414415) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.27 A | Volt: 3.28 V | Power: 14.00 W[0m
+[0;33mW (414415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (414985) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.28 A | Volt: 3.28 V | Power: 14.03 W[0m
+[0;33mW (414985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (415555) ACS712: RAW_DC=4095 | RAW_VOLT=3945 | DC: 4.28 A | Volt: 3.28 V | Power: 14.03 W[0m
+[0;33mW (415555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (416125) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.28 V | Power: 14.04 W[0m
+[0;33mW (416125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (416695) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.28 V | Power: 14.06 W[0m
+[0;33mW (416695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (417265) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 4.29 A | Volt: 3.28 V | Power: 14.08 W[0m
+[0;33mW (417265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (417835) ACS712: RAW_DC=4095 | RAW_VOLT=4038 | DC: 4.30 A | Volt: 3.28 V | Power: 14.09 W[0m
+[0;33mW (417835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (418405) ACS712: RAW_DC=4095 | RAW_VOLT=3877 | DC: 4.30 A | Volt: 3.25 V | Power: 13.99 W[0m
+[0;33mW (418405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (418975) ACS712: RAW_DC=1317 | RAW_VOLT=1340 | DC: 3.11 A | Volt: 3.09 V | Power: 9.60 W[0m
+[0;33mW (418975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (419545) ACS712: RAW_DC=2610 | RAW_VOLT=2636 | DC: 2.52 A | Volt: 2.96 V | Power: 7.45 W[0m
+[0;33mW (419545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (420115) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 2.70 A | Volt: 2.99 V | Power: 8.07 W[0m
+[0;33mW (420115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (420685) ACS712: RAW_DC=3351 | RAW_VOLT=3187 | DC: 2.67 A | Volt: 2.97 V | Power: 7.93 W[0m
+[0;33mW (420685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (421255) ACS712: RAW_DC=2773 | RAW_VOLT=2535 | DC: 2.29 A | Volt: 2.88 V | Power: 6.61 W[0m
+[0;33mW (421255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (421825) ACS712: RAW_DC=4095 | RAW_VOLT=4086 | DC: 2.50 A | Volt: 2.92 V | Power: 7.30 W[0m
+[0;33mW (421825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (422395) ACS712: RAW_DC=4095 | RAW_VOLT=3978 | DC: 2.68 A | Volt: 2.94 V | Power: 7.88 W[0m
+[0;33mW (422395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (422965) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 2.84 A | Volt: 2.98 V | Power: 8.47 W[0m
+[0;33mW (422965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (423535) ACS712: RAW_DC=4095 | RAW_VOLT=4081 | DC: 2.99 A | Volt: 3.01 V | Power: 9.00 W[0m
+[0;33mW (423535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (424105) ACS712: RAW_DC=4095 | RAW_VOLT=3871 | DC: 3.13 A | Volt: 3.03 V | Power: 9.46 W[0m
+[0;33mW (424105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (424675) ACS712: RAW_DC=4095 | RAW_VOLT=4038 | DC: 3.25 A | Volt: 3.05 V | Power: 9.89 W[0m
+[0;33mW (424675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (425245) ACS712: RAW_DC=2977 | RAW_VOLT=3019 | DC: 2.87 A | Volt: 2.98 V | Power: 8.58 W[0m
+[0;33mW (425245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (425815) ACS712: RAW_DC=3744 | RAW_VOLT=3889 | DC: 2.90 A | Volt: 3.01 V | Power: 8.72 W[0m
+[0;33mW (425815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (426385) ACS712: RAW_DC=361 | RAW_VOLT=521 | DC: 1.45 A | Volt: 2.75 V | Power: 3.98 W[0m
+[0;33mW (426385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (426955) ACS712: RAW_DC=0 | RAW_VOLT=699 | DC: 0.78 A | Volt: 2.66 V | Power: 2.08 W[0m
+[0;33mW (426955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (427525) ACS712: RAW_DC=2481 | RAW_VOLT=2477 | DC: 0.74 A | Volt: 2.65 V | Power: 1.97 W[0m
+[0;33mW (427525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (428095) ACS712: RAW_DC=1328 | RAW_VOLT=1444 | DC: -0.10 A | Volt: 2.50 V | Power: -0.26 W[0m
+[0;33mW (428095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (428665) ACS712: RAW_DC=2998 | RAW_VOLT=2969 | DC: -0.52 A | Volt: 2.45 V | Power: -1.27 W[0m
+[0;33mW (428665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (429235) ACS712: RAW_DC=1924 | RAW_VOLT=1708 | DC: -0.96 A | Volt: 2.31 V | Power: -2.22 W[0m
+[0;33mW (429235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (429805) ACS712: RAW_DC=3353 | RAW_VOLT=3433 | DC: -0.75 A | Volt: 2.37 V | Power: -1.77 W[0m
+[0;33mW (429805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (430375) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: -0.24 A | Volt: 2.46 V | Power: -0.59 W[0m
+[0;33mW (430375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (430945) ACS712: RAW_DC=4047 | RAW_VOLT=3638 | DC: 0.22 A | Volt: 2.52 V | Power: 0.54 W[0m
+[0;33mW (430945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (431515) ACS712: RAW_DC=2414 | RAW_VOLT=2487 | DC: -0.12 A | Volt: 2.44 V | Power: -0.30 W[0m
+[0;33mW (431515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (432085) ACS712: RAW_DC=4095 | RAW_VOLT=3966 | DC: 0.32 A | Volt: 2.52 V | Power: 0.82 W[0m
+[0;33mW (432085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (432655) ACS712: RAW_DC=4095 | RAW_VOLT=4024 | DC: 0.72 A | Volt: 2.60 V | Power: 1.88 W[0m
+[0;33mW (432655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (433225) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 1.08 A | Volt: 2.67 V | Power: 2.89 W[0m
+[0;33mW (433225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (433795) ACS712: RAW_DC=4095 | RAW_VOLT=4049 | DC: 1.41 A | Volt: 2.73 V | Power: 3.84 W[0m
+[0;33mW (433795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (434365) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 1.70 A | Volt: 2.79 V | Power: 4.74 W[0m
+[0;33mW (434365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (434935) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 1.96 A | Volt: 2.84 V | Power: 5.57 W[0m
+[0;33mW (434935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (435505) ACS712: RAW_DC=2586 | RAW_VOLT=2249 | DC: 1.54 A | Volt: 2.71 V | Power: 4.18 W[0m
+[0;33mW (435505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (436075) ACS712: RAW_DC=1319 | RAW_VOLT=1241 | DC: 0.66 A | Volt: 2.56 V | Power: 1.69 W[0m
+[0;33mW (436075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (436645) ACS712: RAW_DC=2184 | RAW_VOLT=0 | DC: -0.76 A | Volt: 2.30 V | Power: -1.74 W[0m
+[0;33mW (436645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (437215) ACS712: RAW_DC=896 | RAW_VOLT=1006 | DC: -1.62 A | Volt: 2.15 V | Power: -3.48 W[0m
+[0;33mW (437215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (437785) ACS712: RAW_DC=1688 | RAW_VOLT=1800 | DC: -2.05 A | Volt: 2.09 V | Power: -4.29 W[0m
+[0;33mW (437785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (438355) ACS712: RAW_DC=4095 | RAW_VOLT=4053 | DC: -1.41 A | Volt: 2.21 V | Power: -3.13 W[0m
+[0;33mW (438355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (438925) ACS712: RAW_DC=1281 | RAW_VOLT=1292 | DC: -2.07 A | Volt: 2.16 V | Power: -4.46 W[0m
+[0;33mW (438925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (439495) ACS712: RAW_DC=2597 | RAW_VOLT=2360 | DC: -2.08 A | Volt: 2.09 V | Power: -4.36 W[0m
+[0;33mW (439495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (440065) ACS712: RAW_DC=3414 | RAW_VOLT=3287 | DC: -1.73 A | Volt: 2.15 V | Power: -3.72 W[0m
+[0;33mW (440065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (440635) ACS712: RAW_DC=4095 | RAW_VOLT=4083 | DC: -1.12 A | Volt: 2.26 V | Power: -2.54 W[0m
+[0;33mW (440635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (441205) ACS712: RAW_DC=1904 | RAW_VOLT=1790 | DC: -1.53 A | Volt: 2.13 V | Power: -3.26 W[0m
+[0;33mW (441205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (441775) ACS712: RAW_DC=1749 | RAW_VOLT=1861 | DC: -1.97 A | Volt: 2.12 V | Power: -4.18 W[0m
+[0;33mW (441775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (442345) ACS712: RAW_DC=2536 | RAW_VOLT=2222 | DC: -2.06 A | Volt: 2.02 V | Power: -4.17 W[0m
+[0;33mW (442345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (442915) ACS712: RAW_DC=1288 | RAW_VOLT=1429 | DC: -2.66 A | Volt: 2.14 V | Power: -5.69 W[0m
+[0;33mW (442915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (443485) ACS712: RAW_DC=2287 | RAW_VOLT=2474 | DC: -2.64 A | Volt: 2.08 V | Power: -5.49 W[0m
+[0;33mW (443485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (444055) ACS712: RAW_DC=4095 | RAW_VOLT=4079 | DC: -1.94 A | Volt: 2.20 V | Power: -4.27 W[0m
+[0;33mW (444055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (444625) ACS712: RAW_DC=4095 | RAW_VOLT=4047 | DC: -1.31 A | Volt: 2.31 V | Power: -3.04 W[0m
+[0;33mW (444625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (445195) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: -0.75 A | Volt: 2.41 V | Power: -1.81 W[0m
+[0;33mW (445195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (445765) ACS712: RAW_DC=4095 | RAW_VOLT=4057 | DC: -0.24 A | Volt: 2.49 V | Power: -0.60 W[0m
+[0;33mW (445765) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (446335) ACS712: RAW_DC=4095 | RAW_VOLT=4067 | DC: 0.21 A | Volt: 2.57 V | Power: 0.55 W[0m
+[0;33mW (446335) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (446905) ACS712: RAW_DC=4095 | RAW_VOLT=4091 | DC: 0.62 A | Volt: 2.64 V | Power: 1.65 W[0m
+[0;33mW (446905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (447475) ACS712: RAW_DC=4095 | RAW_VOLT=4036 | DC: 0.99 A | Volt: 2.71 V | Power: 2.69 W[0m
+[0;33mW (447475) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (448045) ACS712: RAW_DC=1280 | RAW_VOLT=1282 | DC: 0.10 A | Volt: 2.62 V | Power: 0.26 W[0m
+[0;33mW (448045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (448615) ACS712: RAW_DC=2592 | RAW_VOLT=2296 | DC: -0.13 A | Volt: 2.50 V | Power: -0.33 W[0m
+[0;33mW (448615) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (449185) ACS712: RAW_DC=891 | RAW_VOLT=895 | DC: -1.05 A | Volt: 2.33 V | Power: -2.45 W[0m
+[0;33mW (449185) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (449755) ACS712: RAW_DC=2111 | RAW_VOLT=2037 | DC: -1.34 A | Volt: 2.27 V | Power: -3.03 W[0m
+[0;33mW (449755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (450325) ACS712: RAW_DC=1851 | RAW_VOLT=1539 | DC: -1.73 A | Volt: 2.17 V | Power: -3.76 W[0m
+[0;33mW (450325) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (450895) ACS712: RAW_DC=2081 | RAW_VOLT=2236 | DC: -2.08 A | Volt: 2.14 V | Power: -4.45 W[0m
+[0;33mW (450895) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (451465) ACS712: RAW_DC=2113 | RAW_VOLT=2038 | DC: -2.29 A | Volt: 2.03 V | Power: -4.65 W[0m
+[0;33mW (451465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (452035) ACS712: RAW_DC=1480 | RAW_VOLT=1713 | DC: -2.69 A | Volt: 2.02 V | Power: -5.44 W[0m
+[0;33mW (452035) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (452605) ACS712: RAW_DC=2355 | RAW_VOLT=2229 | DC: -2.72 A | Volt: 1.94 V | Power: -5.29 W[0m
+[0;33mW (452605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (453175) ACS712: RAW_DC=1280 | RAW_VOLT=1435 | DC: -3.27 A | Volt: 1.94 V | Power: -6.33 W[0m
+[0;33mW (453175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (453745) ACS712: RAW_DC=2360 | RAW_VOLT=2451 | DC: -3.24 A | Volt: 1.90 V | Power: -6.15 W[0m
+[0;33mW (453745) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (454315) ACS712: RAW_DC=1290 | RAW_VOLT=1149 | DC: -3.70 A | Volt: 1.86 V | Power: -6.89 W[0m
+[0;33mW (454315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (454885) ACS712: RAW_DC=2548 | RAW_VOLT=2493 | DC: -3.64 A | Volt: 1.85 V | Power: -6.75 W[0m
+[0;33mW (454885) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (455455) ACS712: RAW_DC=1460 | RAW_VOLT=1220 | DC: -4.00 A | Volt: 1.78 V | Power: -7.12 W[0m
+[0;33mW (455455) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (456025) ACS712: RAW_DC=2082 | RAW_VOLT=2371 | DC: -4.00 A | Volt: 1.80 V | Power: -7.21 W[0m
+[0;33mW (456025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (456595) ACS712: RAW_DC=1900 | RAW_VOLT=1778 | DC: -4.12 A | Volt: 1.73 V | Power: -7.12 W[0m
+[0;33mW (456595) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (457165) ACS712: RAW_DC=1829 | RAW_VOLT=1964 | DC: -4.33 A | Volt: 1.75 V | Power: -7.59 W[0m
+[0;33mW (457165) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (457735) ACS712: RAW_DC=2330 | RAW_VOLT=2071 | DC: -4.24 A | Volt: 1.69 V | Power: -7.14 W[0m
+[0;33mW (457735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (458305) ACS712: RAW_DC=1517 | RAW_VOLT=1480 | DC: -4.54 A | Volt: 1.69 V | Power: -7.69 W[0m
+[0;33mW (458305) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (458875) ACS712: RAW_DC=2568 | RAW_VOLT=2337 | DC: -4.31 A | Volt: 1.64 V | Power: -7.05 W[0m
+[0;33mW (458875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (459445) ACS712: RAW_DC=1460 | RAW_VOLT=1144 | DC: -4.67 A | Volt: 1.64 V | Power: -7.64 W[0m
+[0;33mW (459445) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (460015) ACS712: RAW_DC=2597 | RAW_VOLT=2218 | DC: -4.43 A | Volt: 1.60 V | Power: -7.10 W[0m
+[0;33mW (460015) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (460585) ACS712: RAW_DC=1387 | RAW_VOLT=1162 | DC: -4.68 A | Volt: 1.58 V | Power: -7.42 W[0m
+[0;33mW (460585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (461155) ACS712: RAW_DC=2383 | RAW_VOLT=2490 | DC: -4.54 A | Volt: 1.60 V | Power: -7.28 W[0m
+[0;33mW (461155) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (461725) ACS712: RAW_DC=1522 | RAW_VOLT=1149 | DC: -4.82 A | Volt: 1.55 V | Power: -7.45 W[0m
+[0;33mW (461725) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (462295) ACS712: RAW_DC=2540 | RAW_VOLT=2238 | DC: -4.59 A | Volt: 1.56 V | Power: -7.17 W[0m
+[0;33mW (462295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (462865) ACS712: RAW_DC=1505 | RAW_VOLT=1308 | DC: -4.82 A | Volt: 1.51 V | Power: -7.30 W[0m
+[0;33mW (462865) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (463435) ACS712: RAW_DC=2293 | RAW_VOLT=2234 | DC: -4.70 A | Volt: 1.55 V | Power: -7.26 W[0m
+[0;33mW (463435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (464005) ACS712: RAW_DC=1979 | RAW_VOLT=2010 | DC: -4.70 A | Volt: 1.55 V | Power: -7.30 W[0m
+[0;33mW (464005) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (464575) ACS712: RAW_DC=2631 | RAW_VOLT=2670 | DC: -4.42 A | Volt: 1.62 V | Power: -7.17 W[0m
+[0;33mW (464575) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (465145) ACS712: RAW_DC=3242 | RAW_VOLT=3362 | DC: -3.90 A | Volt: 1.73 V | Power: -6.72 W[0m
+[0;33mW (465145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (465715) ACS712: RAW_DC=3969 | RAW_VOLT=3867 | DC: -3.12 A | Volt: 1.88 V | Power: -5.85 W[0m
+[0;33mW (465715) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (466285) ACS712: RAW_DC=4095 | RAW_VOLT=4013 | DC: -2.37 A | Volt: 2.02 V | Power: -4.79 W[0m
+[0;33mW (466285) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (466855) ACS712: RAW_DC=4095 | RAW_VOLT=4094 | DC: -1.70 A | Volt: 2.14 V | Power: -3.64 W[0m
+[0;33mW (466855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (467425) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: -1.10 A | Volt: 2.25 V | Power: -2.48 W[0m
+[0;33mW (467425) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (467995) ACS712: RAW_DC=4095 | RAW_VOLT=4066 | DC: -0.56 A | Volt: 2.35 V | Power: -1.31 W[0m
+[0;33mW (467995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (468565) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: -0.07 A | Volt: 2.44 V | Power: -0.17 W[0m
+[0;33mW (468565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (469135) ACS712: RAW_DC=4095 | RAW_VOLT=4095 | DC: 0.37 A | Volt: 2.53 V | Power: 0.93 W[0m
+[0;33mW (469135) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (469705) ACS712: RAW_DC=4095 | RAW_VOLT=4047 | DC: 0.76 A | Volt: 2.60 V | Power: 1.99 W[0m
+[0;33mW (469705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (470275) ACS712: RAW_DC=4095 | RAW_VOLT=4093 | DC: 1.12 A | Volt: 2.66 V | Power: 2.98 W[0m
+[0;33mW (470275) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (470845) ACS712: RAW_DC=4095 | RAW_VOLT=4069 | DC: 1.44 A | Volt: 2.72 V | Power: 3.92 W[0m
+[0;33mW (470845) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (471415) ACS712: RAW_DC=4095 | RAW_VOLT=3874 | DC: 1.73 A | Volt: 2.75 V | Power: 4.76 W[0m
+[0;33mW (471415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (471985) ACS712: RAW_DC=4095 | RAW_VOLT=4073 | DC: 1.99 A | Volt: 2.80 V | Power: 5.57 W[0m
+[0;33mW (471985) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (472555) ACS712: RAW_DC=4095 | RAW_VOLT=3854 | DC: 2.22 A | Volt: 2.85 V | Power: 6.32 W[0m
+[0;33mW (472555) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (473125) ACS712: RAW_DC=4095 | RAW_VOLT=3880 | DC: 2.43 A | Volt: 2.89 V | Power: 7.02 W[0m
+[0;33mW (473125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (473695) ACS712: RAW_DC=139 | RAW_VOLT=0 | DC: 0.90 A | Volt: 2.60 V | Power: 2.34 W[0m
+[0;33mW (473695) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (474265) ACS712: RAW_DC=119 | RAW_VOLT=0 | DC: -0.48 A | Volt: 2.34 V | Power: -1.13 W[0m
+[0;33mW (474265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (474835) ACS712: RAW_DC=120 | RAW_VOLT=0 | DC: -1.74 A | Volt: 2.10 V | Power: -3.65 W[0m
+[0;33mW (474835) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (475405) ACS712: RAW_DC=84 | RAW_VOLT=0 | DC: -2.88 A | Volt: 1.89 V | Power: -5.45 W[0m
+[0;33mW (475405) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (475975) ACS712: RAW_DC=69 | RAW_VOLT=0 | DC: -3.91 A | Volt: 1.70 V | Power: -6.66 W[0m
+[0;33mW (475975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (476545) ACS712: RAW_DC=52 | RAW_VOLT=0 | DC: -4.85 A | Volt: 1.53 V | Power: -7.43 W[0m
+[0;33mW (476545) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (477115) ACS712: RAW_DC=45 | RAW_VOLT=0 | DC: -5.70 A | Volt: 1.38 V | Power: -7.86 W[0m
+[0;33mW (477115) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (477685) ACS712: RAW_DC=42 | RAW_VOLT=0 | DC: -6.46 A | Volt: 1.24 V | Power: -8.02 W[0m
+[0;33mW (477685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (478255) ACS712: RAW_DC=33 | RAW_VOLT=0 | DC: -7.15 A | Volt: 1.12 V | Power: -7.99 W[0m
+[0;33mW (478255) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (478825) ACS712: RAW_DC=28 | RAW_VOLT=0 | DC: -7.77 A | Volt: 1.01 V | Power: -7.82 W[0m
+[0;33mW (478825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (479395) ACS712: RAW_DC=31 | RAW_VOLT=0 | DC: -8.33 A | Volt: 0.91 V | Power: -7.55 W[0m
+[0;33mW (479395) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (479965) ACS712: RAW_DC=25 | RAW_VOLT=0 | DC: -8.84 A | Volt: 0.81 V | Power: -7.21 W[0m
+[0;33mW (479965) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (480535) ACS712: RAW_DC=24 | RAW_VOLT=0 | DC: -9.30 A | Volt: 0.73 V | Power: -6.82 W[0m
+[0;33mW (480535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (481105) ACS712: RAW_DC=22 | RAW_VOLT=0 | DC: -9.71 A | Volt: 0.66 V | Power: -6.41 W[0m
+[0;33mW (481105) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (481675) ACS712: RAW_DC=24 | RAW_VOLT=0 | DC: -10.08 A | Volt: 0.59 V | Power: -5.99 W[0m
+[0;33mW (481675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (482245) ACS712: RAW_DC=18 | RAW_VOLT=0 | DC: -10.42 A | Volt: 0.53 V | Power: -5.57 W[0m
+[0;33mW (482245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (482815) ACS712: RAW_DC=16 | RAW_VOLT=0 | DC: -10.72 A | Volt: 0.48 V | Power: -5.16 W[0m
+[0;33mW (482815) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (483385) ACS712: RAW_DC=18 | RAW_VOLT=0 | DC: -10.99 A | Volt: 0.43 V | Power: -4.76 W[0m
+[0;33mW (483385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (483955) ACS712: RAW_DC=19 | RAW_VOLT=0 | DC: -11.24 A | Volt: 0.39 V | Power: -4.38 W[0m
+[0;33mW (483955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (484525) ACS712: RAW_DC=16 | RAW_VOLT=0 | DC: -11.46 A | Volt: 0.35 V | Power: -4.02 W[0m
+[0;33mW (484525) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (485095) ACS712: RAW_DC=18 | RAW_VOLT=0 | DC: -11.66 A | Volt: 0.32 V | Power: -3.68 W[0m
+[0;33mW (485095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (485665) ACS712: RAW_DC=16 | RAW_VOLT=0 | DC: -11.83 A | Volt: 0.28 V | Power: -3.36 W[0m
+[0;33mW (485665) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (486235) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -12.00 A | Volt: 0.26 V | Power: -3.07 W[0m
+[0;33mW (486235) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (486805) ACS712: RAW_DC=15 | RAW_VOLT=0 | DC: -12.14 A | Volt: 0.23 V | Power: -2.79 W[0m
+[0;33mW (486805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (487375) ACS712: RAW_DC=16 | RAW_VOLT=0 | DC: -12.27 A | Volt: 0.21 V | Power: -2.54 W[0m
+[0;33mW (487375) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (487945) ACS712: RAW_DC=15 | RAW_VOLT=0 | DC: -12.39 A | Volt: 0.19 V | Power: -2.31 W[0m
+[0;33mW (487945) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (488515) ACS712: RAW_DC=12 | RAW_VOLT=0 | DC: -12.50 A | Volt: 0.17 V | Power: -2.10 W[0m
+[0;33mW (488515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (489085) ACS712: RAW_DC=15 | RAW_VOLT=0 | DC: -12.59 A | Volt: 0.15 V | Power: -1.90 W[0m
+[0;33mW (489085) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (489655) ACS712: RAW_DC=15 | RAW_VOLT=0 | DC: -12.68 A | Volt: 0.14 V | Power: -1.72 W[0m
+[0;33mW (489655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (490225) ACS712: RAW_DC=14 | RAW_VOLT=0 | DC: -12.75 A | Volt: 0.12 V | Power: -1.56 W[0m
+[0;33mW (490225) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (490795) ACS712: RAW_DC=10 | RAW_VOLT=0 | DC: -12.83 A | Volt: 0.11 V | Power: -1.41 W[0m
+[0;33mW (490795) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (491365) ACS712: RAW_DC=14 | RAW_VOLT=0 | DC: -12.89 A | Volt: 0.10 V | Power: -1.28 W[0m
+[0;33mW (491365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (491935) ACS712: RAW_DC=14 | RAW_VOLT=0 | DC: -12.95 A | Volt: 0.09 V | Power: -1.15 W[0m
+[0;33mW (491935) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (492505) ACS712: RAW_DC=10 | RAW_VOLT=0 | DC: -13.00 A | Volt: 0.08 V | Power: -1.04 W[0m
+[0;33mW (492505) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (493075) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.05 A | Volt: 0.07 V | Power: -0.94 W[0m
+[0;33mW (493075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (493645) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.09 A | Volt: 0.06 V | Power: -0.85 W[0m
+[0;33mW (493645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (494215) ACS712: RAW_DC=8 | RAW_VOLT=0 | DC: -13.13 A | Volt: 0.06 V | Power: -0.77 W[0m
+[0;33mW (494215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (494785) ACS712: RAW_DC=10 | RAW_VOLT=0 | DC: -13.16 A | Volt: 0.05 V | Power: -0.69 W[0m
+[0;33mW (494785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (495355) ACS712: RAW_DC=12 | RAW_VOLT=0 | DC: -13.19 A | Volt: 0.05 V | Power: -0.62 W[0m
+[0;33mW (495355) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (495925) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.22 A | Volt: 0.04 V | Power: -0.56 W[0m
+[0;33mW (495925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (496495) ACS712: RAW_DC=12 | RAW_VOLT=0 | DC: -13.24 A | Volt: 0.04 V | Power: -0.51 W[0m
+[0;33mW (496495) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (497065) ACS712: RAW_DC=8 | RAW_VOLT=0 | DC: -13.26 A | Volt: 0.03 V | Power: -0.46 W[0m
+[0;33mW (497065) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (497635) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.28 A | Volt: 0.03 V | Power: -0.41 W[0m
+[0;33mW (497635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (498205) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.30 A | Volt: 0.03 V | Power: -0.37 W[0m
+[0;33mW (498205) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (498775) ACS712: RAW_DC=7 | RAW_VOLT=0 | DC: -13.32 A | Volt: 0.03 V | Power: -0.34 W[0m
+[0;33mW (498775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (499345) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.33 A | Volt: 0.02 V | Power: -0.30 W[0m
+[0;33mW (499345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (499915) ACS712: RAW_DC=12 | RAW_VOLT=0 | DC: -13.35 A | Volt: 0.02 V | Power: -0.27 W[0m
+[0;33mW (499915) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (500485) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.36 A | Volt: 0.02 V | Power: -0.25 W[0m
+[0;33mW (500485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (501055) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.37 A | Volt: 0.02 V | Power: -0.22 W[0m
+[0;33mW (501055) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (501625) ACS712: RAW_DC=13 | RAW_VOLT=0 | DC: -13.38 A | Volt: 0.01 V | Power: -0.20 W[0m
+[0;33mW (501625) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (502195) ACS712: RAW_DC=12 | RAW_VOLT=0 | DC: -13.39 A | Volt: 0.01 V | Power: -0.18 W[0m
+[0;33mW (502195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (502765) ACS712: RAW_DC=2628 | RAW_VOLT=3187 | DC: -12.25 A | Volt: 0.27 V | Power: -3.28 W[0m
+[0;33mW (502765) ACS712: BLE not connected or notify not enabled[0m

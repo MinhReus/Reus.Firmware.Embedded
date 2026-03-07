@@ -1,0 +1,144 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v1.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21b30h (138032) map[0m
+[0;32mI (152) esp_image: segment 1: paddr=00031b58 vaddr=3ffbdb60 size=04bd4h ( 19412) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=00036734 vaddr=40080000 size=098e4h ( 39140) load[0m
+[0;32mI (175) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7cd80h (511360) map[0m
+[0;32mI (351) esp_image: segment 4: paddr=000bcda8 vaddr=400898e4 size=0db8ch ( 56204) load[0m
+[0;32mI (385) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (385) boot: Disabling RNG early entropy source...[0m
+[0;32mI (397) cpu_start: Multicore app[0m
+[0;32mI (405) cpu_start: Pro cpu start user code[0m
+[0;32mI (406) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (406) app_init: Application information:[0m
+[0;32mI (408) app_init: Project name:     main[0m
+[0;32mI (413) app_init: App version:      1[0m
+[0;32mI (417) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (423) app_init: ELF file SHA256:  a77b49227...[0m
+[0;32mI (429) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (435) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (444) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (449) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (456) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (462) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (468) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (475) heap_init: At 3FFC7278 len 00018D88 (99 KiB): DRAM[0m
+[0;32mI (481) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (487) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (494) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (504) spi_flash: flash io: dio[0m
+[0;33mW (508) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (522) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (530) coexist: coex firmware version: 4482466[0m
+[0;32mI (536) main_task: Started on CPU0[0m
+[0;32mI (546) main_task: Calling app_main()[0m
+[0;32mI (546) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (546) gpio: GPIO[23]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (556) ACS712: Relay initialized on GPIO 23[0m
+[0;32mI (566) ACS712: Initializing ACS712 sensors...[0m
+[0;32mI (566) ACS712: ACS712 ADC1_CH7 initialized[0m
+[0;32mI (566) ACS712:   Attenuation: 11dB (VREF=3300.0mV)[0m
+[0;32mI (576) ACS712:   VCC_Sensor: 0.00V | Sensitivity: 185mV/A | Alpha: 0.40[0m
+[0;32mI (586) ACS712: ACS712 sensors initialized[0m
+[0;32mI (586) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (596) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (596) ACS712: Creating tasks...[0m
+[0;32mI (606) ACS712: BLE Task started, initializing...[0m
+[0;32mI (606) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (616) BTDM_INIT: Bluetooth MAC: 84:1f:e8:4c:06:32[0m
+[0;32mI (626) ACS712: ADC Task started, waiting for BLE ready...[0m
+[0;32mI (626) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (946) ACS712: All tasks created successfully[0m
+[0;32mI (956) ACS712: Waiting for BLE connection...[0m
+[0;32mI (1006) BLE_GATT: REGISTER_APP_EVT, status 0, app_id 0[0m
+[0;32mI (1016) BLE_GATT: BLE GATT Server initialized with name: ESP32 GATTS[0m
+[0;32mI (1016) BLE_GATT: Service UUID: 0000FF00-0000-1000-8000-00805F9B34FB[0m
+[0;32mI (1026) BLE_GATT: CREATE_SERVICE_EVT, status 0, service_handle 40[0m
+[0;32mI (1026) BLE_GATT: Characteristic UUID: 0000FF01-0000-1000-8000-00805F9B34FB[0m
+[0;32mI (1036) ACS712: BLE GATT Server initialized - Device name: ESP32 GATTS[0m
+[0;32mI (1046) BLE_GATT: Advertising started successfully[0m
+[0;32mI (1046) BLE_GATT: ADD_CHAR_EVT, status 0, attr_handle 42[0m
+[0;32mI (1056) BLE_GATT: ADD_DESCR_EVT, status 0, attr_handle 43[0m
+[0;32mI (1056) BLE_GATT: Receive callback registered[0m
+[0;32mI (1066) ACS712: Receive callback registered[0m
+[0;32mI (1066) ACS712: BLE ready flag set[0m
+[0;32mI (1136) ACS712: BLE ready, starting ADC measurements[0m
+[0;32mI (1396) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;33mW (1396) ACS712: RELAY IS ON[0m
+[0;32mI (1396) ACS712: RAW_DC=3026 | RAW_VOLT=3881 | DC: 13.19 A | Volt: 5.27 V | Power: 69.50 W | Percent: 100.00[0m
+[0;33mW (1406) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2176) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;33mW (2176) ACS712: RELAY IS OFF[0m
+[0;32mI (2176) ACS712: RAW_DC=3023 | RAW_VOLT=3875 | DC: 0.29 A | Volt: 5.26 V | Power: 1.54 W | Percent: 100.00[0m
+[0;33mW (2186) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2956) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (2956) ACS712: RAW_DC=3028 | RAW_VOLT=3878 | DC: 0.32 A | Volt: 5.26 V | Power: 1.69 W | Percent: 100.00[0m
+[0;33mW (2966) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3726) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (3726) ACS712: RAW_DC=3030 | RAW_VOLT=3875 | DC: 0.32 A | Volt: 5.26 V | Power: 1.66 W | Percent: 100.00[0m
+[0;33mW (3736) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4496) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (4496) ACS712: RAW_DC=3032 | RAW_VOLT=3872 | DC: 0.34 A | Volt: 5.26 V | Power: 1.79 W | Percent: 100.00[0m
+[0;33mW (4506) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5266) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (5266) ACS712: RAW_DC=3031 | RAW_VOLT=3872 | DC: 0.35 A | Volt: 5.26 V | Power: 1.86 W | Percent: 100.00[0m
+[0;33mW (5276) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6036) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (6036) ACS712: RAW_DC=3044 | RAW_VOLT=3881 | DC: 0.37 A | Volt: 5.27 V | Power: 1.95 W | Percent: 100.00[0m
+[0;33mW (6046) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6806) ACS712: VCC_Sensor updated to 4.78V (Midpoint now 2389mV)[0m
+[0;32mI (6806) ACS712: RAW_DC=3042 | RAW_VOLT=3888 | DC: 0.34 A | Volt: 5.28 V | Power: 1.80 W | Percent: 100.00[0m
+[0;33mW (6816) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7576) ACS712: VCC_Sensor updated to 4.78V (Midpoint now 2392mV)[0m
+[0;32mI (7576) ACS712: RAW_DC=3042 | RAW_VOLT=3893 | DC: 0.32 A | Volt: 5.28 V | Power: 1.69 W | Percent: 100.00[0m
+[0;33mW (7586) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8346) ACS712: VCC_Sensor updated to 4.79V (Midpoint now 2395mV)[0m
+[0;32mI (8346) ACS712: RAW_DC=3039 | RAW_VOLT=3897 | DC: 0.32 A | Volt: 5.29 V | Power: 1.69 W | Percent: 100.00[0m
+[0;33mW (8356) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9116) ACS712: VCC_Sensor updated to 4.79V (Midpoint now 2396mV)[0m
+[0;32mI (9116) ACS712: RAW_DC=3042 | RAW_VOLT=3899 | DC: 0.29 A | Volt: 5.29 V | Power: 1.55 W | Percent: 100.00[0m
+[0;33mW (9126) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9886) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2398mV)[0m
+[0;32mI (9886) ACS712: RAW_DC=3038 | RAW_VOLT=3901 | DC: 0.30 A | Volt: 5.30 V | Power: 1.56 W | Percent: 100.00[0m
+[0;33mW (9896) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10656) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2400mV)[0m
+[0;32mI (10656) ACS712: RAW_DC=3041 | RAW_VOLT=3904 | DC: 0.29 A | Volt: 5.30 V | Power: 1.52 W | Percent: 100.00[0m
+[0;33mW (10666) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11426) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2400mV)[0m
+[0;32mI (11426) ACS712: RAW_DC=3037 | RAW_VOLT=3904 | DC: 0.29 A | Volt: 5.30 V | Power: 1.55 W | Percent: 100.00[0m
+[0;33mW (11436) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12196) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2400mV)[0m
+[0;32mI (12196) ACS712: RAW_DC=3039 | RAW_VOLT=3904 | DC: 0.29 A | Volt: 5.30 V | Power: 1.56 W | Percent: 100.00[0m
+[0;33mW (12206) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12966) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2400mV)[0m
+[0;32mI (12966) ACS712: RAW_DC=3036 | RAW_VOLT=3904 | DC: 0.28 A | Volt: 5.30 V | Power: 1.49 W | Percent: 100.00[0m
+[0;33mW (12976) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13736) ACS712: VCC_Sensor updated to 4.80V (Midpoint now 2400mV)[0m
+[0;32mI (13736) ACS712: RAW_DC=3036 | RAW_VOLT=3904 | DC: 0.27 A | Volt: 5.30 V | Power: 1.45 W | Percent: 100.00[0m
+[0;33mW (13746) ACS712: BLE not connected or notify not enabled[0m

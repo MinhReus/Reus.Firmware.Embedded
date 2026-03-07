@@ -1,0 +1,938 @@
+[0;32mI (31426) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (31426) ACS712: RAW_DC=2997 | RAW_VOLT=3839 | DC: 0.21 A | Volt: 5.21 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (31436) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32196) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (32196) ACS712: RAW_DC=3001 | RAW_VOLT=3839 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (32206) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32966) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (32966) ACS712: RAW_DC=3000 | RAW_VOLT=3841 | DC: 0.23 A | Volt: 5.21 V | Power: 1.18 W | Percent: 100.00[0m
+[0;33mW (32976) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33736) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (33736) ACS712: RAW_DC=3003 | RAW_VOLT=3841 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (33746) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34506) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (34506) ACS712: RAW_DC=3000 | RAW_VOLT=3841 | DC: 0.22 A | Volt: 5.21 V | Power: 1.17 W | Percent: 100.00[0m
+[0;33mW (34516) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35276) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (35276) ACS712: RAW_DC=3000 | RAW_VOLT=3841 | DC: 0.23 A | Volt: 5.21 V | Power: 1.18 W | Percent: 100.00[0m
+[0;33mW (35286) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (36046) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (36046) ACS712: RAW_DC=3002 | RAW_VOLT=3842 | DC: 0.23 A | Volt: 5.22 V | Power: 1.22 W | Percent: 100.00[0m
+[0;33mW (36056) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (36816) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (36816) ACS712: RAW_DC=2998 | RAW_VOLT=3842 | DC: 0.22 A | Volt: 5.22 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (36826) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (37586) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (37586) ACS712: RAW_DC=3001 | RAW_VOLT=3841 | DC: 0.23 A | Volt: 5.21 V | Power: 1.18 W | Percent: 100.00[0m
+[0;33mW (37596) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (38356) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (38356) ACS712: RAW_DC=2999 | RAW_VOLT=3840 | DC: 0.23 A | Volt: 5.21 V | Power: 1.19 W | Percent: 100.00[0m
+[0;33mW (38366) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39126) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (39126) ACS712: RAW_DC=3004 | RAW_VOLT=3840 | DC: 0.23 A | Volt: 5.21 V | Power: 1.21 W | Percent: 100.00[0m
+[0;33mW (39136) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39896) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (39896) ACS712: RAW_DC=2999 | RAW_VOLT=3839 | DC: 0.21 A | Volt: 5.21 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (39906) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (40666) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (40666) ACS712: RAW_DC=3005 | RAW_VOLT=3839 | DC: 0.19 A | Volt: 5.21 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (40676) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (41436) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (41436) ACS712: RAW_DC=2998 | RAW_VOLT=3839 | DC: 0.19 A | Volt: 5.21 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (41446) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42206) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (42206) ACS712: RAW_DC=3001 | RAW_VOLT=3839 | DC: 0.17 A | Volt: 5.21 V | Power: 0.88 W | Percent: 100.00[0m
+[0;33mW (42216) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42976) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (42976) ACS712: RAW_DC=2999 | RAW_VOLT=3838 | DC: 0.20 A | Volt: 5.21 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (42986) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (43746) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (43746) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.20 A | Volt: 5.21 V | Power: 1.03 W | Percent: 100.00[0m
+[0;33mW (43756) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (44516) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (44516) ACS712: RAW_DC=3000 | RAW_VOLT=3838 | DC: 0.22 A | Volt: 5.21 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (44526) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (45286) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (45286) ACS712: RAW_DC=3000 | RAW_VOLT=3839 | DC: 0.22 A | Volt: 5.21 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (45296) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46056) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (46056) ACS712: RAW_DC=3001 | RAW_VOLT=3839 | DC: 0.22 A | Volt: 5.21 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (46066) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46826) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (46826) ACS712: RAW_DC=2998 | RAW_VOLT=3838 | DC: 0.19 A | Volt: 5.21 V | Power: 0.99 W | Percent: 100.00[0m
+[0;33mW (46836) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (47596) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (47596) ACS712: RAW_DC=3002 | RAW_VOLT=3838 | DC: 0.18 A | Volt: 5.21 V | Power: 0.95 W | Percent: 100.00[0m
+[0;33mW (47606) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (48366) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (48366) ACS712: RAW_DC=2997 | RAW_VOLT=3838 | DC: 0.17 A | Volt: 5.21 V | Power: 0.90 W | Percent: 100.00[0m
+[0;33mW (48376) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49136) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (49136) ACS712: RAW_DC=3001 | RAW_VOLT=3838 | DC: 0.18 A | Volt: 5.21 V | Power: 0.92 W | Percent: 100.00[0m
+[0;33mW (49146) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49906) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (49906) ACS712: RAW_DC=2996 | RAW_VOLT=3838 | DC: 0.20 A | Volt: 5.21 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (49916) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (50676) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (50676) ACS712: RAW_DC=3001 | RAW_VOLT=3840 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (50686) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (51446) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (51446) ACS712: RAW_DC=2998 | RAW_VOLT=3839 | DC: 0.22 A | Volt: 5.21 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (51456) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (52216) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (52216) ACS712: RAW_DC=3002 | RAW_VOLT=3839 | DC: 0.22 A | Volt: 5.21 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (52226) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (52986) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (52986) ACS712: RAW_DC=2999 | RAW_VOLT=3839 | DC: 0.21 A | Volt: 5.21 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (52996) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (53756) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2385mV)[0m
+[0;32mI (53756) ACS712: RAW_DC=3001 | RAW_VOLT=3845 | DC: 0.21 A | Volt: 5.22 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (53766) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (54526) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (54526) ACS712: RAW_DC=3000 | RAW_VOLT=3844 | DC: 0.20 A | Volt: 5.22 V | Power: 1.02 W | Percent: 100.00[0m
+[0;33mW (54536) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (55296) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (55296) ACS712: RAW_DC=2996 | RAW_VOLT=3843 | DC: 0.19 A | Volt: 5.22 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (55306) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (56066) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2386mV)[0m
+[0;32mI (56066) ACS712: RAW_DC=3001 | RAW_VOLT=3846 | DC: 0.20 A | Volt: 5.22 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (56076) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (56836) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2385mV)[0m
+[0;32mI (56836) ACS712: RAW_DC=2998 | RAW_VOLT=3845 | DC: 0.19 A | Volt: 5.22 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (56846) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (57606) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2386mV)[0m
+[0;32mI (57606) ACS712: RAW_DC=3000 | RAW_VOLT=3846 | DC: 0.21 A | Volt: 5.22 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (57616) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (58376) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2385mV)[0m
+[0;32mI (58376) ACS712: RAW_DC=2997 | RAW_VOLT=3845 | DC: 0.19 A | Volt: 5.22 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (58386) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (59146) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (59146) ACS712: RAW_DC=3001 | RAW_VOLT=3844 | DC: 0.19 A | Volt: 5.22 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (59156) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (59916) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (59916) ACS712: RAW_DC=2998 | RAW_VOLT=3843 | DC: 0.19 A | Volt: 5.22 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (59926) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (60686) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (60686) ACS712: RAW_DC=3001 | RAW_VOLT=3843 | DC: 0.20 A | Volt: 5.22 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (60696) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (61456) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (61456) ACS712: RAW_DC=3001 | RAW_VOLT=3844 | DC: 0.22 A | Volt: 5.22 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (61466) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (62226) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (62226) ACS712: RAW_DC=3002 | RAW_VOLT=3844 | DC: 0.20 A | Volt: 5.22 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (62236) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (62996) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (62996) ACS712: RAW_DC=3000 | RAW_VOLT=3843 | DC: 0.22 A | Volt: 5.22 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (63006) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (63766) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (63766) ACS712: RAW_DC=3001 | RAW_VOLT=3842 | DC: 0.19 A | Volt: 5.22 V | Power: 0.98 W | Percent: 100.00[0m
+[0;33mW (63776) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (64536) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (64536) ACS712: RAW_DC=3000 | RAW_VOLT=3842 | DC: 0.18 A | Volt: 5.22 V | Power: 0.92 W | Percent: 100.00[0m
+[0;33mW (64546) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (65306) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (65306) ACS712: RAW_DC=3000 | RAW_VOLT=3841 | DC: 0.19 A | Volt: 5.21 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (65316) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (66076) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (66076) ACS712: RAW_DC=3002 | RAW_VOLT=3842 | DC: 0.22 A | Volt: 5.22 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (66086) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (66846) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (66846) ACS712: RAW_DC=3002 | RAW_VOLT=3843 | DC: 0.23 A | Volt: 5.22 V | Power: 1.18 W | Percent: 100.00[0m
+[0;33mW (66856) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (67616) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (67616) ACS712: RAW_DC=3003 | RAW_VOLT=3842 | DC: 0.22 A | Volt: 5.22 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (67626) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (68386) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (68386) ACS712: RAW_DC=3001 | RAW_VOLT=3842 | DC: 0.23 A | Volt: 5.22 V | Power: 1.22 W | Percent: 100.00[0m
+[0;33mW (68396) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (69156) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (69156) ACS712: RAW_DC=3006 | RAW_VOLT=3842 | DC: 0.21 A | Volt: 5.22 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (69166) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (69926) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (69926) ACS712: RAW_DC=3001 | RAW_VOLT=3842 | DC: 0.22 A | Volt: 5.22 V | Power: 1.17 W | Percent: 100.00[0m
+[0;33mW (69936) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (70696) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (70696) ACS712: RAW_DC=3004 | RAW_VOLT=3842 | DC: 0.18 A | Volt: 5.22 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (70706) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (71466) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (71466) ACS712: RAW_DC=3002 | RAW_VOLT=3842 | DC: 0.18 A | Volt: 5.22 V | Power: 0.92 W | Percent: 100.00[0m
+[0;33mW (71476) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (72236) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (72236) ACS712: RAW_DC=3006 | RAW_VOLT=3842 | DC: 0.17 A | Volt: 5.22 V | Power: 0.86 W | Percent: 100.00[0m
+[0;33mW (72246) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (73006) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (73006) ACS712: RAW_DC=3004 | RAW_VOLT=3843 | DC: 0.20 A | Volt: 5.22 V | Power: 1.03 W | Percent: 100.00[0m
+[0;33mW (73016) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (73776) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (73776) ACS712: RAW_DC=3004 | RAW_VOLT=3842 | DC: 0.21 A | Volt: 5.22 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (73786) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (74546) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (74546) ACS712: RAW_DC=3004 | RAW_VOLT=3844 | DC: 0.22 A | Volt: 5.22 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (74556) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (75316) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2385mV)[0m
+[0;32mI (75316) ACS712: RAW_DC=3001 | RAW_VOLT=3845 | DC: 0.21 A | Volt: 5.22 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (75326) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (76086) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2385mV)[0m
+[0;32mI (76086) ACS712: RAW_DC=3006 | RAW_VOLT=3845 | DC: 0.22 A | Volt: 5.22 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (76096) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (76856) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2384mV)[0m
+[0;32mI (76856) ACS712: RAW_DC=3000 | RAW_VOLT=3844 | DC: 0.21 A | Volt: 5.22 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (76866) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (77626) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (77626) ACS712: RAW_DC=3001 | RAW_VOLT=3843 | DC: 0.21 A | Volt: 5.22 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (77636) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (78396) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (78396) ACS712: RAW_DC=3000 | RAW_VOLT=3842 | DC: 0.21 A | Volt: 5.22 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (78406) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (79166) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (79166) ACS712: RAW_DC=3002 | RAW_VOLT=3843 | DC: 0.22 A | Volt: 5.22 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (79176) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (79936) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (79936) ACS712: RAW_DC=2996 | RAW_VOLT=3840 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (79946) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (80706) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (80706) ACS712: RAW_DC=3001 | RAW_VOLT=3841 | DC: 0.22 A | Volt: 5.21 V | Power: 1.17 W | Percent: 100.00[0m
+[0;33mW (80716) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (81476) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (81476) ACS712: RAW_DC=2998 | RAW_VOLT=3840 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (81486) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (82246) ACS712: VCC_Sensor updated to 4.77V (Midpoint now 2383mV)[0m
+[0;32mI (82246) ACS712: RAW_DC=3002 | RAW_VOLT=3842 | DC: 0.22 A | Volt: 5.22 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (82256) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (83016) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (83016) ACS712: RAW_DC=3001 | RAW_VOLT=3841 | DC: 0.22 A | Volt: 5.21 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (83026) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (83786) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (83786) ACS712: RAW_DC=2999 | RAW_VOLT=3840 | DC: 0.20 A | Volt: 5.21 V | Power: 1.02 W | Percent: 100.00[0m
+[0;33mW (83796) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (84556) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (84556) ACS712: RAW_DC=3001 | RAW_VOLT=3840 | DC: 0.19 A | Volt: 5.21 V | Power: 0.97 W | Percent: 100.00[0m
+[0;33mW (84566) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (85326) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2382mV)[0m
+[0;32mI (85326) ACS712: RAW_DC=3000 | RAW_VOLT=3841 | DC: 0.19 A | Volt: 5.21 V | Power: 0.99 W | Percent: 100.00[0m
+[0;33mW (85336) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (85856) BLE_GATT: ESP_GATTS_CONNECT_EVT, conn_id 0[0m
+[0;32mI (86136) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2381mV)[0m
+[0;32mI (86136) ACS712: RAW_DC=3003 | RAW_VOLT=3840 | DC: 0.19 A | Volt: 5.21 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (86136) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (86476) BLE_GATT: Connection params updated: interval=32, latency=0, timeout=400[0m
+[0;32mI (86646) ACS712: BLE connected[0m
+[0;32mI (86926) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (86926) ACS712: RAW_DC=3000 | RAW_VOLT=3838 | DC: 0.18 A | Volt: 5.21 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (86936) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (86976) BLE_GATT: Connection params updated: interval=6, latency=0, timeout=500[0m
+[0;32mI (87106) BLE_GATT: GATT_WRITE_EVT, handle 43, value len 2[0m
+[0;32mI (87106) BLE_GATT: Notify enabled[0m
+[0;32mI (87156) BLE_GATT: Connection params updated: interval=32, latency=0, timeout=400[0m
+[0;32mI (87696) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (87696) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.19 A | Volt: 5.21 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (87706) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (87716) BLE_GATT: Sent string: 0.19,5.21,1.00,100.00[0m
+[0;32mI (87716) ACS712: Sent data: 0.19,5.21,1.00,100.00[0m
+[0;32mI (88486) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (88486) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.19 A | Volt: 5.21 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (88496) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (88506) BLE_GATT: Sent string: 0.19,5.21,1.01,100.00[0m
+[0;32mI (88506) ACS712: Sent data: 0.19,5.21,1.01,100.00[0m
+[0;32mI (89276) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (89276) ACS712: RAW_DC=3001 | RAW_VOLT=3837 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (89286) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (89296) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (89296) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (90066) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (90066) ACS712: RAW_DC=3001 | RAW_VOLT=3837 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (90076) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (90086) BLE_GATT: Sent string: 0.22,5.21,1.15,100.00[0m
+[0;32mI (90086) ACS712: Sent data: 0.22,5.21,1.15,100.00[0m
+[0;32mI (90856) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2380mV)[0m
+[0;32mI (90856) ACS712: RAW_DC=3000 | RAW_VOLT=3838 | DC: 0.21 A | Volt: 5.21 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (90866) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (90876) BLE_GATT: Sent string: 0.21,5.21,1.08,100.00[0m
+[0;32mI (90876) ACS712: Sent data: 0.21,5.21,1.08,100.00[0m
+[0;32mI (91646) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (91646) ACS712: RAW_DC=2998 | RAW_VOLT=3837 | DC: 0.19 A | Volt: 5.21 V | Power: 0.98 W | Percent: 100.00[0m
+[0;33mW (91656) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (91666) BLE_GATT: Sent string: 0.19,5.21,0.98,100.00[0m
+[0;32mI (91666) ACS712: Sent data: 0.19,5.21,0.98,100.00[0m
+[0;32mI (92436) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (92436) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (92446) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (92456) BLE_GATT: Sent string: 0.21,5.21,1.07,100.00[0m
+[0;32mI (92456) ACS712: Sent data: 0.21,5.21,1.07,100.00[0m
+[0;32mI (93226) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (93226) ACS712: RAW_DC=3001 | RAW_VOLT=3836 | DC: 0.22 A | Volt: 5.21 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (93236) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (93246) BLE_GATT: Sent string: 0.22,5.21,1.13,100.00[0m
+[0;32mI (93246) ACS712: Sent data: 0.22,5.21,1.13,100.00[0m
+[0;32mI (94016) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (94016) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (94026) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (94036) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (94036) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (94806) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (94806) ACS712: RAW_DC=2999 | RAW_VOLT=3837 | DC: 0.19 A | Volt: 5.21 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (94816) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (94826) BLE_GATT: Sent string: 0.19,5.21,1.00,100.00[0m
+[0;32mI (94826) ACS712: Sent data: 0.19,5.21,1.00,100.00[0m
+[0;32mI (95596) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (95596) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.19 A | Volt: 5.21 V | Power: 0.99 W | Percent: 100.00[0m
+[0;33mW (95606) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (95616) BLE_GATT: Sent string: 0.19,5.21,0.99,100.00[0m
+[0;32mI (95616) ACS712: Sent data: 0.19,5.21,0.99,100.00[0m
+[0;32mI (96386) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (96386) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (96396) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (96406) BLE_GATT: Sent string: 0.21,5.21,1.08,100.00[0m
+[0;32mI (96406) ACS712: Sent data: 0.21,5.21,1.08,100.00[0m
+[0;32mI (97176) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (97176) ACS712: RAW_DC=3000 | RAW_VOLT=3835 | DC: 0.19 A | Volt: 5.21 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (97186) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (97196) BLE_GATT: Sent string: 0.19,5.21,1.01,100.00[0m
+[0;32mI (97196) ACS712: Sent data: 0.19,5.21,1.01,100.00[0m
+[0;32mI (97966) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (97966) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.20 A | Volt: 5.21 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (97976) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (97986) BLE_GATT: Sent string: 0.20,5.21,1.06,100.00[0m
+[0;32mI (97986) ACS712: Sent data: 0.20,5.21,1.06,100.00[0m
+[0;32mI (98756) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (98756) ACS712: RAW_DC=3002 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (98766) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (98776) BLE_GATT: Sent string: 0.20,5.21,1.05,100.00[0m
+[0;32mI (98776) ACS712: Sent data: 0.20,5.21,1.05,100.00[0m
+[0;32mI (99546) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (99546) ACS712: RAW_DC=2998 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (99556) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (99566) BLE_GATT: Sent string: 0.21,5.21,1.11,100.00[0m
+[0;32mI (99566) ACS712: Sent data: 0.21,5.21,1.11,100.00[0m
+[0;32mI (100336) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (100336) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (100346) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (100356) BLE_GATT: Sent string: 0.20,5.21,1.06,100.00[0m
+[0;32mI (100356) ACS712: Sent data: 0.20,5.21,1.06,100.00[0m
+[0;32mI (101126) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (101126) ACS712: RAW_DC=2997 | RAW_VOLT=3836 | DC: 0.18 A | Volt: 5.21 V | Power: 0.96 W | Percent: 100.00[0m
+[0;33mW (101136) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (101146) BLE_GATT: Sent string: 0.18,5.21,0.96,100.00[0m
+[0;32mI (101146) ACS712: Sent data: 0.18,5.21,0.96,100.00[0m
+[0;32mI (101916) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (101916) ACS712: RAW_DC=2997 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (101926) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (101936) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (101936) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (102706) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (102706) ACS712: RAW_DC=2998 | RAW_VOLT=3835 | DC: 0.21 A | Volt: 5.21 V | Power: 1.08 W | Percent: 100.00[0m
+[0;33mW (102716) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (102726) BLE_GATT: Sent string: 0.21,5.21,1.08,100.00[0m
+[0;32mI (102726) ACS712: Sent data: 0.21,5.21,1.08,100.00[0m
+[0;32mI (103496) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (103496) ACS712: RAW_DC=2999 | RAW_VOLT=3835 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (103506) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (103516) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (103516) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (104286) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (104286) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (104296) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (104306) BLE_GATT: Sent string: 0.20,5.21,1.05,100.00[0m
+[0;32mI (104306) ACS712: Sent data: 0.20,5.21,1.05,100.00[0m
+[0;32mI (105076) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (105076) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (105086) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (105096) BLE_GATT: Sent string: 0.20,5.21,1.06,100.00[0m
+[0;32mI (105096) ACS712: Sent data: 0.20,5.21,1.06,100.00[0m
+[0;32mI (105866) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (105866) ACS712: RAW_DC=3001 | RAW_VOLT=3836 | DC: 0.22 A | Volt: 5.21 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (105876) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (105886) BLE_GATT: Sent string: 0.22,5.21,1.14,100.00[0m
+[0;32mI (105886) ACS712: Sent data: 0.22,5.21,1.14,100.00[0m
+[0;32mI (106656) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (106656) ACS712: RAW_DC=3002 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (106666) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (106676) BLE_GATT: Sent string: 0.21,5.21,1.10,100.00[0m
+[0;32mI (106676) ACS712: Sent data: 0.21,5.21,1.10,100.00[0m
+[0;32mI (107446) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (107446) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (107456) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (107466) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (107466) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (108236) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (108236) ACS712: RAW_DC=3002 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (108246) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (108256) BLE_GATT: Sent string: 0.21,5.21,1.09,100.00[0m
+[0;32mI (108256) ACS712: Sent data: 0.21,5.21,1.09,100.00[0m
+[0;32mI (109026) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (109026) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (109036) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (109046) BLE_GATT: Sent string: 0.21,5.21,1.10,100.00[0m
+[0;32mI (109046) ACS712: Sent data: 0.21,5.21,1.10,100.00[0m
+[0;32mI (109816) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (109816) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (109826) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (109836) BLE_GATT: Sent string: 0.20,5.21,1.06,100.00[0m
+[0;32mI (109836) ACS712: Sent data: 0.20,5.21,1.06,100.00[0m
+[0;32mI (110606) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (110606) ACS712: RAW_DC=2998 | RAW_VOLT=3834 | DC: 0.19 A | Volt: 5.20 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (110616) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (110626) BLE_GATT: Sent string: 0.19,5.20,1.01,100.00[0m
+[0;32mI (110626) ACS712: Sent data: 0.19,5.20,1.01,100.00[0m
+[0;32mI (111396) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (111396) ACS712: RAW_DC=3000 | RAW_VOLT=3834 | DC: 0.20 A | Volt: 5.20 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (111406) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (111416) BLE_GATT: Sent string: 0.20,5.20,1.06,100.00[0m
+[0;32mI (111416) ACS712: Sent data: 0.20,5.20,1.06,100.00[0m
+[0;32mI (112186) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (112186) ACS712: RAW_DC=2998 | RAW_VOLT=3833 | DC: 0.22 A | Volt: 5.20 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (112196) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (112206) BLE_GATT: Sent string: 0.22,5.20,1.14,100.00[0m
+[0;32mI (112206) ACS712: Sent data: 0.22,5.20,1.14,100.00[0m
+[0;32mI (112976) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (112976) ACS712: RAW_DC=2998 | RAW_VOLT=3833 | DC: 0.22 A | Volt: 5.20 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (112986) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (112996) BLE_GATT: Sent string: 0.22,5.20,1.13,100.00[0m
+[0;32mI (112996) ACS712: Sent data: 0.22,5.20,1.13,100.00[0m
+[0;32mI (113766) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (113766) ACS712: RAW_DC=2999 | RAW_VOLT=3833 | DC: 0.20 A | Volt: 5.20 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (113776) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (113786) BLE_GATT: Sent string: 0.20,5.20,1.05,100.00[0m
+[0;32mI (113786) ACS712: Sent data: 0.20,5.20,1.05,100.00[0m
+[0;32mI (114006) BLE_GATT: GATT_WRITE_EVT, handle 42, value len 5[0m
+[0;32mI (114016) BLE_GATT: Received data from client:[0m
+[0;32mI (114016) BLE_GATT: 30 2e 32 35 00 [0m
+[0;32mI (114016) ACS712: === Data received from client ===[0m
+[0;32mI (114026) ACS712: Length: 5 bytes[0m
+[0;32mI (114026) ACS712: Data as string: 0.25[0m
+[0;32mI (114036) ACS712: Float value = 0.250[0m
+[0;32mI (114556) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (114556) ACS712: RAW_DC=2999 | RAW_VOLT=3833 | DC: 0.21 A | Volt: 5.20 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (114566) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (114576) BLE_GATT: Sent string: 0.21,5.20,1.09,100.00[0m
+[0;32mI (114576) ACS712: Sent data: 0.21,5.20,1.09,100.00[0m
+[0;32mI (115346) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (115346) ACS712: RAW_DC=2998 | RAW_VOLT=3834 | DC: 0.22 A | Volt: 5.20 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (115356) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (115366) BLE_GATT: Sent string: 0.22,5.20,1.12,100.00[0m
+[0;32mI (115366) ACS712: Sent data: 0.22,5.20,1.12,100.00[0m
+[0;32mI (116136) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (116136) ACS712: RAW_DC=2998 | RAW_VOLT=3834 | DC: 0.21 A | Volt: 5.20 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (116146) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (116156) BLE_GATT: Sent string: 0.21,5.20,1.07,100.00[0m
+[0;32mI (116156) ACS712: Sent data: 0.21,5.20,1.07,100.00[0m
+[0;32mI (116926) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (116926) ACS712: RAW_DC=2997 | RAW_VOLT=3834 | DC: 0.19 A | Volt: 5.20 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (116936) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (116946) BLE_GATT: Sent string: 0.19,5.20,1.01,100.00[0m
+[0;32mI (116946) ACS712: Sent data: 0.19,5.20,1.01,100.00[0m
+[0;32mI (117716) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (117716) ACS712: RAW_DC=3000 | RAW_VOLT=3834 | DC: 0.20 A | Volt: 5.20 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (117726) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (117736) BLE_GATT: Sent string: 0.20,5.20,1.05,100.00[0m
+[0;32mI (117736) ACS712: Sent data: 0.20,5.20,1.05,100.00[0m
+[0;32mI (118506) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (118506) ACS712: RAW_DC=2999 | RAW_VOLT=3834 | DC: 0.22 A | Volt: 5.20 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (118516) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (118526) BLE_GATT: Sent string: 0.22,5.20,1.16,100.00[0m
+[0;32mI (118526) ACS712: Sent data: 0.22,5.20,1.16,100.00[0m
+[0;32mI (119296) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (119296) ACS712: RAW_DC=3001 | RAW_VOLT=3835 | DC: 0.21 A | Volt: 5.21 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (119306) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (119316) BLE_GATT: Sent string: 0.21,5.21,1.12,100.00[0m
+[0;32mI (119316) ACS712: Sent data: 0.21,5.21,1.12,100.00[0m
+[0;32mI (120086) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (120086) ACS712: RAW_DC=3000 | RAW_VOLT=3835 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (120096) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (120106) BLE_GATT: Sent string: 0.21,5.21,1.09,100.00[0m
+[0;32mI (120106) ACS712: Sent data: 0.21,5.21,1.09,100.00[0m
+[0;32mI (120876) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (120876) ACS712: RAW_DC=3002 | RAW_VOLT=3836 | DC: 0.22 A | Volt: 5.21 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (120886) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (120896) BLE_GATT: Sent string: 0.22,5.21,1.13,100.00[0m
+[0;32mI (120896) ACS712: Sent data: 0.22,5.21,1.13,100.00[0m
+[0;32mI (121666) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (121666) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (121676) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (121686) BLE_GATT: Sent string: 0.21,5.21,1.10,100.00[0m
+[0;32mI (121686) ACS712: Sent data: 0.21,5.21,1.10,100.00[0m
+[0;32mI (122456) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (122456) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.02 W | Percent: 100.00[0m
+[0;33mW (122466) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (122476) BLE_GATT: Sent string: 0.20,5.21,1.02,100.00[0m
+[0;32mI (122476) ACS712: Sent data: 0.20,5.21,1.02,100.00[0m
+[0;32mI (123246) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (123246) ACS712: RAW_DC=3000 | RAW_VOLT=3835 | DC: 0.19 A | Volt: 5.21 V | Power: 0.98 W | Percent: 100.00[0m
+[0;33mW (123256) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (123266) BLE_GATT: Sent string: 0.19,5.21,0.98,100.00[0m
+[0;32mI (123266) ACS712: Sent data: 0.19,5.21,0.98,100.00[0m
+[0;32mI (124036) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (124036) ACS712: RAW_DC=3000 | RAW_VOLT=3835 | DC: 0.20 A | Volt: 5.21 V | Power: 1.03 W | Percent: 100.00[0m
+[0;33mW (124046) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (124056) BLE_GATT: Sent string: 0.20,5.21,1.03,100.00[0m
+[0;32mI (124056) ACS712: Sent data: 0.20,5.21,1.03,100.00[0m
+[0;32mI (124826) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (124826) ACS712: RAW_DC=2998 | RAW_VOLT=3835 | DC: 0.21 A | Volt: 5.21 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (124836) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (124846) BLE_GATT: Sent string: 0.21,5.21,1.11,100.00[0m
+[0;32mI (124846) ACS712: Sent data: 0.21,5.21,1.11,100.00[0m
+[0;32mI (125616) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (125616) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (125626) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (125636) BLE_GATT: Sent string: 0.21,5.21,1.07,100.00[0m
+[0;32mI (125636) ACS712: Sent data: 0.21,5.21,1.07,100.00[0m
+[0;32mI (126406) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (126406) ACS712: RAW_DC=3001 | RAW_VOLT=3836 | DC: 0.19 A | Volt: 5.21 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (126416) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (126426) BLE_GATT: Sent string: 0.19,5.21,1.00,100.00[0m
+[0;32mI (126426) ACS712: Sent data: 0.19,5.21,1.00,100.00[0m
+[0;32mI (127196) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (127196) ACS712: RAW_DC=3001 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (127206) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (127216) BLE_GATT: Sent string: 0.21,5.21,1.09,100.00[0m
+[0;32mI (127216) ACS712: Sent data: 0.21,5.21,1.09,100.00[0m
+[0;32mI (127986) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (127986) ACS712: RAW_DC=3002 | RAW_VOLT=3837 | DC: 0.22 A | Volt: 5.21 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (127996) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (128006) BLE_GATT: Sent string: 0.22,5.21,1.16,100.00[0m
+[0;32mI (128006) ACS712: Sent data: 0.22,5.21,1.16,100.00[0m
+[0;32mI (128776) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (128776) ACS712: RAW_DC=3001 | RAW_VOLT=3837 | DC: 0.21 A | Volt: 5.21 V | Power: 1.09 W | Percent: 100.00[0m
+[0;33mW (128786) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (128796) BLE_GATT: Sent string: 0.21,5.21,1.09,100.00[0m
+[0;32mI (128796) ACS712: Sent data: 0.21,5.21,1.09,100.00[0m
+[0;32mI (129566) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (129566) ACS712: RAW_DC=3002 | RAW_VOLT=3837 | DC: 0.20 A | Volt: 5.21 V | Power: 1.03 W | Percent: 100.00[0m
+[0;33mW (129576) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (129586) BLE_GATT: Sent string: 0.20,5.21,1.03,100.00[0m
+[0;32mI (129586) ACS712: Sent data: 0.20,5.21,1.03,100.00[0m
+[0;32mI (130356) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (130356) ACS712: RAW_DC=3000 | RAW_VOLT=3837 | DC: 0.21 A | Volt: 5.21 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (130366) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (130376) BLE_GATT: Sent string: 0.21,5.21,1.10,100.00[0m
+[0;32mI (130376) ACS712: Sent data: 0.21,5.21,1.10,100.00[0m
+[0;32mI (131146) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (131146) ACS712: RAW_DC=2999 | RAW_VOLT=3837 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (131156) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (131166) BLE_GATT: Sent string: 0.22,5.21,1.15,100.00[0m
+[0;32mI (131166) ACS712: Sent data: 0.22,5.21,1.15,100.00[0m
+[0;32mI (131936) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (131936) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (131946) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (131956) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (131956) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (132726) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (132726) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (132736) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (132746) BLE_GATT: Sent string: 0.20,5.21,1.04,100.00[0m
+[0;32mI (132746) ACS712: Sent data: 0.20,5.21,1.04,100.00[0m
+[0;32mI (133516) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (133516) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.07 W | Percent: 100.00[0m
+[0;33mW (133526) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (133536) BLE_GATT: Sent string: 0.21,5.21,1.07,100.00[0m
+[0;32mI (133536) ACS712: Sent data: 0.21,5.21,1.07,100.00[0m
+[0;32mI (134306) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (134306) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.22 A | Volt: 5.21 V | Power: 1.15 W | Percent: 100.00[0m
+[0;33mW (134316) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (134326) BLE_GATT: Sent string: 0.22,5.21,1.15,100.00[0m
+[0;32mI (134326) ACS712: Sent data: 0.22,5.21,1.15,100.00[0m
+[0;32mI (135096) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (135096) ACS712: RAW_DC=3001 | RAW_VOLT=3836 | DC: 0.21 A | Volt: 5.21 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (135106) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (135116) BLE_GATT: Sent string: 0.21,5.21,1.11,100.00[0m
+[0;32mI (135116) ACS712: Sent data: 0.21,5.21,1.11,100.00[0m
+[0;32mI (135886) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (135886) ACS712: RAW_DC=2999 | RAW_VOLT=3836 | DC: 0.20 A | Volt: 5.21 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (135896) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (135906) BLE_GATT: Sent string: 0.20,5.21,1.06,100.00[0m
+[0;32mI (135906) ACS712: Sent data: 0.20,5.21,1.06,100.00[0m
+[0;32mI (136676) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (136676) ACS712: RAW_DC=3001 | RAW_VOLT=3835 | DC: 0.21 A | Volt: 5.21 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (136686) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (136696) BLE_GATT: Sent string: 0.21,5.21,1.12,100.00[0m
+[0;32mI (136696) ACS712: Sent data: 0.21,5.21,1.12,100.00[0m
+[0;32mI (137466) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2378mV)[0m
+[0;32mI (137466) ACS712: RAW_DC=3000 | RAW_VOLT=3835 | DC: 0.22 A | Volt: 5.21 V | Power: 1.14 W | Percent: 100.00[0m
+[0;33mW (137476) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (137486) BLE_GATT: Sent string: 0.22,5.21,1.14,100.00[0m
+[0;32mI (137486) ACS712: Sent data: 0.22,5.21,1.14,100.00[0m
+[0;32mI (138256) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (138256) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.22 A | Volt: 5.21 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (138266) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (138276) BLE_GATT: Sent string: 0.22,5.21,1.13,100.00[0m
+[0;32mI (138276) ACS712: Sent data: 0.22,5.21,1.13,100.00[0m
+[0;32mI (139046) ACS712: VCC_Sensor updated to 4.76V (Midpoint now 2379mV)[0m
+[0;32mI (139046) ACS712: RAW_DC=3000 | RAW_VOLT=3836 | DC: 0.19 A | Volt: 5.21 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (139056) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (139066) BLE_GATT: Sent string: 0.19,5.21,1.01,100.00[0m
+[0;32mI (139066) ACS712: Sent data: 0.19,5.21,1.01,100.00[0m
+[0;32mI (139836) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2377mV)[0m
+[0;32mI (139836) ACS712: RAW_DC=2996 | RAW_VOLT=3834 | DC: 0.20 A | Volt: 5.20 V | Power: 1.03 W | Percent: 100.00[0m
+[0;33mW (139846) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (139856) BLE_GATT: Sent string: 0.20,5.20,1.03,100.00[0m
+[0;32mI (139856) ACS712: Sent data: 0.20,5.20,1.03,100.00[0m
+[0;32mI (140626) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2376mV)[0m
+[0;32mI (140626) ACS712: RAW_DC=2994 | RAW_VOLT=3832 | DC: 0.20 A | Volt: 5.20 V | Power: 1.06 W | Percent: 100.00[0m
+[0;33mW (140636) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (140646) BLE_GATT: Sent string: 0.20,5.20,1.06,100.00[0m
+[0;32mI (140646) ACS712: Sent data: 0.20,5.20,1.06,100.00[0m
+[0;32mI (141416) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2375mV)[0m
+[0;32mI (141416) ACS712: RAW_DC=2994 | RAW_VOLT=3831 | DC: 0.20 A | Volt: 5.20 V | Power: 1.02 W | Percent: 100.00[0m
+[0;33mW (141426) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (141436) BLE_GATT: Sent string: 0.20,5.20,1.02,100.00[0m
+[0;32mI (141436) ACS712: Sent data: 0.20,5.20,1.02,100.00[0m
+[0;32mI (142206) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2375mV)[0m
+[0;32mI (142206) ACS712: RAW_DC=2994 | RAW_VOLT=3830 | DC: 0.19 A | Volt: 5.20 V | Power: 1.01 W | Percent: 100.00[0m
+[0;33mW (142216) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (142226) BLE_GATT: Sent string: 0.19,5.20,1.01,100.00[0m
+[0;32mI (142226) ACS712: Sent data: 0.19,5.20,1.01,100.00[0m
+[0;32mI (142996) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2374mV)[0m
+[0;32mI (142996) ACS712: RAW_DC=2994 | RAW_VOLT=3829 | DC: 0.20 A | Volt: 5.20 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (143006) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (143016) BLE_GATT: Sent string: 0.20,5.20,1.05,100.00[0m
+[0;32mI (143016) ACS712: Sent data: 0.20,5.20,1.05,100.00[0m
+[0;32mI (143786) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2373mV)[0m
+[0;32mI (143786) ACS712: RAW_DC=2992 | RAW_VOLT=3828 | DC: 0.22 A | Volt: 5.20 V | Power: 1.16 W | Percent: 100.00[0m
+[0;33mW (143796) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (143806) BLE_GATT: Sent string: 0.22,5.20,1.16,100.00[0m
+[0;32mI (143806) ACS712: Sent data: 0.22,5.20,1.16,100.00[0m
+[0;32mI (144576) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2373mV)[0m
+[0;32mI (144576) ACS712: RAW_DC=2993 | RAW_VOLT=3827 | DC: 0.21 A | Volt: 5.20 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (144586) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (144596) BLE_GATT: Sent string: 0.21,5.20,1.11,100.00[0m
+[0;32mI (144596) ACS712: Sent data: 0.21,5.20,1.11,100.00[0m
+[0;32mI (145366) ACS712: VCC_Sensor updated to 4.75V (Midpoint now 2373mV)[0m
+[0;32mI (145366) ACS712: RAW_DC=2994 | RAW_VOLT=3827 | DC: 0.21 A | Volt: 5.20 V | Power: 1.10 W | Percent: 100.00[0m
+[0;33mW (145376) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (145386) BLE_GATT: Sent string: 0.21,5.20,1.10,100.00[0m
+[0;32mI (145386) ACS712: Sent data: 0.21,5.20,1.10,100.00[0m
+[0;32mI (146156) ACS712: VCC_Sensor updated to 4.74V (Midpoint now 2372mV)[0m
+[0;32mI (146156) ACS712: RAW_DC=2995 | RAW_VOLT=3826 | DC: 0.21 A | Volt: 5.19 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (146166) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (146176) BLE_GATT: Sent string: 0.21,5.19,1.11,100.00[0m
+[0;32mI (146176) ACS712: Sent data: 0.21,5.19,1.11,100.00[0m
+[0;32mI (146946) ACS712: VCC_Sensor updated to 4.74V (Midpoint now 2372mV)[0m
+[0;32mI (146946) ACS712: RAW_DC=2994 | RAW_VOLT=3826 | DC: 0.22 A | Volt: 5.19 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (146956) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (146966) BLE_GATT: Sent string: 0.22,5.19,1.13,100.00[0m
+[0;32mI (146966) ACS712: Sent data: 0.22,5.19,1.13,100.00[0m
+[0;32mI (147736) ACS712: VCC_Sensor updated to 4.74V (Midpoint now 2368mV)[0m
+[0;32mI (147736) ACS712: RAW_DC=2979 | RAW_VOLT=3820 | DC: 0.20 A | Volt: 5.19 V | Power: 1.04 W | Percent: 100.00[0m
+[0;33mW (147746) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (147756) BLE_GATT: Sent string: 0.20,5.19,1.04,100.00[0m
+[0;32mI (147756) ACS712: Sent data: 0.20,5.19,1.04,100.00[0m
+[0;32mI (148526) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2366mV)[0m
+[0;32mI (148526) ACS712: RAW_DC=2983 | RAW_VOLT=3817 | DC: 0.19 A | Volt: 5.18 V | Power: 1.00 W | Percent: 100.00[0m
+[0;33mW (148536) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (148546) BLE_GATT: Sent string: 0.19,5.18,1.00,100.00[0m
+[0;32mI (148546) ACS712: Sent data: 0.19,5.18,1.00,100.00[0m
+[0;32mI (149316) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2364mV)[0m
+[0;32mI (149316) ACS712: RAW_DC=2983 | RAW_VOLT=3815 | DC: 0.22 A | Volt: 5.18 V | Power: 1.12 W | Percent: 100.00[0m
+[0;33mW (149326) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (149336) BLE_GATT: Sent string: 0.22,5.18,1.12,100.00[0m
+[0;32mI (149336) ACS712: Sent data: 0.22,5.18,1.12,100.00[0m
+[0;32mI (150106) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2364mV)[0m
+[0;32mI (150106) ACS712: RAW_DC=2983 | RAW_VOLT=3814 | DC: 0.23 A | Volt: 5.18 V | Power: 1.18 W | Percent: 100.00[0m
+[0;33mW (150116) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (150126) BLE_GATT: Sent string: 0.23,5.18,1.18,100.00[0m
+[0;32mI (150126) ACS712: Sent data: 0.23,5.18,1.18,100.00[0m
+[0;32mI (150896) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2363mV)[0m
+[0;32mI (150896) ACS712: RAW_DC=2985 | RAW_VOLT=3813 | DC: 0.22 A | Volt: 5.18 V | Power: 1.13 W | Percent: 100.00[0m
+[0;33mW (150906) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (150916) BLE_GATT: Sent string: 0.22,5.18,1.13,100.00[0m
+[0;32mI (150916) ACS712: Sent data: 0.22,5.18,1.13,100.00[0m
+[0;32mI (151686) ACS712: VCC_Sensor updated to 4.72V (Midpoint now 2362mV)[0m
+[0;32mI (151686) ACS712: RAW_DC=2986 | RAW_VOLT=3812 | DC: 0.21 A | Volt: 5.17 V | Power: 1.11 W | Percent: 100.00[0m
+[0;33mW (151696) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (151706) BLE_GATT: Sent string: 0.21,5.17,1.11,100.00[0m
+[0;32mI (151706) ACS712: Sent data: 0.21,5.17,1.11,100.00[0m
+[0;32mI (152476) ACS712: VCC_Sensor updated to 4.72V (Midpoint now 2362mV)[0m
+[0;32mI (152476) ACS712: RAW_DC=2989 | RAW_VOLT=3812 | DC: 0.23 A | Volt: 5.17 V | Power: 1.20 W | Percent: 100.00[0m
+[0;33mW (152486) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (152496) BLE_GATT: Sent string: 0.23,5.17,1.20,100.00[0m
+[0;32mI (152496) ACS712: Sent data: 0.23,5.17,1.20,100.00[0m
+[0;32mI (153266) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2363mV)[0m
+[0;32mI (153266) ACS712: RAW_DC=2987 | RAW_VOLT=3813 | DC: 0.25 A | Volt: 5.18 V | Power: 1.28 W | Percent: 100.00[0m
+[0;33mW (153276) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (153286) BLE_GATT: Sent string: 0.25,5.18,1.28,100.00[0m
+[0;32mI (153286) ACS712: Sent data: 0.25,5.18,1.28,100.00[0m
+[0;32mI (154056) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2363mV)[0m
+[0;32mI (154056) ACS712: RAW_DC=2987 | RAW_VOLT=3813 | DC: 0.23 A | Volt: 5.18 V | Power: 1.21 W | Percent: 100.00[0m
+[0;33mW (154066) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (154076) BLE_GATT: Sent string: 0.23,5.18,1.21,100.00[0m
+[0;32mI (154076) ACS712: Sent data: 0.23,5.18,1.21,100.00[0m
+[0;32mI (154846) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2363mV)[0m
+[0;32mI (154846) ACS712: RAW_DC=2987 | RAW_VOLT=3813 | DC: 0.23 A | Volt: 5.18 V | Power: 1.17 W | Percent: 100.00[0m
+[0;33mW (154856) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (154866) BLE_GATT: Sent string: 0.23,5.18,1.17,100.00[0m
+[0;32mI (154866) ACS712: Sent data: 0.23,5.18,1.17,100.00[0m
+[0;32mI (155636) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2363mV)[0m
+[0;32mI (155636) ACS712: RAW_DC=2988 | RAW_VOLT=3813 | DC: 0.24 A | Volt: 5.18 V | Power: 1.22 W | Percent: 100.00[0m
+[0;33mW (155646) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (155656) BLE_GATT: Sent string: 0.24,5.18,1.22,100.00[0m
+[0;32mI (155656) ACS712: Sent data: 0.24,5.18,1.22,100.00[0m
+[0;32mI (156426) ACS712: VCC_Sensor updated to 4.73V (Midpoint now 2364mV)[0m
+[0;32mI (156426) ACS712: RAW_DC=2988 | RAW_VOLT=3814 | DC: 0.25 A | Volt: 5.18 V | Power: 1.31 W | Percent: 100.00[0m
+[0;33mW (156436) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (156446) BLE_GATT: Sent string: 0.25,5.18,1.31,100.00[0m
+[0;32mI (156446) ACS712: Sent data: 0.25,5.18,1.31,100.00[0m
+[0;32mI (157216) ACS712: VCC_Sensor updated to 4.70V (Midpoint now 2351mV)[0m
+[0;32mI (157216) ACS712: RAW_DC=2952 | RAW_VOLT=3795 | DC: 0.18 A | Volt: 5.15 V | Power: 0.91 W | Percent: 100.00[0m
+[0;33mW (157226) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (157236) BLE_GATT: Sent string: 0.18,5.15,0.91,100.00[0m
+[0;32mI (157236) ACS712: Sent data: 0.18,5.15,0.91,100.00[0m
+[0;32mI (158006) ACS712: VCC_Sensor updated to 4.68V (Midpoint now 2342mV)[0m
+[0;32mI (158006) ACS712: RAW_DC=2954 | RAW_VOLT=3782 | DC: 0.20 A | Volt: 5.13 V | Power: 1.05 W | Percent: 100.00[0m
+[0;33mW (158016) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (158026) BLE_GATT: Sent string: 0.20,5.13,1.05,100.00[0m
+[0;32mI (158026) ACS712: Sent data: 0.20,5.13,1.05,100.00[0m
+[0;32mI (158796) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2336mV)[0m
+[0;32mI (158796) ACS712: RAW_DC=2961 | RAW_VOLT=3773 | DC: 0.26 A | Volt: 5.12 V | Power: 1.31 W | Percent: 100.00[0m
+[0;33mW (158806) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (158816) BLE_GATT: Sent string: 0.26,5.12,1.31,100.00[0m
+[0;32mI (158816) ACS712: Sent data: 0.26,5.12,1.31,100.00[0m
+[0;32mI (159586) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2332mV)[0m
+[0;32mI (159586) ACS712: RAW_DC=2962 | RAW_VOLT=3767 | DC: 0.29 A | Volt: 5.11 V | Power: 1.47 W | Percent: 100.00[0m
+[0;33mW (159596) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (159606) BLE_GATT: Sent string: 0.29,5.11,1.47,100.00[0m
+[0;32mI (159606) ACS712: Sent data: 0.29,5.11,1.47,100.00[0m
+[0;32mI (160376) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2329mV)[0m
+[0;32mI (160376) ACS712: RAW_DC=2963 | RAW_VOLT=3763 | DC: 0.30 A | Volt: 5.11 V | Power: 1.56 W | Percent: 100.00[0m
+[0;33mW (160386) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (160396) BLE_GATT: Sent string: 0.30,5.11,1.56,100.00[0m
+[0;32mI (160396) ACS712: Sent data: 0.30,5.11,1.56,100.00[0m
+[0;32mI (161166) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2326mV)[0m
+[0;32mI (161166) ACS712: RAW_DC=2965 | RAW_VOLT=3759 | DC: 0.31 A | Volt: 5.10 V | Power: 1.57 W | Percent: 100.00[0m
+[0;33mW (161176) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (161186) BLE_GATT: Sent string: 0.31,5.10,1.57,100.00[0m
+[0;32mI (161186) ACS712: Sent data: 0.31,5.10,1.57,100.00[0m
+[0;32mI (161956) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2324mV)[0m
+[0;32mI (161956) ACS712: RAW_DC=2965 | RAW_VOLT=3756 | DC: 0.34 A | Volt: 5.10 V | Power: 1.75 W | Percent: 100.00[0m
+[0;33mW (161966) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (161976) BLE_GATT: Sent string: 0.34,5.10,1.75,100.00[0m
+[0;32mI (161976) ACS712: Sent data: 0.34,5.10,1.75,100.00[0m
+[0;32mI (162746) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2325mV)[0m
+[0;32mI (162746) ACS712: RAW_DC=2974 | RAW_VOLT=3757 | DC: 0.38 A | Volt: 5.10 V | Power: 1.92 W | Percent: 100.00[0m
+[0;33mW (162756) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (162766) BLE_GATT: Sent string: 0.38,5.10,1.92,100.00[0m
+[0;32mI (162766) ACS712: Sent data: 0.38,5.10,1.92,100.00[0m
+[0;32mI (163536) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2326mV)[0m
+[0;32mI (163536) ACS712: RAW_DC=2978 | RAW_VOLT=3759 | DC: 0.38 A | Volt: 5.10 V | Power: 1.93 W | Percent: 100.00[0m
+[0;33mW (163546) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (163556) BLE_GATT: Sent string: 0.38,5.10,1.93,100.00[0m
+[0;32mI (163556) ACS712: Sent data: 0.38,5.10,1.93,100.00[0m
+[0;32mI (164326) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2328mV)[0m
+[0;32mI (164326) ACS712: RAW_DC=2977 | RAW_VOLT=3761 | DC: 0.38 A | Volt: 5.11 V | Power: 1.93 W | Percent: 100.00[0m
+[0;33mW (164336) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (164346) BLE_GATT: Sent string: 0.38,5.11,1.93,100.00[0m
+[0;32mI (164346) ACS712: Sent data: 0.38,5.11,1.93,100.00[0m
+[0;32mI (165116) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2330mV)[0m
+[0;32mI (165116) ACS712: RAW_DC=2980 | RAW_VOLT=3764 | DC: 0.38 A | Volt: 5.11 V | Power: 1.95 W | Percent: 100.00[0m
+[0;33mW (165126) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (165136) BLE_GATT: Sent string: 0.38,5.11,1.95,100.00[0m
+[0;32mI (165136) ACS712: Sent data: 0.38,5.11,1.95,100.00[0m
+[0;32mI (165906) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (165906) ACS712: RAW_DC=2980 | RAW_VOLT=3766 | DC: 0.39 A | Volt: 5.11 V | Power: 2.00 W | Percent: 100.00[0m
+[0;33mW (165916) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (165926) BLE_GATT: Sent string: 0.39,5.11,2.00,100.00[0m
+[0;32mI (165926) ACS712: Sent data: 0.39,5.11,2.00,100.00[0m
+[0;32mI (166696) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2333mV)[0m
+[0;32mI (166696) ACS712: RAW_DC=2981 | RAW_VOLT=3768 | DC: 0.38 A | Volt: 5.12 V | Power: 1.94 W | Percent: 100.00[0m
+[0;33mW (166706) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (166716) BLE_GATT: Sent string: 0.38,5.12,1.94,100.00[0m
+[0;32mI (166716) ACS712: Sent data: 0.38,5.12,1.94,100.00[0m
+[0;32mI (167486) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2334mV)[0m
+[0;32mI (167486) ACS712: RAW_DC=2982 | RAW_VOLT=3770 | DC: 0.36 A | Volt: 5.12 V | Power: 1.87 W | Percent: 100.00[0m
+[0;33mW (167496) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (167506) BLE_GATT: Sent string: 0.36,5.12,1.87,100.00[0m
+[0;32mI (167506) ACS712: Sent data: 0.36,5.12,1.87,100.00[0m
+[0;32mI (168276) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2335mV)[0m
+[0;32mI (168276) ACS712: RAW_DC=2980 | RAW_VOLT=3771 | DC: 0.37 A | Volt: 5.12 V | Power: 1.87 W | Percent: 100.00[0m
+[0;33mW (168286) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (168296) BLE_GATT: Sent string: 0.37,5.12,1.87,100.00[0m
+[0;32mI (168296) ACS712: Sent data: 0.37,5.12,1.87,100.00[0m
+[0;32mI (169066) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2335mV)[0m
+[0;32mI (169066) ACS712: RAW_DC=2980 | RAW_VOLT=3771 | DC: 0.36 A | Volt: 5.12 V | Power: 1.85 W | Percent: 100.00[0m
+[0;33mW (169076) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (169086) BLE_GATT: Sent string: 0.36,5.12,1.85,100.00[0m
+[0;32mI (169086) ACS712: Sent data: 0.36,5.12,1.85,100.00[0m
+[0;32mI (169856) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2335mV)[0m
+[0;32mI (169856) ACS712: RAW_DC=2977 | RAW_VOLT=3771 | DC: 0.36 A | Volt: 5.12 V | Power: 1.83 W | Percent: 100.00[0m
+[0;33mW (169866) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (169876) BLE_GATT: Sent string: 0.36,5.12,1.83,100.00[0m
+[0;32mI (169876) ACS712: Sent data: 0.36,5.12,1.83,100.00[0m
+[0;32mI (170646) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2334mV)[0m
+[0;32mI (170646) ACS712: RAW_DC=2976 | RAW_VOLT=3770 | DC: 0.34 A | Volt: 5.12 V | Power: 1.71 W | Percent: 100.00[0m
+[0;33mW (170656) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (170666) BLE_GATT: Sent string: 0.34,5.12,1.71,100.00[0m
+[0;32mI (170666) ACS712: Sent data: 0.34,5.12,1.71,100.00[0m
+[0;32mI (171436) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2333mV)[0m
+[0;32mI (171436) ACS712: RAW_DC=2973 | RAW_VOLT=3768 | DC: 0.34 A | Volt: 5.12 V | Power: 1.75 W | Percent: 100.00[0m
+[0;33mW (171446) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (171456) BLE_GATT: Sent string: 0.34,5.12,1.75,100.00[0m
+[0;32mI (171456) ACS712: Sent data: 0.34,5.12,1.75,100.00[0m
+[0;32mI (172226) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (172226) ACS712: RAW_DC=2970 | RAW_VOLT=3765 | DC: 0.34 A | Volt: 5.11 V | Power: 1.75 W | Percent: 100.00[0m
+[0;33mW (172236) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (172246) BLE_GATT: Sent string: 0.34,5.11,1.75,100.00[0m
+[0;32mI (172246) ACS712: Sent data: 0.34,5.11,1.75,100.00[0m
+[0;32mI (173016) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2328mV)[0m
+[0;32mI (173016) ACS712: RAW_DC=2964 | RAW_VOLT=3761 | DC: 0.33 A | Volt: 5.11 V | Power: 1.67 W | Percent: 100.00[0m
+[0;33mW (173026) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (173036) BLE_GATT: Sent string: 0.33,5.11,1.67,100.00[0m
+[0;32mI (173036) ACS712: Sent data: 0.33,5.11,1.67,100.00[0m
+[0;32mI (173806) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2326mV)[0m
+[0;32mI (173806) ACS712: RAW_DC=2963 | RAW_VOLT=3758 | DC: 0.33 A | Volt: 5.10 V | Power: 1.69 W | Percent: 100.00[0m
+[0;33mW (173816) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (173826) BLE_GATT: Sent string: 0.33,5.10,1.69,100.00[0m
+[0;32mI (173826) ACS712: Sent data: 0.33,5.10,1.69,100.00[0m
+[0;32mI (174596) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2325mV)[0m
+[0;32mI (174596) ACS712: RAW_DC=2968 | RAW_VOLT=3757 | DC: 0.34 A | Volt: 5.10 V | Power: 1.76 W | Percent: 100.00[0m
+[0;33mW (174606) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (174616) BLE_GATT: Sent string: 0.34,5.10,1.76,100.00[0m
+[0;32mI (174616) ACS712: Sent data: 0.34,5.10,1.76,100.00[0m
+[0;32mI (175386) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2325mV)[0m
+[0;32mI (175386) ACS712: RAW_DC=2968 | RAW_VOLT=3757 | DC: 0.36 A | Volt: 5.10 V | Power: 1.84 W | Percent: 100.00[0m
+[0;33mW (175396) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (175406) BLE_GATT: Sent string: 0.36,5.10,1.84,100.00[0m
+[0;32mI (175406) ACS712: Sent data: 0.36,5.10,1.84,100.00[0m
+[0;32mI (176176) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2324mV)[0m
+[0;32mI (176176) ACS712: RAW_DC=2969 | RAW_VOLT=3755 | DC: 0.36 A | Volt: 5.10 V | Power: 1.85 W | Percent: 100.00[0m
+[0;33mW (176186) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (176196) BLE_GATT: Sent string: 0.36,5.10,1.85,100.00[0m
+[0;32mI (176196) ACS712: Sent data: 0.36,5.10,1.85,100.00[0m
+[0;32mI (176966) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2324mV)[0m
+[0;32mI (176966) ACS712: RAW_DC=2965 | RAW_VOLT=3755 | DC: 0.36 A | Volt: 5.10 V | Power: 1.83 W | Percent: 100.00[0m
+[0;33mW (176976) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (176986) BLE_GATT: Sent string: 0.36,5.10,1.83,100.00[0m
+[0;32mI (176986) ACS712: Sent data: 0.36,5.10,1.83,100.00[0m
+[0;32mI (177756) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2324mV)[0m
+[0;32mI (177756) ACS712: RAW_DC=2972 | RAW_VOLT=3755 | DC: 0.38 A | Volt: 5.10 V | Power: 1.92 W | Percent: 100.00[0m
+[0;33mW (177766) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (177776) BLE_GATT: Sent string: 0.38,5.10,1.92,100.00[0m
+[0;32mI (177776) ACS712: Sent data: 0.38,5.10,1.92,100.00[0m
+[0;32mI (178546) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2324mV)[0m
+[0;32mI (178546) ACS712: RAW_DC=2969 | RAW_VOLT=3756 | DC: 0.38 A | Volt: 5.10 V | Power: 1.95 W | Percent: 100.00[0m
+[0;33mW (178556) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (178566) BLE_GATT: Sent string: 0.38,5.10,1.95,100.00[0m
+[0;32mI (178566) ACS712: Sent data: 0.38,5.10,1.95,100.00[0m
+[0;32mI (179336) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2326mV)[0m
+[0;32mI (179336) ACS712: RAW_DC=2975 | RAW_VOLT=3758 | DC: 0.38 A | Volt: 5.10 V | Power: 1.95 W | Percent: 100.00[0m
+[0;33mW (179346) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (179356) BLE_GATT: Sent string: 0.38,5.10,1.95,100.00[0m
+[0;32mI (179356) ACS712: Sent data: 0.38,5.10,1.95,100.00[0m
+[0;32mI (180126) ACS712: VCC_Sensor updated to 4.65V (Midpoint now 2327mV)[0m
+[0;32mI (180126) ACS712: RAW_DC=2977 | RAW_VOLT=3760 | DC: 0.37 A | Volt: 5.10 V | Power: 1.91 W | Percent: 100.00[0m
+[0;33mW (180136) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (180146) BLE_GATT: Sent string: 0.37,5.10,1.91,100.00[0m
+[0;32mI (180146) ACS712: Sent data: 0.37,5.10,1.91,100.00[0m
+[0;32mI (180916) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2328mV)[0m
+[0;32mI (180916) ACS712: RAW_DC=2977 | RAW_VOLT=3761 | DC: 0.38 A | Volt: 5.11 V | Power: 1.95 W | Percent: 100.00[0m
+[0;33mW (180926) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (180936) BLE_GATT: Sent string: 0.38,5.11,1.95,100.00[0m
+[0;32mI (180936) ACS712: Sent data: 0.38,5.11,1.95,100.00[0m
+[0;32mI (181706) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2328mV)[0m
+[0;32mI (181706) ACS712: RAW_DC=2972 | RAW_VOLT=3761 | DC: 0.37 A | Volt: 5.11 V | Power: 1.91 W | Percent: 100.00[0m
+[0;33mW (181716) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (181726) BLE_GATT: Sent string: 0.37,5.11,1.91,100.00[0m
+[0;32mI (181726) ACS712: Sent data: 0.37,5.11,1.91,100.00[0m
+[0;32mI (182496) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2328mV)[0m
+[0;32mI (182496) ACS712: RAW_DC=2974 | RAW_VOLT=3761 | DC: 0.38 A | Volt: 5.11 V | Power: 1.92 W | Percent: 100.00[0m
+[0;33mW (182506) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (182516) BLE_GATT: Sent string: 0.38,5.11,1.92,100.00[0m
+[0;32mI (182516) ACS712: Sent data: 0.38,5.11,1.92,100.00[0m
+[0;32mI (183286) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2329mV)[0m
+[0;32mI (183286) ACS712: RAW_DC=2975 | RAW_VOLT=3762 | DC: 0.36 A | Volt: 5.11 V | Power: 1.82 W | Percent: 100.00[0m
+[0;33mW (183296) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (183306) BLE_GATT: Sent string: 0.36,5.11,1.82,100.00[0m
+[0;32mI (183306) ACS712: Sent data: 0.36,5.11,1.82,100.00[0m
+[0;32mI (184076) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2329mV)[0m
+[0;32mI (184076) ACS712: RAW_DC=2971 | RAW_VOLT=3762 | DC: 0.36 A | Volt: 5.11 V | Power: 1.82 W | Percent: 100.00[0m
+[0;33mW (184086) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (184096) BLE_GATT: Sent string: 0.36,5.11,1.82,100.00[0m
+[0;32mI (184096) ACS712: Sent data: 0.36,5.11,1.82,100.00[0m
+[0;32mI (184866) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2329mV)[0m
+[0;32mI (184866) ACS712: RAW_DC=2975 | RAW_VOLT=3762 | DC: 0.37 A | Volt: 5.11 V | Power: 1.86 W | Percent: 100.00[0m
+[0;33mW (184876) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (184886) BLE_GATT: Sent string: 0.37,5.11,1.86,100.00[0m
+[0;32mI (184886) ACS712: Sent data: 0.37,5.11,1.86,100.00[0m
+[0;32mI (185656) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2330mV)[0m
+[0;32mI (185656) ACS712: RAW_DC=2977 | RAW_VOLT=3764 | DC: 0.36 A | Volt: 5.11 V | Power: 1.86 W | Percent: 100.00[0m
+[0;33mW (185666) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (185676) BLE_GATT: Sent string: 0.36,5.11,1.86,100.00[0m
+[0;32mI (185676) ACS712: Sent data: 0.36,5.11,1.86,100.00[0m
+[0;32mI (186446) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (186446) ACS712: RAW_DC=2976 | RAW_VOLT=3765 | DC: 0.35 A | Volt: 5.11 V | Power: 1.80 W | Percent: 100.00[0m
+[0;33mW (186456) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (186466) BLE_GATT: Sent string: 0.35,5.11,1.80,100.00[0m
+[0;32mI (186466) ACS712: Sent data: 0.35,5.11,1.80,100.00[0m
+[0;32mI (187236) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (187236) ACS712: RAW_DC=2977 | RAW_VOLT=3766 | DC: 0.36 A | Volt: 5.11 V | Power: 1.85 W | Percent: 100.00[0m
+[0;33mW (187246) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (187256) BLE_GATT: Sent string: 0.36,5.11,1.85,100.00[0m
+[0;32mI (187256) ACS712: Sent data: 0.36,5.11,1.85,100.00[0m
+[0;32mI (188026) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (188026) ACS712: RAW_DC=2975 | RAW_VOLT=3766 | DC: 0.35 A | Volt: 5.11 V | Power: 1.81 W | Percent: 100.00[0m
+[0;33mW (188036) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (188046) BLE_GATT: Sent string: 0.35,5.11,1.81,100.00[0m
+[0;32mI (188046) ACS712: Sent data: 0.35,5.11,1.81,100.00[0m
+[0;32mI (188816) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (188816) ACS712: RAW_DC=2978 | RAW_VOLT=3766 | DC: 0.36 A | Volt: 5.11 V | Power: 1.82 W | Percent: 100.00[0m
+[0;33mW (188826) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (188836) BLE_GATT: Sent string: 0.36,5.11,1.82,100.00[0m
+[0;32mI (188836) ACS712: Sent data: 0.36,5.11,1.82,100.00[0m
+[0;32mI (189606) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (189606) ACS712: RAW_DC=2977 | RAW_VOLT=3766 | DC: 0.35 A | Volt: 5.11 V | Power: 1.80 W | Percent: 100.00[0m
+[0;33mW (189616) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (189626) BLE_GATT: Sent string: 0.35,5.11,1.80,100.00[0m
+[0;32mI (189626) ACS712: Sent data: 0.35,5.11,1.80,100.00[0m
+[0;32mI (190396) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (190396) ACS712: RAW_DC=2975 | RAW_VOLT=3766 | DC: 0.36 A | Volt: 5.11 V | Power: 1.85 W | Percent: 100.00[0m
+[0;33mW (190406) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (190416) BLE_GATT: Sent string: 0.36,5.11,1.85,100.00[0m
+[0;32mI (190416) ACS712: Sent data: 0.36,5.11,1.85,100.00[0m
+[0;32mI (191186) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (191186) ACS712: RAW_DC=2975 | RAW_VOLT=3766 | DC: 0.36 A | Volt: 5.11 V | Power: 1.86 W | Percent: 100.00[0m
+[0;33mW (191196) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (191206) BLE_GATT: Sent string: 0.36,5.11,1.86,100.00[0m
+[0;32mI (191206) ACS712: Sent data: 0.36,5.11,1.86,100.00[0m
+[0;32mI (191976) ACS712: VCC_Sensor updated to 4.66V (Midpoint now 2331mV)[0m
+[0;32mI (191976) ACS712: RAW_DC=2978 | RAW_VOLT=3766 | DC: 0.36 A | Volt: 5.11 V | Power: 1.83 W | Percent: 100.00[0m
+[0;33mW (191986) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (191996) BLE_GATT: Sent string: 0.36,5.11,1.83,100.00[0m
+[0;32mI (191996) ACS712: Sent data: 0.36,5.11,1.83,100.00[0m
+[0;32mI (192766) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2333mV)[0m
+[0;32mI (192766) ACS712: RAW_DC=2981 | RAW_VOLT=3768 | DC: 0.35 A | Volt: 5.12 V | Power: 1.80 W | Percent: 100.00[0m
+[0;33mW (192776) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (192786) BLE_GATT: Sent string: 0.35,5.12,1.80,100.00[0m
+[0;32mI (192786) ACS712: Sent data: 0.35,5.12,1.80,100.00[0m
+[0;32mI (193556) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2333mV)[0m
+[0;32mI (193556) ACS712: RAW_DC=2980 | RAW_VOLT=3769 | DC: 0.36 A | Volt: 5.12 V | Power: 1.84 W | Percent: 100.00[0m
+[0;33mW (193566) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (193576) BLE_GATT: Sent string: 0.36,5.12,1.84,100.00[0m
+[0;32mI (193576) ACS712: Sent data: 0.36,5.12,1.84,100.00[0m
+[0;32mI (194346) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2335mV)[0m
+[0;32mI (194346) ACS712: RAW_DC=2981 | RAW_VOLT=3772 | DC: 0.37 A | Volt: 5.12 V | Power: 1.89 W | Percent: 100.00[0m
+[0;33mW (194356) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (194366) BLE_GATT: Sent string: 0.37,5.12,1.89,100.00[0m
+[0;32mI (194366) ACS712: Sent data: 0.37,5.12,1.89,100.00[0m
+[0;32mI (195136) ACS712: VCC_Sensor updated to 4.67V (Midpoint now 2337mV)[0m
+[0;32mI (195136) ACS712: RAW_DC=2983 | RAW_VOLT=3774 | DC: 0.36 A | Volt: 5.12 V | Power: 1.86 W | Percent: 100.00[0m
+[0;33mW (195146) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (195156) BLE_GATT: Sent string: 0.36,5.12,1.86,100.00[0m
+[0;32mI (195156) ACS712: Sent data: 0.36,5.12,1.86,100.00[0m
+[0;32mI (195926) ACS712: VCC_Sensor updated to 4.68V (Midpoint now 2338mV)[0m
+[0;32mI (195926) ACS712: RAW_DC=2984 | RAW_VOLT=3776 | DC: 0.35 A | Volt: 5.13 V | Power: 1.81 W | Percent: 100.00[0m
+[0;33mW (195936) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (195946) BLE_GATT: Sent string: 0.35,5.13,1.81,100.00[0m
+[0;32mI (195946) ACS712: Sent data: 0.35,5.13,1.81,100.00[0m
+[0;32mI (196716) ACS712: VCC_Sensor updated to 4.68V (Midpoint now 2339mV)[0m
+[0;32mI (196716) ACS712: RAW_DC=2984 | RAW_VOLT=3777 | DC: 0.35 A | Volt: 5.13 V | Power: 1.81 W | Percent: 100.00[0m
+[0;33mW (196726) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (196736) BLE_GATT: Sent string: 0.35,5.13,1.81,100.00[0m
+[0;32mI (196736) ACS712: Sent data: 0.35,5.13,1.81,100.00[0m
+[0;32mI (197506) ACS712: VCC_Sensor updated to 4.68V (Midpoint now 2340mV)[0m
+[0;32mI (197506) ACS712: RAW_DC=2984 | RAW_VOLT=3779 | DC: 0.36 A | Volt: 5.13 V | Power: 1.83 W | Percent: 100.00[0m
+[0;33mW (197516) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (197526) BLE_GATT: Sent string: 0.36,5.13,1.83,100.00[0m
+[0;32mI (197526) ACS712: Sent data: 0.36,5.13,1.83,100.00[0m
+[0;32mI (198296) ACS712: VCC_Sensor updated to 4.68V (Midpoint now 2340mV)[0m
+[0;32mI (198296) ACS712: RAW_DC=2982 | RAW_VOLT=3779 | DC: 0.34 A | Volt: 5.13 V | Power: 1.76 W | Percent: 100.00[0m
+[0;33mW (198306) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (198316) BLE_GATT: Sent string: 0.34,5.13,1.76,100.00[0m
+[0;32mI (198316) ACS712: Sent data: 0.34,5.13,1.76,100.00[0m

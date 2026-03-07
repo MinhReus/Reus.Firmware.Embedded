@@ -1,0 +1,905 @@
+e�5
+[0;32mI (40) boot.esets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (152) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (176) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (351) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (384) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (384) boot: Disabling RNG early entropy source...[0m
+[0;32mI (396) cpu_start: Multicore app[0m
+[0;32mI (405) cpu_start: Pro cpu start user code[0m
+[0;32mI (405) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (405) app_init: Application information:[0m
+[0;32mI (408) app_init: Project name:     main[0m
+[0;32mI (412) app_init: App version:      1[0m
+[0;32mI (417) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (423) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (428) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (434) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (444) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (449) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (456) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (462) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (468) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (474) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (486) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (493) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (504) spi_flash: flash io: dio[0m
+[0;33mW (508) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (521) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (530) coexist: coex firmware version: 4482466[0m
+[0;32mI (535) main_task: Started on CPU0[0m
+[0;32mI (545) main_task: Calling app_main()[0m
+[0;32mI (545) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (555) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (555) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (555) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (625) ACS712: Calibrated offset: ADC=1604, Voltage=1.958V[0m
+[0;32mI (625) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (625) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (635) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (635) ACS712: DC: 1644.06 A | Volt: 2.98 V | Power: 4893.04 W[0m
+[0;33mW (645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (645) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (655) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (665) ACS712: All tasks created successfully[0m
+[0;32mI (665) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1575, Voltage=1.923V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: -1039.50 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32m[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1774, Voltage=2.166V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: -1170.84 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1925, Voltage=2.350V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: -1270.50 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1929, Voltage=2.355V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: 1429.56 A | Volt: 2.98 V | Power: 4254.65 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1797, Voltage=2.194V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: 1516.68 A | Volt: 2.98 V | Power: 4513.93 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1574, Voltage=1.922V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: -890.34 A | Volt: 0.25 V | Power: -225.83 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1317, Voltage=1.608V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: 751.74 A | Volt: 1.85 V | Power: 1388.29 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (415) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (415) boot: Disabling RNG early entropy source...[0m
+[0;32mI (427) cpu_start: Multicore app[0m
+[0;32mI (435) cpu_start: Pro cpu start user code[0m
+[0;32mI (435) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (435) app_init: Application information:[0m
+[0;32mI (438) app_init: Project name:     main[0m
+[0;32mI (443) app_init: App version:      1[0m
+[0;32mI (447) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (453) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (458) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (464) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (469) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (474) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (479) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (486) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (492) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (498) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (551) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (560) coexist: coex firmware version: 4482466[0m
+[0;32mI (565) main_task: Started on CPU0[0m
+[0;32mI (575) main_task: Calling app_main()[0m
+[0;32mI (575) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (585) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (585) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (585) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (655) ACS712: Calibrated offset: ADC=1971, Voltage=2.407V[0m
+[0;32mI (655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (665) ACS712: DC: -1300.86 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (695) ACS712: All tasks created successfully[0m
+[0;32mI (695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+�ets Jul 29 2019 12:21:46
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (60) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (60) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (62) boot: Multicore bootloader[0m
+[0;32mI (66) boot: chip revision: v3.1[0m
+[0;32mI (70) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (79) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (84) boot: Enabling RNG early entropy source...[0m
+[0;32mI (89) boot: Partition Table:[0m
+[0;32mI (93) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (100) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (108) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (115) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (123) boot: End of partition table[0m
+[0;32mI (127) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (183) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (190) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (206) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+e[C��+ښ�j%�(40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=21768h (137064) map[0m
+[0;32mI (152) esp_image: segment 1: paddr=00031790 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=0003635c vaddr=40080000 size=09cbch ( 40124) load[0m
+[0;32mI (176) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c678h (509560) map[0m
+[0;32mI (351) esp_image: segment 4: paddr=000bc6a0 vaddr=40089cbc size=0d7b4h ( 55220) load[0m
+[0;32mI (384) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (384) boot: Disabling RNG early entropy source...[0m
+[0;32mI (396) cpu_start: Multicore app[0m
+[0;32mI (405) cpu_start: Pro cpu start user code[0m
+[0;32mI (405) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (405) app_init: Application information:[0m
+[0;32mI (408) app_init: Project name:     main[0m
+[0;32mI (412) app_init: App version:      1[0m
+[0;32mI (417) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (423) app_init: ELF file SHA256:  2c744a066...[0m
+[0;32mI (428) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (434) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (444) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (449) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (456) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (462) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (468) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (474) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (486) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (493) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (504) spi_flash: flash io: dio[0m
+[0;33mW (508) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (521) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (530) coexist: coex firmware version: 4482466[0m
+[0;32mI (535) main_task: Started on CPU0[0m
+[0;32mI (545) main_task: Calling app_main()[0m
+[0;32mI (545) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (555) ACS712: ACS712 initialized. MUST call acs712_calibrate() before use![0m
+[0;32mI (555) ACS712: Note: ACS712 output range 1.575V-3.425V is safe for ESP32 ADC[0m
+[0;32mI (555) ACS712: Calibrating... ensure NO current flowing![0m
+[0;32mI (625) ACS712: Calibrated offset: ADC=2249, Voltage=2.746V[0m
+[0;32mI (625) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (625) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (635) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (635) ACS712: DC: 236.94 A | Volt: 1.85 V | Power: 437.23 W[0m
+[0;33mW (645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (645) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (655) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (665) ACS712: All tasks created successfully[0m
+[0;32mI (665) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (1005) ACS712: Waiting for BLE connection...[0m
+[0;32mI (1065) BLE_GATT: REGISTER_APP_EVT, status 0, app_id 0[0m
+[0;32mI (1065) BLE_GATT: BLE GATT Server initialized with name: ESP32 GATTS[0m
+[0;32mI (1065) ACS712: BLE GATT Server initialized - Device name: ESP32 GATTS[0m
+[0;32mI (1075) BLE_GATT: CREATE_SERVICE_EVT, status 0, service_handle 40[0m
+[0;32mI (1085) BLE_GATT: Receive callback registered[0m
+[0;32mI (1085) ACS712: Receive callback registered[0m
+[0;32mI (1095) BLE_GATT: Advertising started successfully[0m
+[0;32mI (1095) BLE_GATT: ADD_CHAR_EVT, status 0, attr_handle 42[0m
+[0;32mI (1105) BLE_GATT: ADD_DESCR_EVT, status 0, attr_handle 43[0m
+[0;32mI (1145) ACS712: DC: -1271.10 A | Volt: 0.92 V | Power: -1172.78 W[0m
+[0;33mW (1145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (1645) ACS712: DC: -2606.55 A | Volt: 0.62 V | Power: -1603.30 W[0m
+[0;33mW (1645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2145) ACS712: DC: -3830.23 A | Volt: 0.46 V | Power: -1766.99 W[0m
+[0;33mW (2145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2645) ACS712: DC: -4931.55 A | Volt: 0.37 V | Power: -1820.05 W[0m
+[0;33mW (2645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3145) ACS712: DC: -5922.74 A | Volt: 0.31 V | Power: -1821.55 W[0m
+[0;33mW (3145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3645) ACS712: DC: -6814.81 A | Volt: 0.26 V | Power: -1796.49 W[0m
+[0;33mW (3645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4145) ACS712: DC: -7617.67 A | Volt: 0.23 V | Power: -1757.12 W[0m
+[0;33mW (4145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4645) ACS712: DC: -8340.24 A | Volt: 0.21 V | Power: -1710.04 W[0m
+[0;33mW (4645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5145) ACS712: DC: -8990.56 A | Volt: 0.18 V | Power: -1659.04 W[0m
+[0;33mW (5145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5645) ACS712: DC: -9569.90 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (5645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6145) ACS712: DC: -10019.38 A | Volt: 0.00 V | Power: -0.00 W[0m
+[0;33mW (6145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6645) ACS712: DC: -7799.08 A | Volt: 0.30 V | Power: -2321.15 W[0m
+[0;33mW (6645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7145) ACS712: DC: -5800.81 A | Volt: 0.60 V | Power: -3452.86 W[0m
+[0;33mW (7145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7645) ACS712: DC: -4002.36 A | Volt: 0.89 V | Power: -3573.54 W[0m
+[0;33mW (7645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8145) ACS712: DC: -2383.77 A | Volt: 1.19 V | Power: -2837.82 W[0m
+[0;33mW (8145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8645) ACS712: DC: -927.03 A | Volt: 1.49 V | Power: -1379.51 W[0m
+[0;33mW (8645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9145) ACS712: DC: 384.04 A | Volt: 1.79 V | Power: 685.78 W[0m
+[0;33mW (9145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9645) ACS712: DC: 1563.99 A | Volt: 2.08 V | Power: 3258.32 W[0m
+[0;33mW (9645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10145) ACS712: DC: 2625.96 A | Volt: 2.38 V | Power: 6252.27 W[0m
+[0;33mW (10145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10645) ACS712: DC: 879.02 A | Volt: 2.38 V | Power: 2092.90 W[0m
+[0;33mW (10645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11145) ACS712: DC: -693.23 A | Volt: 2.38 V | Power: -1650.54 W[0m
+[0;33mW (11145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11645) ACS712: DC: -2108.24 A | Volt: 2.08 V | Power: -4392.18 W[0m
+[0;33mW (11645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12145) ACS712: DC: -3381.76 A | Volt: 1.79 V | Power: -6038.86 W[0m
+[0;33mW (12145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12645) ACS712: DC: -4527.93 A | Volt: 1.49 V | Power: -6737.99 W[0m
+[0;33mW (12645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13145) ACS712: DC: -5559.48 A | Volt: 1.19 V | Power: -6618.42 W[0m
+[0;33mW (13145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13645) ACS712: DC: -6487.87 A | Volt: 0.89 V | Power: -5792.74 W[0m
+[0;33mW (13645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14145) ACS712: DC: -7318.80 A | Volt: 0.60 V | Power: -4356.43 W[0m
+[0;33mW (14145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14645) ACS712: DC: -6523.56 A | Volt: 0.51 V | Power: -3343.52 W[0m
+[0;33mW (14645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15145) ACS712: DC: -4652.84 A | Volt: 0.51 V | Power: -2384.72 W[0m
+[0;33mW (15145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15645) ACS712: DC: -2969.20 A | Volt: 0.81 V | Power: -2405.49 W[0m
+[0;33mW (15645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16145) ACS712: DC: -1453.92 A | Volt: 1.11 V | Power: -1610.60 W[0m
+[0;33mW (16145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16645) ACS712: DC: -90.16 A | Volt: 1.41 V | Power: -126.72 W[0m
+[0;33mW (16645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17145) ACS712: DC: 1137.21 A | Volt: 1.70 V | Power: 1936.68 W[0m
+[0;33mW (17145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17645) ACS712: DC: -460.85 A | Volt: 1.70 V | Power: -784.83 W[0m
+[0;33mW (17645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18145) ACS712: DC: -1899.11 A | Volt: 1.70 V | Power: -3234.19 W[0m
+[0;33mW (18145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18645) ACS712: DC: -3193.54 A | Volt: 1.70 V | Power: -5438.61 W[0m
+[0;33mW (18645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19145) ACS712: DC: -4358.52 A | Volt: 1.70 V | Power: -7422.59 W[0m
+[0;33mW (19145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19645) ACS712: DC: -5407.01 A | Volt: 1.49 V | Power: -8046.15 W[0m
+[0;33mW (19645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20145) ACS712: DC: -6350.65 A | Volt: 1.19 V | Power: -7560.30 W[0m
+[0;33mW (20145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20645) ACS712: DC: -7199.93 A | Volt: 0.89 V | Power: -6428.51 W[0m
+[0;33mW (20645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21145) ACS712: DC: -7846.80 A | Volt: 0.60 V | Power: -4670.71 W[0m
+[0;33mW (21145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21645) ACS712: DC: -5843.76 A | Volt: 0.60 V | Power: -3478.43 W[0m
+[0;33mW (21645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22145) ACS712: DC: -4041.02 A | Volt: 0.60 V | Power: -2405.37 W[0m
+[0;33mW (22145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22645) ACS712: DC: -2418.56 A | Volt: 0.89 V | Power: -2159.43 W[0m
+[0;33mW (22645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23145) ACS712: DC: -958.34 A | Volt: 1.19 V | Power: -1140.88 W[0m
+[0;33mW (23145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23645) ACS712: DC: 355.86 A | Volt: 1.49 V | Power: 529.55 W[0m
+[0;33mW (23645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24145) ACS712: DC: 1538.63 A | Volt: 1.79 V | Power: 2747.56 W[0m
+[0;33mW (24145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24645) ACS712: DC: -99.57 A | Volt: 1.79 V | Power: -177.81 W[0m
+[0;33mW (24645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25145) ACS712: DC: -1573.96 A | Volt: 1.79 V | Power: -2810.64 W[0m
+[0;33mW (25145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25645) ACS712: DC: -2900.90 A | Volt: 1.79 V | Power: -5180.18 W[0m
+[0;33mW (25645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26145) ACS712: DC: -4095.15 A | Volt: 1.79 V | Power: -7312.78 W[0m
+[0;33mW (26145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26645) ACS712: DC: -5169.98 A | Volt: 1.49 V | Power: -7693.42 W[0m
+[0;33mW (26645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27145) ACS712: DC: -6137.32 A | Volt: 1.19 V | Power: -7306.34 W[0m
+[0;33mW (27145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27645) ACS712: DC: -6999.35 A | Volt: 0.89 V | Power: -6249.42 W[0m
+[0;33mW (27645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28145) ACS712: DC: -7783.76 A | Volt: 0.60 V | Power: -4633.19 W[0m
+[0;33mW (28145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28645) ACS712: DC: -8489.72 A | Volt: 0.30 V | Power: -2526.70 W[0m
+[0;33mW (28645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29145) ACS712: DC: -6422.39 A | Volt: 0.30 V | Power: -1911.43 W[0m
+[0;33mW (29145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29645) ACS712: DC: -4561.79 A | Volt: 0.60 V | Power: -2715.35 W[0m
+[0;33mW (29645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30145) ACS712: DC: -2887.25 A | Volt: 0.89 V | Power: -2577.90 W[0m
+[0;33mW (30145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30645) ACS712: DC: -1380.16 A | Volt: 1.19 V | Power: -1643.05 W[0m
+[0;33mW (30645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31145) ACS712: DC: -23.79 A | Volt: 1.49 V | Power: -35.39 W[0m
+[0;33mW (31145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31645) ACS712: DC: 1196.95 A | Volt: 1.79 V | Power: 2137.42 W[0m
+[0;33mW (31645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32145) ACS712: DC: 2295.62 A | Volt: 2.08 V | Power: 4782.54 W[0m
+[0;33mW (32145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32645) ACS712: DC: 3284.42 A | Volt: 2.38 V | Power: 7820.05 W[0m
+[0;33mW (32645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33145) ACS712: DC: 3362.54 A | Volt: 2.57 V | Power: 8649.51 W[0m
+[0;33mW (33145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33645) ACS712: DC: 1541.94 A | Volt: 2.57 V | Power: 3966.36 W[0m
+[0;33mW (33645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34145) ACS712: DC: -96.59 A | Volt: 2.27 V | Power: -219.72 W[0m
+[0;33mW (34145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34645) ACS712: DC: -1571.28 A | Volt: 1.98 V | Power: -3106.53 W[0m
+[0;33mW (34645) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35145) ACS712: DC: -2898.49 A | Volt: 1.68 V | Power: -4867.89 W[0m
+[0;33mW (35145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35645) ACS712: DC: -4092.98 A | Volt: 1.38 V | Power: -5655.84 W[0m
+[0;33mW (35645) ACS712: BLE not connected or notify not enabled[0m

@@ -1,0 +1,433 @@
+eS�Hh�ښ�j%�(40) boot.e�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF HEAD-HASH-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Nov 27 2025 19:35:52[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=216e8h (136936) map[0m
+[0;32mI (152) esp_image: segment 1: paddr=00031710 vaddr=3ffbdb60 size=04bc4h ( 19396) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=000362dc vaddr=40080000 size=09d3ch ( 40252) load[0m
+[0;32mI (176) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=7c74ch (509772) map[0m
+[0;32mI (351) esp_image: segment 4: paddr=000bc774 vaddr=40089d3c size=0d734h ( 55092) load[0m
+[0;32mI (384) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (384) boot: Disabling RNG early entropy source...[0m
+[0;32mI (396) cpu_start: Multicore app[0m
+[0;32mI (405) cpu_start: Pro cpu start user code[0m
+[0;32mI (405) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (405) app_init: Application information:[0m
+[0;32mI (408) app_init: Project name:     main[0m
+[0;32mI (412) app_init: App version:      1[0m
+[0;32mI (417) app_init: Compile time:     Nov 27 2025 19:35:43[0m
+[0;32mI (423) app_init: ELF file SHA256:  251163ad2...[0m
+[0;32mI (428) app_init: ESP-IDF:          HEAD-HASH-NOTFOUND[0m
+[0;32mI (434) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (439) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (444) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (449) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (456) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (462) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (468) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (474) heap_init: At 3FFC7378 len 00018C88 (99 KiB): DRAM[0m
+[0;32mI (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (486) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (493) heap_init: At 40097470 len 00008B90 (34 KiB): IRAM[0m
+[0;32mI (501) spi_flash: detected chip: generic[0m
+[0;32mI (504) spi_flash: flash io: dio[0m
+[0;33mW (508) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (521) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (530) coexist: coex firmware version: 4482466[0m
+[0;32mI (535) main_task: Started on CPU0[0m
+[0;32mI (545) main_task: Calling app_main()[0m
+[0;32mI (545) ACS712: === ACS712 BLE Monitor Starting ===[0m
+[0;32mI (1655) ACS712: Calibrated midpoint: 484[0m
+[0;32mI (1655) ACS712: ACS712 sensor initialized and calibrated[0m
+[0;32mI (1655) gpio: GPIO[2]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1665) ACS712: LED initialized on GPIO 2[0m
+[0;32mI (1665) ACS712: DC: -0.32 A | Volt: 0.03 V | Power: -0.01 W[0m
+[0;33mW (1675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (1675) BTDM_INIT: BT controller compile version [b022216][0m
+[0;32mI (1685) BTDM_INIT: Bluetooth MAC: 10:06:1c:86:a2:ea[0m
+[0;32mI (1695) ACS712: All tasks created successfully[0m
+[0;32mI (1695) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+[0;32mI (2025) ACS712: Waiting for BLE connection...[0m
+[0;32mI (2085) BLE_GATT: REGISTER_APP_EVT, status 0, app_id 0[0m
+[0;32mI (2095) BLE_GATT: BLE GATT Server initialized with name: ESP32 GATTS[0m
+[0;32mI (2095) ACS712: BLE GATT Server initialized - Device name: ESP32 GATTS[0m
+[0;32mI (2105) BLE_GATT: CREATE_SERVICE_EVT, status 0, service_handle 40[0m
+[0;32mI (2105) BLE_GATT: Receive callback registered[0m
+[0;32mI (2115) ACS712: Receive callback registered[0m
+[0;32mI (2125) BLE_GATT: Advertising started successfully[0m
+[0;32mI (2125) BLE_GATT: ADD_CHAR_EVT, status 0, attr_handle 42[0m
+[0;32mI (2125) BLE_GATT: ADD_DESCR_EVT, status 0, attr_handle 43[0m
+[0;32mI (2175) ACS712: DC: 0.77 A | Volt: 0.37 V | Power: 0.29 W[0m
+[0;33mW (2175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (2675) ACS712: DC: 1.79 A | Volt: 0.45 V | Power: 0.81 W[0m
+[0;33mW (2675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3175) ACS712: DC: 2.57 A | Volt: 0.49 V | Power: 1.25 W[0m
+[0;33mW (3175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (3675) ACS712: DC: 2.93 A | Volt: 0.45 V | Power: 1.32 W[0m
+[0;33mW (3675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4175) ACS712: DC: 2.67 A | Volt: 0.38 V | Power: 1.00 W[0m
+[0;33mW (4175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (4675) ACS712: DC: 2.16 A | Volt: 0.34 V | Power: 0.73 W[0m
+[0;33mW (4675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5175) ACS712: DC: 1.62 A | Volt: 0.30 V | Power: 0.48 W[0m
+[0;33mW (5175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (5675) ACS712: DC: 1.14 A | Volt: 0.26 V | Power: 0.30 W[0m
+[0;33mW (5675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6175) ACS712: DC: 0.71 A | Volt: 0.24 V | Power: 0.17 W[0m
+[0;33mW (6175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (6675) ACS712: DC: 0.32 A | Volt: 0.24 V | Power: 0.08 W[0m
+[0;33mW (6675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7175) ACS712: DC: 0.04 A | Volt: 0.16 V | Power: 0.01 W[0m
+[0;33mW (7175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (7675) ACS712: DC: -0.03 A | Volt: 0.11 V | Power: -0.00 W[0m
+[0;33mW (7675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8175) ACS712: DC: 0.20 A | Volt: 0.07 V | Power: 0.01 W[0m
+[0;33mW (8175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (8675) ACS712: DC: 1.17 A | Volt: 0.09 V | Power: 0.11 W[0m
+[0;33mW (8675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9175) ACS712: DC: 2.16 A | Volt: 0.15 V | Power: 0.33 W[0m
+[0;33mW (9175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (9675) ACS712: DC: 2.85 A | Volt: 0.19 V | Power: 0.55 W[0m
+[0;33mW (9675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10175) ACS712: DC: 3.02 A | Volt: 0.21 V | Power: 0.63 W[0m
+[0;33mW (10175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10675) ACS712: DC: 2.66 A | Volt: 0.22 V | Power: 0.57 W[0m
+[0;33mW (10675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11175) ACS712: DC: 2.07 A | Volt: 0.22 V | Power: 0.46 W[0m
+[0;33mW (11175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11675) ACS712: DC: 1.54 A | Volt: 0.22 V | Power: 0.34 W[0m
+[0;33mW (11675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12175) ACS712: DC: 1.07 A | Volt: 0.22 V | Power: 0.24 W[0m
+[0;33mW (12175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12675) ACS712: DC: 0.64 A | Volt: 0.21 V | Power: 0.14 W[0m
+[0;33mW (12675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13175) ACS712: DC: 0.31 A | Volt: 0.20 V | Power: 0.06 W[0m
+[0;33mW (13175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13675) ACS712: DC: 0.18 A | Volt: 0.15 V | Power: 0.03 W[0m
+[0;33mW (13675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14175) ACS712: DC: 0.33 A | Volt: 0.10 V | Power: 0.03 W[0m
+[0;33mW (14175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14675) ACS712: DC: 1.28 A | Volt: 0.10 V | Power: 0.13 W[0m
+[0;33mW (14675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15175) ACS712: DC: 2.25 A | Volt: 0.15 V | Power: 0.34 W[0m
+[0;33mW (15175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15675) ACS712: DC: 2.95 A | Volt: 0.20 V | Power: 0.60 W[0m
+[0;33mW (15675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16175) ACS712: DC: 3.15 A | Volt: 0.24 V | Power: 0.75 W[0m
+[0;33mW (16175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16675) ACS712: DC: 2.82 A | Volt: 0.26 V | Power: 0.73 W[0m
+[0;33mW (16675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17175) ACS712: DC: 2.24 A | Volt: 0.27 V | Power: 0.60 W[0m
+[0;33mW (17175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17675) ACS712: DC: 1.70 A | Volt: 0.27 V | Power: 0.46 W[0m
+[0;33mW (17675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18175) ACS712: DC: 1.21 A | Volt: 0.27 V | Power: 0.33 W[0m
+[0;33mW (18175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18675) ACS712: DC: 0.77 A | Volt: 0.26 V | Power: 0.20 W[0m
+[0;33mW (18675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19175) ACS712: DC: 0.37 A | Volt: 0.25 V | Power: 0.09 W[0m
+[0;33mW (19175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19675) ACS712: DC: 0.08 A | Volt: 0.20 V | Power: 0.02 W[0m
+[0;33mW (19675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20175) ACS712: DC: -0.07 A | Volt: 0.14 V | Power: -0.01 W[0m
+[0;33mW (20175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20675) ACS712: DC: 0.03 A | Volt: 0.09 V | Power: 0.00 W[0m
+[0;33mW (20675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21175) ACS712: DC: 0.60 A | Volt: 0.09 V | Power: 0.05 W[0m
+[0;33mW (21175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21675) ACS712: DC: 1.59 A | Volt: 0.12 V | Power: 0.20 W[0m
+[0;33mW (21675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22175) ACS712: DC: 2.52 A | Volt: 0.18 V | Power: 0.44 W[0m
+[0;33mW (22175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22675) ACS712: DC: 3.24 A | Volt: 0.24 V | Power: 0.77 W[0m
+[0;33mW (22675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23175) ACS712: DC: 3.71 A | Volt: 0.29 V | Power: 1.08 W[0m
+[0;33mW (23175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23675) ACS712: DC: 3.71 A | Volt: 0.33 V | Power: 1.22 W[0m
+[0;33mW (23675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24175) ACS712: DC: 3.32 A | Volt: 0.35 V | Power: 1.16 W[0m
+[0;33mW (24175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24675) ACS712: DC: 2.75 A | Volt: 0.36 V | Power: 1.00 W[0m
+[0;33mW (24675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25175) ACS712: DC: 2.16 A | Volt: 0.36 V | Power: 0.78 W[0m
+[0;33mW (25175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25675) ACS712: DC: 1.62 A | Volt: 0.34 V | Power: 0.56 W[0m
+[0;33mW (25675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26175) ACS712: DC: 1.14 A | Volt: 0.31 V | Power: 0.35 W[0m
+[0;33mW (26175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26675) ACS712: DC: 0.71 A | Volt: 0.25 V | Power: 0.18 W[0m
+[0;33mW (26675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27175) ACS712: DC: 0.32 A | Volt: 0.19 V | Power: 0.06 W[0m
+[0;33mW (27175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27675) ACS712: DC: -0.03 A | Volt: 0.13 V | Power: -0.00 W[0m
+[0;33mW (27675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28175) ACS712: DC: -0.30 A | Volt: 0.07 V | Power: -0.02 W[0m
+[0;33mW (28175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28675) ACS712: DC: -0.56 A | Volt: 0.04 V | Power: -0.02 W[0m
+[0;33mW (28675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29175) ACS712: DC: -0.46 A | Volt: 0.03 V | Power: -0.01 W[0m
+[0;33mW (29175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29675) ACS712: DC: -0.23 A | Volt: 0.03 V | Power: -0.01 W[0m
+[0;33mW (29675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30175) ACS712: DC: 0.55 A | Volt: 0.07 V | Power: 0.04 W[0m
+[0;33mW (30175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30675) ACS712: DC: 1.59 A | Volt: 0.13 V | Power: 0.20 W[0m
+[0;33mW (30675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31175) ACS712: DC: 2.53 A | Volt: 0.19 V | Power: 0.48 W[0m
+[0;33mW (31175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31675) ACS712: DC: 3.24 A | Volt: 0.25 V | Power: 0.79 W[0m
+[0;33mW (31675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32175) ACS712: DC: 3.78 A | Volt: 0.30 V | Power: 1.13 W[0m
+[0;33mW (32175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32675) ACS712: DC: 3.82 A | Volt: 0.32 V | Power: 1.23 W[0m
+[0;33mW (32675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33175) ACS712: DC: 3.44 A | Volt: 0.34 V | Power: 1.18 W[0m
+[0;33mW (33175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33675) ACS712: DC: 2.87 A | Volt: 0.36 V | Power: 1.02 W[0m
+[0;33mW (33675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34175) ACS712: DC: 2.27 A | Volt: 0.35 V | Power: 0.79 W[0m
+[0;33mW (34175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34675) ACS712: DC: 1.72 A | Volt: 0.33 V | Power: 0.57 W[0m
+[0;33mW (34675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35175) ACS712: DC: 1.23 A | Volt: 0.29 V | Power: 0.36 W[0m
+[0;33mW (35175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35675) ACS712: DC: 0.79 A | Volt: 0.23 V | Power: 0.18 W[0m
+[0;33mW (35675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (36175) ACS712: DC: 0.39 A | Volt: 0.17 V | Power: 0.07 W[0m
+[0;33mW (36175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (36675) ACS712: DC: 0.07 A | Volt: 0.12 V | Power: 0.01 W[0m
+[0;33mW (36675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (37175) ACS712: DC: -0.11 A | Volt: 0.06 V | Power: -0.01 W[0m
+[0;33mW (37175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (37675) ACS712: DC: -0.04 A | Volt: 0.05 V | Power: -0.00 W[0m
+[0;33mW (37675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (38175) ACS712: DC: 0.37 A | Volt: 0.06 V | Power: 0.02 W[0m
+[0;33mW (38175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (38675) ACS712: DC: 1.35 A | Volt: 0.10 V | Power: 0.13 W[0m
+[0;33mW (38675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39175) ACS712: DC: 2.29 A | Volt: 0.16 V | Power: 0.36 W[0m
+[0;33mW (39175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (39675) ACS712: DC: 3.03 A | Volt: 0.20 V | Power: 0.62 W[0m
+[0;33mW (39675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (40175) ACS712: DC: 3.46 A | Volt: 0.26 V | Power: 0.89 W[0m
+[0;33mW (40175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (40675) ACS712: DC: 3.36 A | Volt: 0.29 V | Power: 0.96 W[0m
+[0;33mW (40675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (41175) ACS712: DC: 2.88 A | Volt: 0.30 V | Power: 0.88 W[0m
+[0;33mW (41175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (41675) ACS712: DC: 2.28 A | Volt: 0.31 V | Power: 0.71 W[0m
+[0;33mW (41675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42175) ACS712: DC: 1.73 A | Volt: 0.31 V | Power: 0.54 W[0m
+[0;33mW (42175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (42675) ACS712: DC: 1.24 A | Volt: 0.30 V | Power: 0.37 W[0m
+[0;33mW (42675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (43175) ACS712: DC: 0.79 A | Volt: 0.27 V | Power: 0.22 W[0m
+[0;33mW (43175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (43675) ACS712: DC: 0.39 A | Volt: 0.22 V | Power: 0.09 W[0m
+[0;33mW (43675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (44175) ACS712: DC: 0.12 A | Volt: 0.16 V | Power: 0.02 W[0m
+[0;33mW (44175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (44675) ACS712: DC: 0.03 A | Volt: 0.12 V | Power: 0.00 W[0m
+[0;33mW (44675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (45175) ACS712: DC: 0.18 A | Volt: 0.08 V | Power: 0.01 W[0m
+[0;33mW (45175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (45675) ACS712: DC: 1.04 A | Volt: 0.11 V | Power: 0.11 W[0m
+[0;33mW (45675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46175) ACS712: DC: 2.05 A | Volt: 0.15 V | Power: 0.31 W[0m
+[0;33mW (46175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46205) BLE_GATT: ESP_GATTS_CONNECT_EVT, conn_id 0[0m
+[0;32mI (46675) ACS712: DC: 2.86 A | Volt: 0.20 V | Power: 0.58 W[0m
+[0;33mW (46675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (46825) BLE_GATT: Connection params updated: interval=32, latency=0, timeout=400[0m
+[0;32mI (47175) ACS712: DC: 3.41 A | Volt: 0.26 V | Power: 0.88 W[0m
+[0;33mW (47175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (47355) BLE_GATT: Connection params updated: interval=6, latency=0, timeout=500[0m
+[0;32mI (47525) BLE_GATT: Connection params updated: interval=32, latency=0, timeout=400[0m
+[0;32mI (47675) ACS712: DC: 3.33 A | Volt: 0.26 V | Power: 0.87 W[0m
+[0;33mW (47675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (48175) ACS712: DC: 2.92 A | Volt: 0.28 V | Power: 0.82 W[0m
+[0;33mW (48175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (48675) ACS712: DC: 2.31 A | Volt: 0.28 V | Power: 0.65 W[0m
+[0;33mW (48675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49175) ACS712: DC: 1.76 A | Volt: 0.28 V | Power: 0.49 W[0m
+[0;33mW (49175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (49675) ACS712: DC: 1.26 A | Volt: 0.27 V | Power: 0.34 W[0m
+[0;33mW (49675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (50175) ACS712: DC: 0.82 A | Volt: 0.26 V | Power: 0.21 W[0m
+[0;33mW (50175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (50675) ACS712: DC: 0.42 A | Volt: 0.20 V | Power: 0.08 W[0m
+[0;33mW (50675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (51175) ACS712: DC: 0.10 A | Volt: 0.14 V | Power: 0.01 W[0m
+[0;33mW (51175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (51675) ACS712: DC: -0.04 A | Volt: 0.08 V | Power: -0.00 W[0m
+[0;33mW (51675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (52175) ACS712: DC: -0.09 A | Volt: 0.04 V | Power: -0.00 W[0m
+[0;33mW (52175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (52675) ACS712: DC: 0.56 A | Volt: 0.08 V | Power: 0.05 W[0m
+[0;33mW (52675) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (53175) ACS712: DC: 1.58 A | Volt: 0.12 V | Power: 0.19 W[0m
+[0;33mW (53175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (53395) BLE_GATT: GATT_WRITE_EVT, handle 43, value len 2[0m
+[0;32mI (53395) BLE_GATT: Notify enabled[0m
+[0;32mI (53675) ACS712: DC: 2.58 A | Volt: 0.20 V | Power: 0.50 W[0m
+[0;32mI (53675) BLE_GATT: Sent float: 2.58[0m
+[0;32mI (53675) ACS712: Sent DC: 2.58 A[0m
+[0;32mI (53725) BLE_GATT: Sent float: 0.20[0m
+[0;32mI (53725) ACS712: Sent Volt: 0.20 V[0m
+[0;32mI (53775) BLE_GATT: Sent float: 0.50[0m
+[0;32mI (53775) ACS712: Sent Power: 0.50 W[0m
+[0;33mW (53825) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (53825) BLE_GATT: Sent string: DC:2.58A,V:0.20V,P:0.50W[0m
+[0;32mI (53825) ACS712: Sent message: DC:2.58A,V:0.20V,P:0.50W[0m
+[0;32mI (54335) ACS712: DC: 3.18 A | Volt: 0.25 V | Power: 0.80 W[0m
+[0;32mI (54335) BLE_GATT: Sent float: 3.18[0m
+[0;32mI (54335) ACS712: Sent DC: 3.18 A[0m
+[0;32mI (54385) BLE_GATT: Sent float: 0.25[0m
+[0;32mI (54385) ACS712: Sent Volt: 0.25 V[0m
+[0;32mI (54435) BLE_GATT: Sent float: 0.80[0m
+[0;32mI (54435) ACS712: Sent Power: 0.80 W[0m
+[0;33mW (54485) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (54485) BLE_GATT: Sent string: DC:3.18A,V:0.25V,P:0.80W[0m
+[0;32mI (54485) ACS712: Sent message: DC:3.18A,V:0.25V,P:0.80W[0m
+[0;32mI (54985) ACS712: DC: 2.64 A | Volt: 0.25 V | Power: 0.67 W[0m
+[0;32mI (54985) BLE_GATT: Sent float: 2.64[0m
+[0;32mI (54985) ACS712: Sent DC: 2.64 A[0m
+[0;32mI (55035) BLE_GATT: Sent float: 0.25[0m
+[0;32mI (55035) ACS712: Sent Volt: 0.25 V[0m
+[0;32mI (55085) BLE_GATT: Sent float: 0.67[0m
+[0;32mI (55085) ACS712: Sent Power: 0.67 W[0m
+[0;33mW (55135) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (55135) BLE_GATT: Sent string: DC:2.64A,V:0.25V,P:0.67W[0m
+[0;32mI (55135) ACS712: Sent message: DC:2.64A,V:0.25V,P:0.67W[0m
+[0;32mI (55635) ACS712: DC: 2.15 A | Volt: 0.25 V | Power: 0.55 W[0m
+[0;32mI (55635) BLE_GATT: Sent float: 2.15[0m
+[0;32mI (55635) ACS712: Sent DC: 2.15 A[0m
+[0;32mI (55685) BLE_GATT: Sent float: 0.25[0m
+[0;32mI (55685) ACS712: Sent Volt: 0.25 V[0m
+[0;32mI (55735) BLE_GATT: Sent float: 0.55[0m
+[0;32mI (55735) ACS712: Sent Power: 0.55 W[0m
+[0;33mW (55785) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (55785) BLE_GATT: Sent string: DC:2.15A,V:0.25V,P:0.55W[0m
+[0;32mI (55785) ACS712: Sent message: DC:2.15A,V:0.25V,P:0.55W[0m
+[0;32mI (56295) ACS712: DC: 1.62 A | Volt: 0.25 V | Power: 0.41 W[0m
+[0;32mI (56295) BLE_GATT: Sent float: 1.62[0m
+[0;32mI (56295) ACS712: Sent DC: 1.62 A[0m
+[0;32mI (56345) BLE_GATT: Sent float: 0.25[0m
+[0;32mI (56345) ACS712: Sent Volt: 0.25 V[0m
+[0;32mI (56395) BLE_GATT: Sent float: 0.41[0m
+[0;32mI (56395) ACS712: Sent Power: 0.41 W[0m
+[0;33mW (56445) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (56445) BLE_GATT: Sent string: DC:1.62A,V:0.25V,P:0.41W[0m
+[0;32mI (56445) ACS712: Sent message: DC:1.62A,V:0.25V,P:0.41W[0m
+[0;32mI (56945) ACS712: DC: 2.55 A | Volt: 0.31 V | Power: 0.80 W[0m
+[0;32mI (56945) BLE_GATT: Sent float: 2.55[0m
+[0;32mI (56945) ACS712: Sent DC: 2.55 A[0m
+[0;32mI (56995) BLE_GATT: Sent float: 0.31[0m
+[0;32mI (56995) ACS712: Sent Volt: 0.31 V[0m
+[0;32mI (57045) BLE_GATT: Sent float: 0.80[0m
+[0;32mI (57045) ACS712: Sent Power: 0.80 W[0m
+[0;33mW (57095) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (57095) BLE_GATT: Sent string: DC:2.55A,V:0.31V,P:0.80W[0m
+[0;32mI (57095) ACS712: Sent message: DC:2.55A,V:0.31V,P:0.80W[0m
+[0;32mI (57595) ACS712: DC: 1.97 A | Volt: 0.31 V | Power: 0.61 W[0m
+[0;32mI (57595) BLE_GATT: Sent float: 1.97[0m
+[0;32mI (57595) ACS712: Sent DC: 1.97 A[0m
+[0;32mI (57645) BLE_GATT: Sent float: 0.31[0m
+[0;32mI (57645) ACS712: Sent Volt: 0.31 V[0m
+[0;32mI (57695) BLE_GATT: Sent float: 0.61[0m
+[0;32mI (57695) ACS712: Sent Power: 0.61 W[0m
+[0;33mW (57745) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (57745) BLE_GATT: Sent string: DC:1.97A,V:0.31V,P:0.61W[0m
+[0;32mI (57745) ACS712: Sent message: DC:1.97A,V:0.31V,P:0.61W[0m
+[0;32mI (58255) ACS712: DC: 1.46 A | Volt: 0.30 V | Power: 0.43 W[0m
+[0;32mI (58255) BLE_GATT: Sent float: 1.46[0m
+[0;32mI (58255) ACS712: Sent DC: 1.46 A[0m
+[0;32mI (58305) BLE_GATT: Sent float: 0.30[0m
+[0;32mI (58305) ACS712: Sent Volt: 0.30 V[0m
+[0;32mI (58355) BLE_GATT: Sent float: 0.43[0m
+[0;32mI (58355) ACS712: Sent Power: 0.43 W[0m
+[0;33mW (58405) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (58405) BLE_GATT: Sent string: DC:1.46A,V:0.30V,P:0.43W[0m
+[0;32mI (58405) ACS712: Sent message: DC:1.46A,V:0.30V,P:0.43W[0m
+[0;32mI (58905) ACS712: DC: 1.53 A | Volt: 0.28 V | Power: 0.43 W[0m
+[0;32mI (58905) BLE_GATT: Sent float: 1.53[0m
+[0;32mI (58905) ACS712: Sent DC: 1.53 A[0m
+[0;32mI (58955) BLE_GATT: Sent float: 0.28[0m
+[0;32mI (58955) ACS712: Sent Volt: 0.28 V[0m
+[0;32mI (59005) BLE_GATT: Sent float: 0.43[0m
+[0;32mI (59005) ACS712: Sent Power: 0.43 W[0m
+[0;33mW (59055) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (59055) BLE_GATT: Sent string: DC:1.53A,V:0.28V,P:0.43W[0m
+[0;32mI (59055) ACS712: Sent message: DC:1.53A,V:0.28V,P:0.43W[0m
+[0;32mI (59555) ACS712: DC: 1.40 A | Volt: 0.24 V | Power: 0.33 W[0m
+[0;32mI (59555) BLE_GATT: Sent float: 1.40[0m
+[0;32mI (59555) ACS712: Sent DC: 1.40 A[0m
+[0;32mI (59605) BLE_GATT: Sent float: 0.24[0m
+[0;32mI (59605) ACS712: Sent Volt: 0.24 V[0m
+[0;32mI (59655) BLE_GATT: Sent float: 0.33[0m
+[0;32mI (59655) ACS712: Sent Power: 0.33 W[0m
+[0;33mW (59705) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (59705) BLE_GATT: Sent string: DC:1.40A,V:0.24V,P:0.33W[0m
+[0;32mI (59705) ACS712: Sent message: DC:1.40A,V:0.24V,P:0.33W[0m
+[0;32mI (60215) ACS712: DC: 1.72 A | Volt: 0.19 V | Power: 0.33 W[0m
+[0;32mI (60215) BLE_GATT: Sent float: 1.72[0m
+[0;32mI (60215) ACS712: Sent DC: 1.72 A[0m
+[0;32mI (60265) BLE_GATT: Sent float: 0.19[0m
+[0;32mI (60265) ACS712: Sent Volt: 0.19 V[0m
+[0;32mI (60315) BLE_GATT: Sent float: 0.33[0m
+[0;32mI (60315) ACS712: Sent Power: 0.33 W[0m
+[0;33mW (60365) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (60365) BLE_GATT: Sent string: DC:1.72A,V:0.19V,P:0.33W[0m
+[0;32mI (60365) ACS712: Sent message: DC:1.72A,V:0.19V,P:0.33W[0m
+[0;32mI (60865) ACS712: DC: 1.22 A | Volt: 0.14 V | Power: 0.17 W[0m
+[0;32mI (60865) BLE_GATT: Sent float: 1.22[0m
+[0;32mI (60865) ACS712: Sent DC: 1.22 A[0m
+[0;32mI (60915) BLE_GATT: Sent float: 0.14[0m
+[0;32mI (60915) ACS712: Sent Volt: 0.14 V[0m
+[0;32mI (60965) BLE_GATT: Sent float: 0.17[0m
+[0;32mI (60965) ACS712: Sent Power: 0.17 W[0m
+[0;33mW (61015) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (61015) BLE_GATT: Sent string: DC:1.22A,V:0.14V,P:0.17W[0m
+[0;32mI (61015) ACS712: Sent message: DC:1.22A,V:0.14V,P:0.17W[0m
+[0;32mI (61515) ACS712: DC: 2.29 A | Volt: 0.21 V | Power: 0.48 W[0m
+[0;32mI (61515) BLE_GATT: Sent float: 2.29[0m
+[0;32mI (61515) ACS712: Sent DC: 2.29 A[0m
+[0;32mI (61565) BLE_GATT: Sent float: 0.21[0m
+[0;32mI (61565) ACS712: Sent Volt: 0.21 V[0m
+[0;32mI (61615) BLE_GATT: Sent float: 0.48[0m
+[0;32mI (61615) ACS712: Sent Power: 0.48 W[0m
+[0;33mW (61665) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (61665) BLE_GATT: Sent string: DC:2.29A,V:0.21V,P:0.48W[0m
+[0;32mI (61665) ACS712: Sent message: DC:2.29A,V:0.21V,P:0.48W[0m
+[0;32mI (62175) ACS712: DC: 2.99 A | Volt: 0.27 V | Power: 0.81 W[0m
+[0;32mI (62175) BLE_GATT: Sent float: 2.99[0m
+[0;32mI (62175) ACS712: Sent DC: 2.99 A[0m
+[0;32mI (62225) BLE_GATT: Sent float: 0.27[0m
+[0;32mI (62225) ACS712: Sent Volt: 0.27 V[0m
+[0;32mI (62275) BLE_GATT: Sent float: 0.81[0m
+[0;32mI (62275) ACS712: Sent Power: 0.81 W[0m
+[0;33mW (62325) BT_GATT: attribute value too long, to be truncated to 20[0m
+[0;32mI (62325) BLE_GATT: Sent string: DC:2.99A,V:0.27V,P:0.81W[0m
+[0;32mI (62325) ACS712: Sent message: DC:2.99A,V:0.27V,P:0.81W[0m

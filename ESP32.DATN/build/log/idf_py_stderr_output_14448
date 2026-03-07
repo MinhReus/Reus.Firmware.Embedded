@@ -1,0 +1,194 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM4 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM4 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080400: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080400']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080404: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080404']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[1;31mxtensa-esp32-elf-addr2line -pfiaC -e C:\Users\Public\Documents\Altium\esp-idf\no1\build\main.elf 0x40080640: Command '['xtensa-esp32-elf-addr2line', '-pfiaC', '-e', 'C:\\Users\\Public\\Documents\\Altium\\esp-idf\\no1\\build\\main.elf', '0x40080640']' returned non-zero exit status 1.[0m
+[1;31mELF file is missing or has changed, the build folder was probably modified.[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 98e49e0f44a4a45a9cc82d3d62ac81ff5e28d939bf56047f09022a0bc9669ceb[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

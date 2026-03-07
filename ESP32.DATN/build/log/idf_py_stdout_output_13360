@@ -1,0 +1,86 @@
+[0;32mI (9775) ACS712: RAW_DC=3079 | RAW_VOLT=3971 | DC: -0.79 A | Volt: 5.39 V | Power: -4.26 W | Percent: 107.81[0m
+[0;33mW (9775) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10385) ACS712: RAW_DC=3080 | RAW_VOLT=3971 | DC: -0.79 A | Volt: 5.39 V | Power: -4.27 W | Percent: 107.81[0m
+[0;33mW (10385) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (10995) ACS712: RAW_DC=3076 | RAW_VOLT=3973 | DC: -0.80 A | Volt: 5.39 V | Power: -4.29 W | Percent: 107.87[0m
+[0;33mW (10995) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (11605) ACS712: RAW_DC=3076 | RAW_VOLT=3975 | DC: -0.80 A | Volt: 5.40 V | Power: -4.31 W | Percent: 107.92[0m
+[0;33mW (11605) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12215) ACS712: RAW_DC=3079 | RAW_VOLT=3973 | DC: -0.80 A | Volt: 5.39 V | Power: -4.32 W | Percent: 107.87[0m
+[0;33mW (12215) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (12825) ACS712: RAW_DC=3076 | RAW_VOLT=3973 | DC: -0.80 A | Volt: 5.39 V | Power: -4.33 W | Percent: 107.87[0m
+[0;33mW (12825) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (13435) ACS712: RAW_DC=3077 | RAW_VOLT=3972 | DC: -0.81 A | Volt: 5.39 V | Power: -4.35 W | Percent: 107.84[0m
+[0;33mW (13435) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14045) ACS712: RAW_DC=3075 | RAW_VOLT=3973 | DC: -0.81 A | Volt: 5.39 V | Power: -4.36 W | Percent: 107.87[0m
+[0;33mW (14045) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (14655) ACS712: RAW_DC=3077 | RAW_VOLT=3974 | DC: -0.81 A | Volt: 5.39 V | Power: -4.38 W | Percent: 107.90[0m
+[0;33mW (14655) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15265) ACS712: RAW_DC=3076 | RAW_VOLT=3974 | DC: -0.81 A | Volt: 5.39 V | Power: -4.39 W | Percent: 107.90[0m
+[0;33mW (15265) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (15875) ACS712: RAW_DC=3078 | RAW_VOLT=3974 | DC: -0.82 A | Volt: 5.39 V | Power: -4.40 W | Percent: 107.90[0m
+[0;33mW (15875) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (16485) ACS712: RAW_DC=3075 | RAW_VOLT=3973 | DC: -0.82 A | Volt: 5.39 V | Power: -4.41 W | Percent: 107.87[0m
+[0;33mW (16485) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17095) ACS712: RAW_DC=3076 | RAW_VOLT=3974 | DC: -0.82 A | Volt: 5.39 V | Power: -4.42 W | Percent: 107.90[0m
+[0;33mW (17095) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (17705) ACS712: RAW_DC=3079 | RAW_VOLT=3974 | DC: -0.82 A | Volt: 5.39 V | Power: -4.43 W | Percent: 107.90[0m
+[0;33mW (17705) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18315) ACS712: RAW_DC=3078 | RAW_VOLT=3973 | DC: -0.82 A | Volt: 5.39 V | Power: -4.44 W | Percent: 107.87[0m
+[0;33mW (18315) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (18925) ACS712: RAW_DC=3078 | RAW_VOLT=3973 | DC: -0.83 A | Volt: 5.39 V | Power: -4.45 W | Percent: 107.87[0m
+[0;33mW (18925) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (19535) ACS712: RAW_DC=3078 | RAW_VOLT=3977 | DC: -0.83 A | Volt: 5.40 V | Power: -4.46 W | Percent: 107.98[0m
+[0;33mW (19535) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20145) ACS712: RAW_DC=3078 | RAW_VOLT=3977 | DC: -0.83 A | Volt: 5.40 V | Power: -4.47 W | Percent: 107.98[0m
+[0;33mW (20145) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (20755) ACS712: RAW_DC=3080 | RAW_VOLT=3978 | DC: -0.83 A | Volt: 5.40 V | Power: -4.48 W | Percent: 108.00[0m
+[0;33mW (20755) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21365) ACS712: RAW_DC=3077 | RAW_VOLT=3977 | DC: -0.83 A | Volt: 5.40 V | Power: -4.49 W | Percent: 107.98[0m
+[0;33mW (21365) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (21975) ACS712: RAW_DC=3076 | RAW_VOLT=3978 | DC: -0.83 A | Volt: 5.40 V | Power: -4.50 W | Percent: 108.00[0m
+[0;33mW (21975) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (22585) ACS712: RAW_DC=3079 | RAW_VOLT=3979 | DC: -0.83 A | Volt: 5.40 V | Power: -4.51 W | Percent: 108.03[0m
+[0;33mW (22585) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23195) ACS712: RAW_DC=3077 | RAW_VOLT=3978 | DC: -0.84 A | Volt: 5.40 V | Power: -4.52 W | Percent: 108.00[0m
+[0;33mW (23195) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (23805) ACS712: RAW_DC=3083 | RAW_VOLT=3978 | DC: -0.84 A | Volt: 5.40 V | Power: -4.53 W | Percent: 108.00[0m
+[0;33mW (23805) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (24415) ACS712: RAW_DC=3081 | RAW_VOLT=3979 | DC: -0.84 A | Volt: 5.40 V | Power: -4.53 W | Percent: 108.03[0m
+[0;33mW (24415) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25025) ACS712: RAW_DC=3078 | RAW_VOLT=3980 | DC: -0.84 A | Volt: 5.40 V | Power: -4.54 W | Percent: 108.06[0m
+[0;33mW (25025) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (25635) ACS712: RAW_DC=3080 | RAW_VOLT=3981 | DC: -0.84 A | Volt: 5.40 V | Power: -4.55 W | Percent: 108.09[0m
+[0;33mW (25635) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26245) ACS712: RAW_DC=3080 | RAW_VOLT=3980 | DC: -0.84 A | Volt: 5.40 V | Power: -4.55 W | Percent: 108.06[0m
+[0;33mW (26245) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (26855) ACS712: RAW_DC=3079 | RAW_VOLT=3981 | DC: -0.84 A | Volt: 5.40 V | Power: -4.56 W | Percent: 108.09[0m
+[0;33mW (26855) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (27465) ACS712: RAW_DC=3081 | RAW_VOLT=3981 | DC: -0.85 A | Volt: 5.40 V | Power: -4.57 W | Percent: 108.09[0m
+[0;33mW (27465) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28075) ACS712: RAW_DC=3080 | RAW_VOLT=3982 | DC: -0.85 A | Volt: 5.41 V | Power: -4.57 W | Percent: 108.11[0m
+[0;33mW (28075) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (28685) ACS712: RAW_DC=3078 | RAW_VOLT=3981 | DC: -0.85 A | Volt: 5.40 V | Power: -4.58 W | Percent: 108.09[0m
+[0;33mW (28685) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29295) ACS712: RAW_DC=3080 | RAW_VOLT=3982 | DC: -0.85 A | Volt: 5.41 V | Power: -4.59 W | Percent: 108.11[0m
+[0;33mW (29295) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (29905) ACS712: RAW_DC=3082 | RAW_VOLT=3982 | DC: -0.85 A | Volt: 5.41 V | Power: -4.59 W | Percent: 108.11[0m
+[0;33mW (29905) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (30515) ACS712: RAW_DC=3078 | RAW_VOLT=3983 | DC: -0.85 A | Volt: 5.41 V | Power: -4.61 W | Percent: 108.14[0m
+[0;33mW (30515) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31125) ACS712: RAW_DC=3076 | RAW_VOLT=3983 | DC: -0.85 A | Volt: 5.41 V | Power: -4.61 W | Percent: 108.14[0m
+[0;33mW (31125) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (31735) ACS712: RAW_DC=3078 | RAW_VOLT=3982 | DC: -0.85 A | Volt: 5.41 V | Power: -4.62 W | Percent: 108.11[0m
+[0;33mW (31735) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32345) ACS712: RAW_DC=3085 | RAW_VOLT=3982 | DC: -0.86 A | Volt: 5.41 V | Power: -4.62 W | Percent: 108.11[0m
+[0;33mW (32345) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (32955) ACS712: RAW_DC=3079 | RAW_VOLT=3982 | DC: -0.86 A | Volt: 5.41 V | Power: -4.63 W | Percent: 108.11[0m
+[0;33mW (32955) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (33565) ACS712: RAW_DC=3082 | RAW_VOLT=3983 | DC: -0.86 A | Volt: 5.41 V | Power: -4.63 W | Percent: 108.14[0m
+[0;33mW (33565) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34175) ACS712: RAW_DC=3081 | RAW_VOLT=3983 | DC: -0.86 A | Volt: 5.41 V | Power: -4.64 W | Percent: 108.14[0m
+[0;33mW (34175) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (34785) ACS712: RAW_DC=3080 | RAW_VOLT=3981 | DC: -0.86 A | Volt: 5.40 V | Power: -4.64 W | Percent: 108.09[0m
+[0;33mW (34785) ACS712: BLE not connected or notify not enabled[0m
+[0;32mI (35395) ACS712: RAW_DC=3079 | RAW_VOLT=3982 | DC: -0.86 A | Volt: 5.41 V | Power: -4.65 W | Percent: 108.11[0m
+[0;33mW
