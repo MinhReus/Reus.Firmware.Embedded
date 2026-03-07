@@ -1,0 +1,2 @@
+# Reus.Firmware.Embedded
+This is git repository about design electronics include hardware &amp; firmware
