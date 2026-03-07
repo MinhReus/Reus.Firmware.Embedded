@@ -1,1 +1,4 @@
-# Reus Firmware Embedded Workspace 
+# Reus Embedded Project
+
+This is git repository about design electronics include hardware & firmware
+
